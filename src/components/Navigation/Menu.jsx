@@ -38,6 +38,7 @@ const SMenu = styled.div`
     visibility: visible;
     opacity: 1;
     cursor: pointer;
+    background-color: white;
   }
 `;
 
