@@ -46,9 +46,11 @@ const DrawerButton = styled.button`
 `;
 
 const SNavbar = styled.nav`
-  background-color: #005e9b;
+  background-color: white; //navbar background color
   position: sticky;
   top: 0px;
+  box-shadow: 2px 1px 5px #005e9b;
+  padding: 7px 0px;
 `;
 const NavContainer = styled.div`
   padding: 1rem;
@@ -58,7 +60,8 @@ const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: #005e9b;
+  font-weight: 550;
 `;
 const SNavbarBrand = styled.h2`
   font-size: 3rem;
@@ -75,12 +78,12 @@ const NavRoutes = styled.div`
   }
   display: flex;
   gap: 1rem;
-  font-size: 1.7rem;
+  font-size: 1.7rem; //nevbar font size
   align-items: center;
 `;
 const NavRoute = styled(Link)`
   text-decoration: none;
-  color: white;
+  color: #005e9b;
   padding: 0.5rem;
   transition: 0.5s ease;
 

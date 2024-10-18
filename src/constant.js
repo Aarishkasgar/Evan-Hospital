@@ -88,6 +88,14 @@ export const routes = [
         name: "Ambulance",
         link: "/ambulance-service",
       },
+      {
+        name: "Radiology",
+        link: "/radiology",
+      },
+      {
+        name: "Ayushman",
+        link: "/ayushman",
+      },
     ],
   },
 

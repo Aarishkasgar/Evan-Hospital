@@ -20,12 +20,12 @@ import Pharmacy from "./pages/Pharmacy";
 import EvanLab from "./pages/EvanLab";
 import InsuranceTPA from "./pages/InsuranceTPA";
 import AmbulanceService from "./pages/AmbulanceService";
+import Radiology from "./pages/Radiology";
+import Ayushman from "./pages/Ayushman";
 import Specialities from "./pages/Specialities";
 import InternationalPatients from "./pages/InternationalPatients";
 import Gallery from "./pages/Gallery";
 
-// import Projects from "./pages/Products";
-// import Services from "./pages/Services";
 import Navigation from "./components/Navigation/Navigation";
 const App = () => {
   return (
@@ -50,6 +50,8 @@ const App = () => {
         <Route path="/evan-lab" element={<EvanLab />} />
         <Route path="/insurance-tpa" element={<InsuranceTPA />} />
         <Route path="/ambulance-service" element={<AmbulanceService />} />
+        <Route path="/radiology" element={<Radiology />} />
+        <Route path="/ayushman" element={<Ayushman />} />
         <Route path="/specialities" element={<Specialities />} />
         <Route
           path="/international-patients"
