@@ -17,7 +17,11 @@ import Gynecology from "./pages/Gynecology";
 import Orthopedics from "./pages/Orthopedics";
 import EmergencyCare from "./pages/EmergencyCare";
 import Pharmacy from "./pages/Pharmacy";
+import EvanLab from "./pages/EvanLab";
+import InsuranceTPA from "./pages/InsuranceTPA";
+import AmbulanceService from "./pages/AmbulanceService";
 import Specialities from "./pages/Specialities";
+import InternationalPatients from "./pages/InternationalPatients";
 import Gallery from "./pages/Gallery";
 
 // import Projects from "./pages/Products";
@@ -43,7 +47,14 @@ const App = () => {
         <Route path="/orthopedics" element={<Orthopedics />} />
         <Route path="/emergency-care" element={<EmergencyCare />} />
         <Route path="/pharmacy" element={<Pharmacy />} />
+        <Route path="/evan-lab" element={<EvanLab />} />
+        <Route path="/insurance-tpa" element={<InsuranceTPA />} />
+        <Route path="/ambulance-service" element={<AmbulanceService />} />
         <Route path="/specialities" element={<Specialities />} />
+        <Route
+          path="/international-patients"
+          element={<InternationalPatients />}
+        />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>

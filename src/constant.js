@@ -72,8 +72,32 @@ export const routes = [
   },
 
   {
+    name: "Services",
+    // link: "/services",
+
+    subRoutes: [
+      {
+        name: "Evan Lab",
+        link: "/evan-lab",
+      },
+      {
+        name: "Insurance TPA",
+        link: "/insurance-tpa",
+      },
+      {
+        name: "Ambulance",
+        link: "/ambulance-service",
+      },
+    ],
+  },
+
+  {
     name: "Specialities",
     link: "/specialities",
+  },
+  {
+    name: "International Patients",
+    link: "/international-patients",
   },
   {
     name: "Gallery",

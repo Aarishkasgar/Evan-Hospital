@@ -75,7 +75,7 @@ const NavRoutes = styled.div`
   }
   display: flex;
   gap: 1rem;
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   align-items: center;
 `;
 const NavRoute = styled(Link)`
