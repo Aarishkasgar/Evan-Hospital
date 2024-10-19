@@ -84,7 +84,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-specialities-right">
-          <img src={doctorConsultImg} height={500} />
+          <img src={doctorConsultImg} className="hsr-img" />
         </div>
       </div>
     </>
