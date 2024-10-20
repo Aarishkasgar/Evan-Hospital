@@ -1,0 +1,19 @@
+.project-facts-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.project-facts-box img {
+  height: 10vw;
+}
+
+.project-facts-box h2 {
+  font-size: 2.5vw;
+}
+
+.project-facts-box p {
+  font-size: 1.5vw;
+}

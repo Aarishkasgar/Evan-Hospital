@@ -74,6 +74,26 @@
   gap: 50px;
 }
 
+.home-specialities-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.Home-Specialities-viewButton {
+  /* background-color: #f7c86c; */
+  height: 50px;
+  width: 150px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  &:hover {
+    color: orange;
+  }
+}
+
 .home-specialities-right {
   /* background-color: antiquewhite; */
   width: 40%;
@@ -92,4 +112,80 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+/* Project Facts or Counter Page css start */
+
+#project-facts-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25vw;
+  background-color: rgb(247, 194, 129);
+}
+
+.project-facts-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  /* background-color: antiquewhite; */
+  /* flex-wrap: wrap; */
+}
+
+/* Hospital welcome section css start */
+
+#hospital-welcome-container {
+  width: 100%;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* background-color: violet; */
+}
+
+.hospital-welcome-container {
+  width: 85%;
+  height: 100vw;
+  /* background-color: coral; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5vw;
+}
+
+.hospital-welcome-container h1 {
+  font-size: 3vw;
+}
+
+.evan-name-color {
+  color: #f67308;
+}
+
+.hospital-welcome-container p {
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+.hospital-welcome-container img {
+  width: 80%;
+  height: auto;
+}
+
+.hospital-welcome-button {
+  width: 10vw;
+  height: 3vw;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  background-color: #005e9b;
+  color: white;
+  &:hover {
+    background-color: #f67308;
+    color: black;
+  }
 }
