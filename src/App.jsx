@@ -25,41 +25,45 @@ import Ayushman from "./pages/Ayushman";
 import Specialities from "./pages/Specialities";
 import InternationalPatients from "./pages/InternationalPatients";
 import Gallery from "./pages/Gallery";
+import Footer from "./pages/Footer";
 
 import Navigation from "./components/Navigation/Navigation";
 const App = () => {
   return (
-    <Router>
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/dr-visiting" element={<DrVisiting />} />
-        <Route path="/dr-in-hospital" element={<DrInHospital />} />
-        <Route path="/pulmonology" element={<Pulmonology />} />
-        <Route path="/ent" element={<Ent />} />
-        <Route path="/surgery" element={<Surgery />} />
-        <Route path="/internal-medicins" element={<InternalMedicins />} />
-        <Route path="/cardiology" element={<Cardiology />} />
-        <Route path="/neurology" element={<Neurology />} />
-        <Route path="/gynecology" element={<Gynecology />} />
-        <Route path="/orthopedics" element={<Orthopedics />} />
-        <Route path="/emergency-care" element={<EmergencyCare />} />
-        <Route path="/pharmacy" element={<Pharmacy />} />
-        <Route path="/evan-lab" element={<EvanLab />} />
-        <Route path="/insurance-tpa" element={<InsuranceTPA />} />
-        <Route path="/ambulance-service" element={<AmbulanceService />} />
-        <Route path="/radiology" element={<Radiology />} />
-        <Route path="/ayushman" element={<Ayushman />} />
-        <Route path="/specialities" element={<Specialities />} />
-        <Route
-          path="/international-patients"
-          element={<InternationalPatients />}
-        />
-        <Route path="/gallery" element={<Gallery />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/dr-visiting" element={<DrVisiting />} />
+          <Route path="/dr-in-hospital" element={<DrInHospital />} />
+          <Route path="/pulmonology" element={<Pulmonology />} />
+          <Route path="/ent" element={<Ent />} />
+          <Route path="/surgery" element={<Surgery />} />
+          <Route path="/internal-medicins" element={<InternalMedicins />} />
+          <Route path="/cardiology" element={<Cardiology />} />
+          <Route path="/neurology" element={<Neurology />} />
+          <Route path="/gynecology" element={<Gynecology />} />
+          <Route path="/orthopedics" element={<Orthopedics />} />
+          <Route path="/emergency-care" element={<EmergencyCare />} />
+          <Route path="/pharmacy" element={<Pharmacy />} />
+          <Route path="/evan-lab" element={<EvanLab />} />
+          <Route path="/insurance-tpa" element={<InsuranceTPA />} />
+          <Route path="/ambulance-service" element={<AmbulanceService />} />
+          <Route path="/radiology" element={<Radiology />} />
+          <Route path="/ayushman" element={<Ayushman />} />
+          <Route path="/specialities" element={<Specialities />} />
+          <Route
+            path="/international-patients"
+            element={<InternationalPatients />}
+          />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+      </Router>
+      <Footer />
+    </>
   );
 };
 

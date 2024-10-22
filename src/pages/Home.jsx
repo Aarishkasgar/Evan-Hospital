@@ -12,6 +12,12 @@ import Pulmonology from "../assets/pulmonology.svg";
 import { useNavigate } from "react-router-dom";
 import ProjectFacts from "../components/ProjectFacts";
 import evanBuilding from "../assets/evan-building.png";
+import CounterAwardIcon from "../assets/Counter-Award-icon.png";
+import CounterHeartIcon from "../assets/counter-Heart-icon.png";
+import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
+import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
+import DoctorsCard from "../components/DoctorsCard";
+import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -26,6 +32,10 @@ const Home = () => {
 
   function moveAboutHandler() {
     navigate("/about");
+  }
+
+  function moveDoctorHandler() {
+    navigate("/dr-in-hospital");
   }
   return (
     <>
@@ -102,16 +112,32 @@ const Home = () => {
       <section id="project-facts-container">
         <div className="project-facts-container">
           <div>
-            <ProjectFacts img={Cardia} h2="20000 +" p="Successful Surgeries" />
+            <ProjectFacts
+              img={CounterHeartIcon}
+              h2="20000 +"
+              p="Successful Surgeries"
+            />
           </div>
           <div>
-            <ProjectFacts img={Cardia} h2="50 +" p="Medical Experts" />
+            <ProjectFacts
+              img={CounterDoctorIcon}
+              h2="50 +"
+              p="Medical Experts"
+            />
           </div>
           <div>
-            <ProjectFacts img={Cardia} h2="100000 +" p="Families Healed" />
+            <ProjectFacts
+              img={CounterHeldPatientsIcon}
+              h2="100000 +"
+              p="Families Healed"
+            />
           </div>
           <div>
-            <ProjectFacts img={Cardia} h2="10 +" p="Awards & Accreditations" />
+            <ProjectFacts
+              img={CounterAwardIcon}
+              h2="10 +"
+              p="Awards & Accreditations"
+            />
           </div>
         </div>
       </section>
@@ -121,7 +147,7 @@ const Home = () => {
       <section id="hospital-welcome-container">
         <div className="hospital-welcome-container">
           <h1>
-            Welcome To{" "}
+            Welcome To
             <span className="evan-name-color">
               Evan Multi Speciality Hospital
             </span>
@@ -138,6 +164,38 @@ const Home = () => {
             onClick={moveAboutHandler}
           >
             Learn More
+          </button>
+        </div>
+      </section>
+
+      {/* Our doctors section start */}
+
+      <section className="HD-container">
+        <div className="HD-inner-container">
+          <h1>Our Doctors</h1>
+          <p>Meet Our Experts Doctors</p>
+          <div className="our-doctors-container">
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr Rishikesh"
+              destination="(MBBS, MD)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr Rishikesh"
+              destination="(MBBS, MD)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr Rishikesh"
+              destination="(MBBS, MD)"
+            />
+          </div>
+          <button
+            className="hospital-welcome-button"
+            onClick={moveDoctorHandler}
+          >
+            View All Doctors
           </button>
         </div>
       </section>

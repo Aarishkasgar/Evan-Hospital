@@ -1,9 +1,13 @@
 import React from "react";
+import ComingSoon from "../assets/InternationalPage/comingsoon.jpg";
+import "../components/InternationalPatients.css";
 
 const InternationalPatients = () => {
   return (
-    <div>
-      <h1>Internatinal page</h1>
+    <div className="IP-container">
+      <div className="IP-inner-container">
+        <img src={ComingSoon} alt="" />
+      </div>
     </div>
   );
 };
