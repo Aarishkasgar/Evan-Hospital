@@ -190,6 +190,11 @@ const Home = () => {
               name="Dr Rishikesh"
               destination="(MBBS, MD)"
             />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr Rishikesh"
+              destination="(MBBS, MD)"
+            />
           </div>
           <button
             className="hospital-welcome-button"
