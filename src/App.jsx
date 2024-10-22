@@ -25,7 +25,7 @@ import Ayushman from "./pages/Ayushman";
 import Specialities from "./pages/Specialities";
 import InternationalPatients from "./pages/InternationalPatients";
 import Gallery from "./pages/Gallery";
-import Footer from "./pages/Footer";
+import Footer from "./components/Footer";
 
 import Navigation from "./components/Navigation/Navigation";
 const App = () => {
