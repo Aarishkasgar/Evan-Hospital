@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/Home.css";
 // import banner from "../assets/banner-n.jpg";
-import HeroCard from "../components/HeroCard";
+// import HeroCard from "../components/HeroCard";
 import SpecialitiesBox from "../components/SpecialitiesBox";
-import healthimg from "../assets/cardia.svg";
+// import healthimg from "../assets/cardia.svg";
 import doctorConsultImg from "../assets/doctor-consult-illustration.svg";
 import Cardia from "../assets/cardia.svg";
 import Orthoimg from "../assets/Orthopaedics.svg";
@@ -11,13 +11,14 @@ import Neurosciences from "../assets/Neurosciences.svg";
 import Pulmonology from "../assets/pulmonology.svg";
 import { useNavigate } from "react-router-dom";
 import ProjectFacts from "../components/ProjectFacts";
-import evanBuilding from "../assets/evan-building.png";
+import evanBuilding from "../assets/evan-building.jpg";
 import CounterAwardIcon from "../assets/Counter-Award-icon.png";
 import CounterHeartIcon from "../assets/counter-Heart-icon.png";
 import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
 import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import BookAppointment from "../components/BookAppointment";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -40,33 +41,38 @@ const Home = () => {
   return (
     <>
       <div className="hero-container">
-        {/* <img src={banner} alt="evan-building" className="hero-banner" /> */}
         <div className="hero-inner-container">
-          <div className="inner-box">
-            <h1 className="hero-title">Schedule Your Appointment Online</h1>
-            <div className="appointment-box">
-              <input type="text" />
-              <input type="text" />
-              <button>Book an Appointment</button>
-            </div>
-            <div className="hero-cards">
-              <HeroCard img={healthimg} h1="Health Checkup" />
-              <HeroCard img={healthimg} h1="Health Checkup" />
-              <HeroCard img={healthimg} h1="Health Checkup" />
-              <HeroCard img={healthimg} h1="Health Checkup" />
-              <HeroCard img={healthimg} h1="Health Checkup" />
-            </div>
+          <div className="hero-content-box">
+            <h2>Evan Multi Speciality Hospital, Muzaffarnagar</h2>
+            <p>Open 24/7</p>
+            <p>
+              <a href="#" className="getLink">
+                Get Directions
+              </a>{" "}
+              | Call us +91 0000000000
+            </p>
+            <button className="hero-btn">Find a Doctor</button>
+          </div>
+          <div className="hero-right-box">
+            <img
+              src={evanBuilding}
+              alt="evan-building"
+              className="hero-banner"
+            />
           </div>
         </div>
       </div>
 
       {/* home second page start */}
 
+      <div>
+        <BookAppointment />
+      </div>
+
       <div className="home-specialities-container">
         <div className="home-specialities-left">
           <div className="home-specialities-title">
-            <h1>Specialities</h1>
-            <h1>Procedures</h1>
+            <h1>Specialities & Procedures</h1>
           </div>
           <div className="SpecialitiesBoxes">
             <div className="SpecialitiesBox1">
@@ -79,12 +85,7 @@ const Home = () => {
               />
               <SpecialitiesBox img={Neurosciences} h1="Neurosciences" />
               <SpecialitiesBox img={Pulmonology} h1="Pulmonology" />
-              <button
-                onClick={clickAllHandler1}
-                className="Home-Specialities-viewButton"
-              >
-                View All &gt;
-              </button>
+
               {/* <SpecialitiesBox img={Cardia} h1="Surgery" /> */}
             </div>
             <div className="SpecialitiesBox2">
@@ -92,14 +93,17 @@ const Home = () => {
               <SpecialitiesBox img={Cardia} h1="Gynecology" />
               <SpecialitiesBox img={Cardia} h1="ENT" />
               <SpecialitiesBox img={Cardia} h1="Dialysis" />
-              <button
-                onClick={clickAllHandler1}
-                className="Home-Specialities-viewButton"
-              >
-                View All &gt;
-              </button>
+
               {/* <SpecialitiesBox img={Cardia} h1="Nephrology" /> */}
             </div>
+          </div>
+          <div className="HS-viewBtn">
+            <button
+              onClick={clickAllHandler1}
+              className="Home-Specialities-viewButton"
+            >
+              View All &gt;
+            </button>
           </div>
         </div>
         <div className="home-specialities-right">
@@ -202,6 +206,22 @@ const Home = () => {
           >
             View All Doctors
           </button>
+        </div>
+      </section>
+
+      {/* Tpa section start */}
+
+      <section className="TPA-container">
+        <div className="TPA-inner-container">
+          <div>
+            <h3>INSURANCE</h3>
+            <h1>TPA & Insurance</h1>
+          </div>
+          <div>
+            <marquee behavior="slide" direction="right">
+              evan hospital
+            </marquee>
+          </div>
         </div>
       </section>
     </>

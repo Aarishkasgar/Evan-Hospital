@@ -1,0 +1,26 @@
+.BA-container {
+  width: 100%;
+  height: 100px;
+  /* background-color: chocolate; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BA-inner-container {
+  width: 85%;
+  height: 10vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  gap: 50px;
+}
+
+.BA-inner-container p {
+  font-size: 2.2rem;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+}
