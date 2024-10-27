@@ -19,6 +19,9 @@ import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import BookAppointment from "../components/BookAppointment";
+import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
+import NearMeIcon from "@mui/icons-material/NearMe";
+import AboutCard from "../components/AboutCard";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -44,11 +47,15 @@ const Home = () => {
         <div className="hero-inner-container">
           <div className="hero-content-box">
             <h2>Evan Multi Speciality Hospital, Muzaffarnagar</h2>
-            <p>Open 24/7</p>
+            <p>
+              <AccessTimeFilledIcon style={{ fontSize: 35 }} />
+              Open 24/7
+            </p>
             <p>
               <a href="#" className="getLink">
+                <NearMeIcon style={{ fontSize: 35 }} />
                 Get Directions
-              </a>{" "}
+              </a>
               | Call us +91 0000000000
             </p>
             <button className="hero-btn">Find a Doctor</button>
@@ -67,7 +74,9 @@ const Home = () => {
 
       <div>
         <BookAppointment />
+        <AboutCard />
       </div>
+      {/* home about section start */}
 
       <div className="home-specialities-container">
         <div className="home-specialities-left">
@@ -213,12 +222,12 @@ const Home = () => {
 
       <section className="TPA-container">
         <div className="TPA-inner-container">
-          <div>
+          <div className="TPA-title">
             <h3>INSURANCE</h3>
             <h1>TPA & Insurance</h1>
           </div>
-          <div>
-            <marquee behavior="slide" direction="right">
+          <div className="TPA-logo">
+            <marquee behavior="scroll" direction="right">
               evan hospital
             </marquee>
           </div>
