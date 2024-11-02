@@ -1,5 +1,5 @@
 .hero-container {
-  background-color: rgb(255, 162, 0);
+  background-color: #01597d;
   /* background: rgb(0, 133, 206); */
   /* background: linear-gradient(
     0deg,
@@ -31,7 +31,7 @@
 .hero-content-box h2 {
   margin-bottom: 30px;
   font-size: 3rem;
-  color: #005bd1;
+  color: #f9a61a;
 }
 
 .hero-content-box p {
@@ -79,6 +79,41 @@
   width: 100%;
   height: auto;
   border-radius: 15px;
+}
+
+/* hone about page css start*/
+
+.H-about-container {
+  /* background-color: #005e9b; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.H-about-inner-container {
+  /* background-color: #f67308; */
+  width: 85%;
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.H-about-left h2 {
+  color: #f9a61a;
+}
+
+.H-about-left h1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #01597d;
+}
+
+.H-about-left p {
+  color: #6e778c;
+  font-size: 1.1vw;
 }
 
 /* Home Second Page */
@@ -159,7 +194,7 @@
   justify-content: center;
   width: 100%;
   height: 25vw;
-  background-color: rgb(255, 200, 0);
+  background-color: #01597d;
 }
 
 .project-facts-container {
@@ -175,7 +210,7 @@
 
 #hospital-welcome-container {
   width: 100%;
-  height: 80vw;
+  height: 75vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,7 +226,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 5vw;
+  gap: 4vw;
 }
 
 .hospital-welcome-container h1 {
@@ -199,17 +234,19 @@
 }
 
 .evan-name-color {
-  color: #f67308;
+  color: #f9a61a;
 }
 
 .hospital-welcome-container p {
   text-align: center;
   font-size: 1.3vw;
+  color: #6e778c;
 }
 
 .hospital-welcome-container img {
   width: 80%;
   height: auto;
+  border-radius: 15px;
 }
 
 .hospital-welcome-button {
@@ -219,10 +256,10 @@
   border: none;
   font-size: 1.2vw;
   font-weight: 600;
-  background-color: #005e9b;
+  background-color: #01597d;
   color: white;
   &:hover {
-    background-color: #f67308;
+    background-color: #f9a61a;
     color: black;
   }
 }
@@ -252,17 +289,19 @@
 
 .HD-inner-container h1 {
   font-size: 3vw;
+  color: #f9a61a;
 }
 
 .HD-inner-container p {
   font-size: 1.1vw;
+  color: #01597d;
 }
 
 .our-doctors-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
   padding: 50px;
   flex-wrap: wrap;
 }
@@ -299,4 +338,32 @@
   width: 100%;
   padding: 50px 0px;
   background-color: white;
+}
+
+/* Evan Testimonial CSS start */
+
+.testimonial-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #01597d; */
+  padding: 50px 0;
+}
+
+.testimonial-inner-container {
+  width: 85%;
+  /* background-color: #f9a61a; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.7vw;
+  gap: 50px;
+}
+
+.testimonial-box {
+  width: 100%;
+  background-color: #6e778c;
 }

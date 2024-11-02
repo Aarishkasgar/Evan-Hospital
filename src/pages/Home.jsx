@@ -21,7 +21,8 @@ import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import NearMeIcon from "@mui/icons-material/NearMe";
-import AboutCard from "../components/AboutCard";
+import Accreditation from "../assets/Accreditation.webp";
+import TestimonialCard from "../components/TestimonialCard";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -70,14 +71,44 @@ const Home = () => {
         </div>
       </div>
 
-      {/* home second page start */}
+      {/* home about section start */}
 
       <div>
         <BookAppointment />
-        <AboutCard />
       </div>
-      {/* home about section start */}
 
+      <div className="H-about-container">
+        <div className="H-about-inner-container">
+          <div className="H-about-left">
+            <h2>What We Do</h2>
+            <h1>Evan Multi Speciality Hospital</h1>
+            <p>
+              At Evan Multi Speciality Hospital, Muzaffarnagar, we are committed
+              to delivering exceptional healthcare with a patient-focused
+              approach. As a premier multispecialty hospital in the region, we
+              provide advanced medical services across 40+ specialties,
+              including Cardiology, Neurology, Oncology, Orthopedics,
+              Gastroenterology, and more. Our hospital combines modern
+              facilities, the latest medical technology, and a skilled team of
+              doctors to ensure precise diagnoses and effective treatments for
+              all health concerns. We emphasize preventive care, early
+              detection, and individualized treatment plans, always prioritizing
+              patient well-being. From routine check-ups to complex surgeries,
+              our facility is equipped to meet a broad spectrum of medical
+              needs, maintaining the highest standards of safety and patient
+              satisfaction. With 24/7 emergency services, sophisticated surgical
+              procedures, and a comprehensive approach to health and wellness,
+              we strive to be the preferred healthcare destination for
+              Muzaffarnagar and nearby regions.
+            </p>
+          </div>
+          <div className="H-about-right">
+            <img src={Accreditation} />
+          </div>
+        </div>
+      </div>
+
+      {/* home second page start */}
       <div className="home-specialities-container">
         <div className="home-specialities-left">
           <div className="home-specialities-title">
@@ -162,7 +193,7 @@ const Home = () => {
           <h1>
             Welcome To
             <span className="evan-name-color">
-              Evan Multi Speciality Hospital
+              &nbsp;Evan Multi Speciality Hospital
             </span>
           </h1>
           <p>
@@ -227,8 +258,23 @@ const Home = () => {
             <h1>TPA & Insurance</h1>
           </div>
           <div className="TPA-logo">
-            <marquee behavior="scroll" direction="right">
+            <marquee behavior="scroll" direction="right" scrollamount="1">
               evan hospital
+            </marquee>
+          </div>
+        </div>
+      </section>
+
+      {/* Evan Testimonial */}
+      <section className="testimonial-container">
+        <div className="testimonial-inner-container">
+          <div className="testimonial-title">
+            <h3>TESTIMONIAL</h3>
+            <h1>What Our Patients Say</h1>
+          </div>
+          <div className="testimonial-box">
+            <marquee behavior="scroll" direction="right" scrollamount="0">
+              <TestimonialCard />
             </marquee>
           </div>
         </div>

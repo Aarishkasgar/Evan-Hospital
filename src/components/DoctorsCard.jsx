@@ -1,30 +1,10 @@
-// import React from "react";
-
-// const DoctorsCard = (props) => {
-//   return (
-//     <>
-//       <div className="Doctor-Card">
-//         <div className="DC-top">
-//           <img src={props.img} />
-//         </div>
-//         <div className="DC-bottom">
-//           <h2>{props.name}</h2>
-//           <p>{props.destination}</p>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default DoctorsCard;
-
 import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
-import "../components/Doctors.css";
+import "../components/DoctorsCard.css";
 
 export default function DoctorsCard(props) {
   return (
@@ -37,10 +17,15 @@ export default function DoctorsCard(props) {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h4" component="div">
+          <Typography
+            gutterBottom
+            variant="h4"
+            component="div"
+            className="drname-title"
+          >
             {props.name}
           </Typography>
-          <Typography variant="h5" sx={{ color: "text.secondary" }}>
+          <Typography variant="h5" sx={{ color: "#f9a61a" }}>
             {props.destination}
           </Typography>
         </CardContent>

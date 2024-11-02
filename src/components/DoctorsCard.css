@@ -36,3 +36,8 @@
   z-index: -10;
   /* background-color: chocolate !important; */
 }
+
+.drname-title {
+  color: #01597d;
+  font-weight: 600;
+}
