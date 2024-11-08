@@ -23,6 +23,7 @@ import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import NearMeIcon from "@mui/icons-material/NearMe";
 import Accreditation from "../assets/Accreditation.webp";
 import TestimonialCard from "../components/TestimonialCard";
+import images1 from "../assets/TPA/images-1.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -258,8 +259,8 @@ const Home = () => {
             <h1>TPA & Insurance</h1>
           </div>
           <div className="TPA-logo">
-            <marquee behavior="scroll" direction="right" scrollamount="1">
-              evan hospital
+            <marquee behavior="scroll" direction="right" scrollamount="5">
+              <img src={images1} alt="" />
             </marquee>
           </div>
         </div>

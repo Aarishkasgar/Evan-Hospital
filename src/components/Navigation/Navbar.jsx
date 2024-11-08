@@ -51,6 +51,7 @@ const SNavbar = styled.nav`
   top: 0px;
   box-shadow: 2px 1px 5px #005e9b;
   padding: 7px 0px;
+  z-index: 10;
 `;
 const NavContainer = styled.div`
   padding: 1rem;

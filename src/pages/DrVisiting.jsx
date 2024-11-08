@@ -2,10 +2,20 @@ import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import "../components/TitleBanner.css";
+import banner from "../assets/AboutPage/doctorbanner.jpg";
 
 const DrVisiting = () => {
   return (
     <div>
+      {/* page banner start */}
+      <div className="titlebanner-container">
+        <img src={banner} className="titlebanner-img" />
+        <div className="titlebanner-content">
+          <h1 className="titlebanner-title">Our Visiting Doctors</h1>
+        </div>
+      </div>
+      {/* page banner end */}
       <section className="HD-container">
         <div className="HD-inner-container">
           <h1>Visiting Doctors</h1>
