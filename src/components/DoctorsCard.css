@@ -1,37 +1,3 @@
-/* .Doctor-Card {
-  background-color: #ff9900;
-  height: 350px;
-  width: 280px;
-  border-radius: 10px;
-}
-
-.DC-top {
-  height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.DC-top img {
-  width: 250px;
-  height: 240px;
-  border-radius: 10px;
-}
-
-.DC-bottom {
-  height: 100px;
-  font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.DC-bottom p {
-  font-size: 1.6rem;
-} */
-
 .DrCard {
   z-index: -10;
   box-shadow: 1px 1px 10px #01597d !important;
