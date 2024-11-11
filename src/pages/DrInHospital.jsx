@@ -3,11 +3,11 @@ import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
-// import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
+import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
 import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
 import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
 import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
-// import DrImg5 from "../assets/DoctorsImg/DrImg5.jpg";
+import DrImg5 from "../assets/DoctorsImg/DrImg5.png";
 import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
 import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
 import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
@@ -39,7 +39,7 @@ const DrInHospital = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg2}
+              img={DrImg1}
               name="Dr Pankaj Jain"
               degree="MBBS, DM, FCCP"
               destination="(General Physician)"
@@ -63,7 +63,7 @@ const DrInHospital = () => {
               destination="(Pulmonologist)"
             />
             <DoctorsCard
-              img={DrImg6}
+              img={DrImg5}
               name="Dr Rakesh Khurana"
               degree="MBBS, MS"
               destination="(General Surgery & Lap Surgery)"
