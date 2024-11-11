@@ -1,9 +1,21 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
+import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
+import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
+import DrImg3 from "../assets/DoctorsImg/DrImg3.png";
+import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
+import DrImg5 from "../assets/DoctorsImg/DrImg5.jpg";
+import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
+import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
+import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
+import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
+import DrImg10 from "../assets/DoctorsImg/DrImg10.jpg";
+import DrImg11 from "../assets/DoctorsImg/DrImg11.jpeg";
+import DrImg12 from "../assets/DoctorsImg/DrImg12.jpeg";
 
 const DrInHospital = () => {
   return (
@@ -28,64 +40,76 @@ const DrInHospital = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg1}
+              name="Dr Pankaj Jain"
+              degree="MBBS, DM, FCCP"
+              destination="(General Physician)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg2}
+              name="Dr Shobit Tomar"
+              degree="MBBS, MD, DM"
+              destination="(Cardiologist)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg3}
+              name="Dr R.B. Singh"
+              degree="MBBS, D-CARD"
+              destination="(Sr. Cardiologist)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg4}
+              name="Dr Parmod Kumar"
+              degree="MBBS, MD"
+              destination="(Pulmonologist)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg5}
+              name="Dr Rakesh Khurana"
+              degree="MBBS, MS"
+              destination="(General Surgery & Lap Surgery)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg6}
+              name="Dr Pallvi Singh"
+              degree="MBBS, DA, DNB"
+              destination="(Anesthesia)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg7}
+              name="Dr Nidhi"
+              degree="MBBS, MS"
+              destination="(Gynecologist)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg8}
+              name="Dr Faisal Shadab"
+              degree="MBBS, DNB"
+              destination="(Family Medicine)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg9}
+              name="Dr Akshi Singhal"
+              degree="MBBS, MS"
+              destination="(ENT & HNS)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg10}
+              name="Dr Apoorva Chaudhary"
+              degree="BPT"
+              destination="(Physiotheraphy)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg11}
+              name="Dr Intekhab"
+              degree="MBBS"
+              destination="(Physician)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg12}
+              name="Dr Sarthak Aggarwal"
+              degree="MBBS"
+              destination="(Physician)"
             />
           </div>
         </div>

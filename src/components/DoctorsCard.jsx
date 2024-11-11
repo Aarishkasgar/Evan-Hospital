@@ -8,14 +8,9 @@ import "../components/DoctorsCard.css";
 
 export default function DoctorsCard(props) {
   return (
-    <Card sx={{ maxWidth: 300 }} className="DrCard">
+    <Card sx={{ maxWidth: 250 }} className="DrCard">
       <CardActionArea>
-        <CardMedia
-          component="img"
-          height="250"
-          image={props.img}
-          alt="green iguana"
-        />
+        <CardMedia component="img" image={props.img} className="DrCardImg" />
         <CardContent>
           <Typography
             gutterBottom
@@ -26,6 +21,9 @@ export default function DoctorsCard(props) {
             {props.name}
           </Typography>
           <Typography variant="h5" sx={{ color: "#f9a61a" }}>
+            {props.degree}
+          </Typography>
+          <Typography variant="h6" sx={{ color: "#f9a61a" }}>
             {props.destination}
           </Typography>
         </CardContent>

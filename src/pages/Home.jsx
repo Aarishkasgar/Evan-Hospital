@@ -17,7 +17,10 @@ import CounterHeartIcon from "../assets/counter-Heart-icon.png";
 import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
 import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
+import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
+import DrImg3 from "../assets/DoctorsImg/DrImg3.png";
+import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
 import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import NearMeIcon from "@mui/icons-material/NearMe";
@@ -221,24 +224,28 @@ const Home = () => {
           <p>Meet Our Experts Doctors</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg1}
+              name="Dr Pankaj Jain"
+              degree="MBBS, DM, FCCP"
+              destination="(General Physician)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg2}
+              name="Dr Shobit Tomar"
+              degree="MBBS, MD, DM"
+              destination="(Cardiologist)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg3}
+              name="Dr R.B. Singh"
+              degree="MBBS, D-CARD"
+              destination="(Sr. Cardiologist)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr Rishikesh"
-              destination="(MBBS, MD)"
+              img={DrImg4}
+              name="Dr Parmod Kumar"
+              degree="MBBS, MD"
+              destination="(Pulmonologist)"
             />
           </div>
           <button

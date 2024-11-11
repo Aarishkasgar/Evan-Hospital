@@ -34,10 +34,16 @@
 
 .DrCard {
   z-index: -10;
-  /* background-color: chocolate !important; */
+  box-shadow: 1px 1px 10px #01597d !important;
 }
 
 .drname-title {
   color: #01597d;
   font-weight: 600;
+}
+
+.DrCardImg {
+  height: 250px;
+  /* width: 250px; */
+  /* border-radius: 50%; */
 }
