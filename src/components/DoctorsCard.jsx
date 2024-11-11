@@ -10,7 +10,12 @@ export default function DoctorsCard(props) {
   return (
     <Card sx={{ maxWidth: 250 }} className="DrCard">
       <CardActionArea>
-        <CardMedia component="img" image={props.img} className="DrCardImg" />
+        <CardMedia
+          component="img"
+          height="250"
+          image={props.img}
+          className="DrCardImg"
+        />
         <CardContent>
           <Typography
             gutterBottom
