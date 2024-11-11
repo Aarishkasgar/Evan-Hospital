@@ -17,10 +17,9 @@ import CounterHeartIcon from "../assets/counter-Heart-icon.png";
 import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
 import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
-// import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
-// import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
-// import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
-// import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
+import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
+import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
+import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
 import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
 import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
@@ -225,19 +224,19 @@ const Home = () => {
           <p>Meet Our Experts Doctors</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg4}
+              img={DrImg1}
               name="Dr Pankaj Jain"
               degree="MBBS, DM, FCCP"
               destination="(General Physician)"
             />
             <DoctorsCard
-              img={DrImg4}
+              img={DrImg2}
               name="Dr Shobit Tomar"
               degree="MBBS, MD, DM"
               destination="(Cardiologist)"
             />
             <DoctorsCard
-              img={DrImg4}
+              img={DrImg3}
               name="Dr R.B. Singh"
               degree="MBBS, D-CARD"
               destination="(Sr. Cardiologist)"
