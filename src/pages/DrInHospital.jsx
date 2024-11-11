@@ -3,18 +3,18 @@ import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
-import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
-import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
-import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
+// import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
+// import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
+// import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
 import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
-import DrImg5 from "../assets/DoctorsImg/DrImg5.jpg";
-import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
-import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
-import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
-import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
-import DrImg10 from "../assets/DoctorsImg/DrImg10.jpg";
-import DrImg11 from "../assets/DoctorsImg/DrImg11.jpeg";
-import DrImg12 from "../assets/DoctorsImg/DrImg12.jpeg";
+// import DrImg5 from "../assets/DoctorsImg/DrImg5.jpg";
+// import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
+// import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
+// import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
+// import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
+// import DrImg10 from "../assets/DoctorsImg/DrImg10.jpg";
+// import DrImg11 from "../assets/DoctorsImg/DrImg11.jpeg";
+// import DrImg12 from "../assets/DoctorsImg/DrImg12.jpeg";
 
 const DrInHospital = () => {
   return (
@@ -39,19 +39,19 @@ const DrInHospital = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg1}
+              img={DrImg4}
               name="Dr Pankaj Jain"
               degree="MBBS, DM, FCCP"
               destination="(General Physician)"
             />
             <DoctorsCard
-              img={DrImg2}
+              img={DrImg4}
               name="Dr Shobit Tomar"
               degree="MBBS, MD, DM"
               destination="(Cardiologist)"
             />
             <DoctorsCard
-              img={DrImg3}
+              img={DrImg4}
               name="Dr R.B. Singh"
               degree="MBBS, D-CARD"
               destination="(Sr. Cardiologist)"
@@ -63,49 +63,49 @@ const DrInHospital = () => {
               destination="(Pulmonologist)"
             />
             <DoctorsCard
-              img={DrImg5}
+              img={DrImg4}
               name="Dr Rakesh Khurana"
               degree="MBBS, MS"
               destination="(General Surgery & Lap Surgery)"
             />
             <DoctorsCard
-              img={DrImg6}
+              img={DrImg4}
               name="Dr Pallvi Singh"
               degree="MBBS, DA, DNB"
               destination="(Anesthesia)"
             />
             <DoctorsCard
-              img={DrImg7}
+              img={DrImg4}
               name="Dr Nidhi"
               degree="MBBS, MS"
               destination="(Gynecologist)"
             />
             <DoctorsCard
-              img={DrImg8}
+              img={DrImg4}
               name="Dr Faisal Shadab"
               degree="MBBS, DNB"
               destination="(Family Medicine)"
             />
             <DoctorsCard
-              img={DrImg9}
+              img={DrImg4}
               name="Dr Akshi Singhal"
               degree="MBBS, MS"
               destination="(ENT & HNS)"
             />
             <DoctorsCard
-              img={DrImg10}
+              img={DrImg4}
               name="Dr Apoorva Chaudhary"
               degree="BPT"
               destination="(Physiotheraphy)"
             />
             <DoctorsCard
-              img={DrImg11}
+              img={DrImg4}
               name="Dr Intekhab"
               degree="MBBS"
               destination="(Physician)"
             />
             <DoctorsCard
-              img={DrImg12}
+              img={DrImg4}
               name="Dr Sarthak Aggarwal"
               degree="MBBS"
               destination="(Physician)"
