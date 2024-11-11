@@ -72,13 +72,18 @@ const Home = () => {
               Open 24/7
             </p>
             <p>
-              <a href="#" className="getLink">
+              <a
+                href="https://maps.app.goo.gl/VEYqE8XpBKEDTF5b6"
+                className="getLink"
+              >
                 <NearMeIcon style={{ fontSize: 35 }} />
                 Get Directions
               </a>
-              | Call us +91 0000000000
+              | Call us +91 70786-93040
             </p>
-            <button className="hero-btn">Find a Doctor</button>
+            <button className="hero-btn" onClick={moveDoctorHandler}>
+              Find a Doctor
+            </button>
           </div>
           <div className="hero-right-box">
             <img

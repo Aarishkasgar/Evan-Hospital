@@ -14,9 +14,13 @@
 .project-facts-box h2 {
   font-size: 2.4vw;
   color: #f9a61a;
+  font-family: "Open Sans", serif;
+  font-weight: 800;
 }
 
 .project-facts-box p {
   font-size: 1.4vw;
   color: #f9a61a;
+  font-family: "Open Sans", serif;
+  font-weight: 700;
 }

@@ -6,7 +6,7 @@ const BookAppointment = () => {
     <div className="BA-container">
       <div className="BA-inner-container">
         <h2>To Book an Appointment</h2>
-        <p>Call us +91 0000000000</p>
+        <p>Call us +91 70786-93040</p>
       </div>
     </div>
   );

@@ -5,31 +5,8 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import XIcon from "@mui/icons-material/X";
-// import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
-  // const navigate = useNavigate();
-
-  // function homeHandler() {
-  //   navigate("/");
-  // }
-
-  // function aboutHandler() {
-  //   navigate("/about");
-  // }
-
-  // function ourdoctorHandler() {
-  //   navigate("/about");
-  // }
-
-  // function departmentHandler() {
-  //   navigate("/about");
-  // }
-
-  // function servicesHandler() {
-  //   navigate("/services");
-  // }
-
   return (
     <div className="footer-container">
       <div className="footer-inner-container">
@@ -40,7 +17,7 @@ const Footer = () => {
             impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Eum, impedit.
           </p>
-          <p>Call us: +91 7088002601</p>
+          <p>Call us: +91 70786-93040</p>
           <p>Mail us: evan@evan.com</p>
           <p>Follow us on social media:</p>
           <div className="SM-footer-box">
