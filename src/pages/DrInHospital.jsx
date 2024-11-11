@@ -5,7 +5,7 @@ import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 import DrImg1 from "../assets/DoctorsImg/DrImg1.jpg";
 import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
-import DrImg3 from "../assets/DoctorsImg/DrImg3.png";
+import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
 import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
 import DrImg5 from "../assets/DoctorsImg/DrImg5.jpg";
 import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
