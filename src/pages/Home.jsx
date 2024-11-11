@@ -27,6 +27,21 @@ import NearMeIcon from "@mui/icons-material/NearMe";
 import Accreditation from "../assets/Accreditation.webp";
 import TestimonialCard from "../components/TestimonialCard";
 import images1 from "../assets/TPA/images-1.png";
+import images2 from "../assets/TPA/images-2.png";
+import images3 from "../assets/TPA/images-3.png";
+import images4 from "../assets/TPA/images-4.png";
+import images5 from "../assets/TPA/images-5.png";
+import images6 from "../assets/TPA/images-6.png";
+import images7 from "../assets/TPA/images-7.png";
+import images8 from "../assets/TPA/images-8.png";
+import images9 from "../assets/TPA/images-9.webp";
+import images10 from "../assets/TPA/images-10.png";
+import images11 from "../assets/TPA/images-11.png";
+import images12 from "../assets/TPA/images-12.png";
+import images13 from "../assets/TPA/images-13.png";
+import images14 from "../assets/TPA/images-14.jpg";
+import images15 from "../assets/TPA/images-15.png";
+import images16 from "../assets/TPA/images-16.jpg";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -266,8 +281,23 @@ const Home = () => {
             <h1>TPA & Insurance</h1>
           </div>
           <div className="TPA-logo">
-            <marquee behavior="scroll" direction="right" scrollamount="5">
-              <img src={images1} alt="" />
+            <marquee behavior="scroll" direction="right" scrollamount="15">
+              <img src={images1} />
+              <img src={images2} />
+              <img src={images3} />
+              <img src={images4} />
+              <img src={images5} />
+              <img src={images6} />
+              <img src={images7} />
+              <img src={images8} />
+              <img src={images9} />
+              <img src={images10} />
+              <img src={images11} />
+              <img src={images12} />
+              <img src={images13} />
+              <img src={images14} />
+              <img src={images15} />
+              <img src={images16} />
             </marquee>
           </div>
         </div>

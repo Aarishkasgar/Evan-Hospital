@@ -340,6 +340,11 @@
   background-color: white;
 }
 
+.TPA-logo img {
+  height: 150px;
+  margin-right: 50px;
+}
+
 /* Evan Testimonial CSS start */
 
 .testimonial-container {
