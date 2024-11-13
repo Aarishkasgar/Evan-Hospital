@@ -1,9 +1,9 @@
 .footer-container {
   width: 100%;
   /* height: 60vh; */
-  /* background-color: #01597d; */
-  background: url(../assets/factBg2.jpg);
-  background-size: cover;
+  background-color: #01597d;
+  /* background: url(../assets/factBg2.jpg); */
+  /* background-size: cover; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@
 .footer-box p {
   font-size: 1.8rem;
   padding: 5px 10px;
-  color: white;
+  color: lightgray;
   font-weight: 700;
 }
 
@@ -66,7 +66,7 @@
   /* margin-bottom: 20px; */
   font-size: 3rem;
   font-weight: 800;
-  color: #f9a61a;
+  color: lightgray;
 }
 
 .footer-box2 {
@@ -85,5 +85,5 @@
   font-size: 2rem;
   margin: 10px;
   font-weight: 700;
-  color: white;
+  color: lightgray;
 }

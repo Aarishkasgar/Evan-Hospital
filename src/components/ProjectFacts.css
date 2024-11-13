@@ -1,3 +1,17 @@
+:root {
+  --bg1: #f7f9fc;
+  --bg2: #8fbcd4;
+  --cardBg: #f5f5f5;
+  --btnColor: #00796b;
+  --text: #007a73;
+  --text2: #333333;
+  --text3: #666666;
+  --orange: #f9a61a;
+  --blue: #01597d;
+  --white: #ffffff;
+  --black: #000000;
+}
+
 .project-facts-box {
   display: flex;
   flex-direction: column;
@@ -13,14 +27,14 @@
 
 .project-facts-box h2 {
   font-size: 2.4vw;
-  color: #f9a61a;
+  color: var(--btnColor);
   font-family: "Open Sans", serif;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .project-facts-box p {
   font-size: 1.4vw;
-  color: #f9a61a;
+  color: var(--btnColor);
   font-family: "Open Sans", serif;
   font-weight: 700;
 }

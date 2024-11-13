@@ -14,12 +14,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #01597d;
+  background-color: #a8d1e7;
   gap: 50px;
 }
 
 .BA-inner-container h2 {
-  color: white;
+  color: #000000;
 }
 
 .BA-inner-container p {
@@ -27,6 +27,7 @@
   border: 2px solid #f9a61a;
   border-radius: 10px;
   padding: 10px;
-  color: #f9a61a;
+  color: #333333;
+  /* background-color: #333333; */
   font-weight: 600;
 }

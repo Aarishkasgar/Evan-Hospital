@@ -46,24 +46,24 @@ const DrawerButton = styled.button`
 `;
 
 const SNavbar = styled.nav`
-  background-color: white; //navbar background color
+  background-color: #005a8c; //navbar background color
   position: sticky;
   top: 0px;
-  box-shadow: 2px 1px 5px #005e9b;
+  // box-shadow: 2px 1px 5px #005e9b;
   padding: 7px 0px;
   z-index: 10;
   font-family: "Lato", sans-serif;
 `;
 const NavContainer = styled.div`
   padding: 1rem;
-  height: 85px;
+  height: 80px;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #005e9b;
-  font-weight: 550;
+  color: white; // text color
+  font-weight: 800;
 `;
 const SNavbarBrand = styled.h2`
   font-size: 3rem;
@@ -85,14 +85,15 @@ const NavRoutes = styled.div`
 `;
 const NavRoute = styled(Link)`
   text-decoration: none;
-  color: #005e9b;
+  color: white; //text color
+  font-weight: 800;
   padding: 0.5rem;
   transition: 0.5s ease;
 
   &:hover {
     transition: 0.5s ease;
     color: black;
-    background-color: white;
-    box-shadow: 0px 0px 10px white;
+    // background-color: white;
+    // box-shadow: 0px 0px 10px white;
   }
 `;

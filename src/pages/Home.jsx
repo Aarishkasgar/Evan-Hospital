@@ -66,7 +66,12 @@ const Home = () => {
       <div className="hero-container">
         <div className="hero-inner-container">
           <div className="hero-content-box">
-            <h2>Evan Multi Speciality Hospital, Muzaffarnagar</h2>
+            <h3>Welcome To</h3>
+            <h1>Evan Multi Speciality Hospital, Muzaffarnagar</h1>
+            <h2>
+              where we believe that every <br /> patient deserves Care With
+              Smile
+            </h2>
             <p>
               <AccessTimeFilledIcon style={{ fontSize: 35 }} />
               Open 24/7

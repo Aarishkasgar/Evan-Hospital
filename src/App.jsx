@@ -26,11 +26,13 @@ import Specialities from "./pages/Specialities";
 import InternationalPatients from "./pages/InternationalPatients";
 import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
+import NavTop from "./components/NavTop";
 
 import Navigation from "./components/Navigation/Navigation";
 const App = () => {
   return (
     <>
+      <NavTop />
       <Router>
         <Navigation />
         <Routes>
