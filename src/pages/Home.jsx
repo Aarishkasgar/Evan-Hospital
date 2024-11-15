@@ -22,8 +22,10 @@ import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
 import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
 import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
-import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
 import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
+import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
+import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
+import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
 import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
 import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
@@ -277,12 +279,7 @@ const Home = () => {
               degree="MBBS, DM, FCCP"
               destination="(General Physician)"
             />
-            <DoctorsCard
-              img={DrImg2}
-              name="Dr Shobit Tomar"
-              degree="MBBS, MD, DM"
-              destination="(Cardiologist)"
-            />
+
             <DoctorsCard
               img={DrImg3}
               name="Dr R.B. Singh"
@@ -294,6 +291,24 @@ const Home = () => {
               name="Dr Parmod Kumar"
               degree="MBBS, MD"
               destination="(Pulmonologist)"
+            />
+            <DoctorsCard
+              img={DrImg7}
+              name="Dr Nidhi"
+              degree="MBBS, MS"
+              destination="(Gynecologist)"
+            />
+            <DoctorsCard
+              img={DrImg8}
+              name="Dr Faisal Shadab"
+              degree="MBBS, DNB"
+              destination="(Family Medicine)"
+            />
+            <DoctorsCard
+              img={DrImg9}
+              name="Dr Akshi Singhal"
+              degree="MBBS, MS"
+              destination="(ENT & HNS)"
             />
           </div>
           <button

@@ -47,15 +47,15 @@ const MenuButton = styled.div`
   // color: red;
   &:hover {
     transition: 0.5s ease;
-    color: black;
-    background-color: white;
-    box-shadow: 0px 0px 10px white;
+    color: #f9a61a;
+    // background-color: white;
+    // box-shadow: 0px 0px 10px white;
   }
 `;
 
 const SubRoute = styled(Link)`
   text-decoration: none;
-  color: black;
+  color: #01597d;
   padding: 1rem;
   border-radius: 0.5rem;
   transition: 0.3s ease-in;
@@ -63,6 +63,6 @@ const SubRoute = styled(Link)`
   &:hover {
     transition: 0.3s ease-in;
     color: white;
-    background-color: #227db0;
+    background-color: #f9a61a;
   }
 `;
