@@ -9,6 +9,10 @@ import Cardia from "../assets/cardia.svg";
 import Orthoimg from "../assets/Orthopaedics.svg";
 import Neurosciences from "../assets/Neurosciences.svg";
 import Pulmonology from "../assets/pulmonology.svg";
+import Gynecology from "../assets/Obstetrics And Gynaecology.svg";
+import ent from "../assets/ent.svg";
+import InternalMedicine from "../assets/speciality.svg";
+import Surgary from "../assets/surgary.svg";
 import { useNavigate } from "react-router-dom";
 import ProjectFacts from "../components/ProjectFacts";
 import evanBuilding from "../assets/evan-building.jpg";
@@ -42,6 +46,7 @@ import images13 from "../assets/TPA/images-13.png";
 import images14 from "../assets/TPA/images-14.jpg";
 import images15 from "../assets/TPA/images-15.png";
 import images16 from "../assets/TPA/images-16.jpg";
+import WhyChooseUs from "../assets/whychooseus.webp";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -142,26 +147,24 @@ const Home = () => {
         <div className="home-specialities-left">
           <div className="home-specialities-title">
             <h1>Specialities & Procedures</h1>
+            <h2>Specialities</h2>
           </div>
           <div className="SpecialitiesBoxes">
             <div className="SpecialitiesBox1">
               <div onClick={clickHandler}>
                 <SpecialitiesBox img={Cardia} h1="Cardiac Science" />
               </div>
-              <SpecialitiesBox
-                img={Orthoimg}
-                h1="Orthopedics & Joint Replacement"
-              />
+              <SpecialitiesBox img={Orthoimg} h1="Orthopedics" />
               <SpecialitiesBox img={Neurosciences} h1="Neurosciences" />
               <SpecialitiesBox img={Pulmonology} h1="Pulmonology" />
 
               {/* <SpecialitiesBox img={Cardia} h1="Surgery" /> */}
             </div>
             <div className="SpecialitiesBox2">
-              <SpecialitiesBox img={Cardia} h1="Anaesthesia" />
-              <SpecialitiesBox img={Cardia} h1="Gynecology" />
-              <SpecialitiesBox img={Cardia} h1="ENT" />
-              <SpecialitiesBox img={Cardia} h1="Dialysis" />
+              <SpecialitiesBox img={Surgary} h1="Surgery" />
+              <SpecialitiesBox img={Gynecology} h1="Gynecology" />
+              <SpecialitiesBox img={ent} h1="ENT" />
+              <SpecialitiesBox img={InternalMedicine} h1="Internal Medicine" />
 
               {/* <SpecialitiesBox img={Cardia} h1="Nephrology" /> */}
             </div>
@@ -215,6 +218,26 @@ const Home = () => {
         </div>
       </section>
       {/* Project Facts or Counter page end */}
+
+      {/* Why choose us section start */}
+      <section id="why-choose-us">
+        <div className="why-choose-us">
+          <div className="why-choose-us-left">
+            <img src={WhyChooseUs} />
+          </div>
+          <div className="why-choose-us-right">
+            <h2>Why Choose Us</h2>
+            <h1>We are Alwayes open for Your Health Services</h1>
+            <p>
+              We are a team of dedicated medical professionals who are committed
+              to providing the highest level of care to our patients. We
+              understand that every patient is unique and requires a
+              personalized approach to their healthcare needs.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* Why choose us section end */}
 
       {/* Hopital welcome section start */}
       <section id="hospital-welcome-container">

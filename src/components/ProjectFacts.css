@@ -27,14 +27,14 @@
 
 .project-facts-box h2 {
   font-size: 2.4vw;
-  color: var(--btnColor);
-  font-family: "Open Sans", serif;
+  color: #616161;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
 }
 
 .project-facts-box p {
   font-size: 1.4vw;
-  color: var(--btnColor);
-  font-family: "Open Sans", serif;
+  color: #616161;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
 }

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   font-size: 1.1rem;
   margin: 0px 0px 10px 0px;
   width: 21vw;
@@ -11,4 +11,12 @@
   border-radius: 10px;
   gap: 20px;
   box-shadow: 2px 2px 5px rgb(227, 220, 220);
+  transition: 0.7s;
+  &:hover {
+    box-shadow: 1px 1px 10px #01597d;
+  }
+}
+
+.Specialities-box h2 {
+  color: #01597d;
 }

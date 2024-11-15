@@ -27,7 +27,14 @@ const Navbar = ({ toggleDrawer, routes }) => {
               );
             })}
           </NavRoutes>
-          {/* <LoginButton>Login</LoginButton> */}
+          <LoginButton>
+            <a
+              href="http://192.168.0.146:1082/viphahms/doctorwiseopdprocedurereport/index"
+              className="NavLoginBtn"
+            >
+              Login
+            </a>
+          </LoginButton>
         </RightNav>
       </NavContainer>
     </SNavbar>
@@ -63,7 +70,7 @@ const NavContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   color: white; // text color
-  font-weight: 800;
+  font-weight: 700;
 `;
 const SNavbarBrand = styled.h2`
   font-size: 3rem;
@@ -86,14 +93,30 @@ const NavRoutes = styled.div`
 const NavRoute = styled(Link)`
   text-decoration: none;
   color: white; //text color
-  font-weight: 800;
+  font-weight: 700;
   padding: 0.5rem;
   transition: 0.5s ease;
 
   &:hover {
     transition: 0.5s ease;
-    color: black;
+    color: #f9a61a;
     // background-color: white;
     // box-shadow: 0px 0px 10px white;
   }
+`;
+
+const LoginButton = styled.button`
+  padding: 0.7rem 3rem;
+  background-color: white;
+  // border: 1px solid black;
+  border: none;
+  border-radius: 3rem;
+  transition: 0.3s ease;
+
+  // &:hover {
+  //   transition: 0.3s ease;
+  //   border: 1px solid transparent;
+  //   background-color: black;
+  //   box-shadow: 0px 0px 7px white;
+  // }
 `;
