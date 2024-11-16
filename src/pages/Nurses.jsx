@@ -31,93 +31,33 @@ const Nurses = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard img={DrImg01} name="Sana" destination="(Head)" />
-            <DoctorsCard
-              img={DrImg01}
-              name="Deepausi"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Himanshi"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Sidra"
-              destination="(Counsellor)"
-            />
+            <DoctorsCard img={DrImg01} name="Deepausi" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Himanshi" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Sidra" destination="(Nurse)" />
             <DoctorsCard
               img={DrImg01}
               name="Sristi"
               destination="(Counsellor)"
             />
-            <DoctorsCard img={DrImg01} name="Annu" destination="(Counsellor)" />
-            <DoctorsCard img={DrImg01} name="Ekta" destination="(Counsellor)" />
-            <DoctorsCard
-              img={DrImg01}
-              name="Preeti"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Zainab"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Deepmala"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Deepak"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Himanshu"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Praveen"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Sahile"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Irfan"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Pankaj"
-              destination="(Counsellor)"
-            />
+            <DoctorsCard img={DrImg01} name="Annu" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Ekta" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Preeti" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Zainab" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Deepmala" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Deepak" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Himanshu" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Praveen" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Sahile" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Irfan" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Pankaj" destination="(Nurse)" />
             <DoctorsCard
               img={DrImg01}
               name="Ilahi Jaan"
-              destination="(Counsellor)"
+              destination="(Nurse)"
             />
-            <DoctorsCard
-              img={DrImg01}
-              name="Mohit"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Rashid"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Reeta"
-              destination="(Counsellor)"
-            />
+            <DoctorsCard img={DrImg01} name="Mohit" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Rashid" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Reeta" destination="(Nurse)" />
           </div>
         </div>
       </section>

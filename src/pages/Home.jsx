@@ -454,27 +454,11 @@ const Home = () => {
           <p>Meet Our Evan Nurses</p>
           <div className="our-doctors-container">
             <DoctorsCard img={DrImg01} name="Sana" destination="(Head)" />
-            <DoctorsCard
-              img={DrImg01}
-              name="Deepausi"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Himanshi"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Sidra"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Sristi"
-              destination="(Counsellor)"
-            />
-            <DoctorsCard img={DrImg01} name="Annu" destination="(Counsellor)" />
+            <DoctorsCard img={DrImg01} name="Deepausi" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Himanshi" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Sidra" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Sristi" destination="(Nurse)" />
+            <DoctorsCard img={DrImg01} name="Annu" destination="(Nurse)" />
           </div>
           <button
             className="hospital-welcome-button"
