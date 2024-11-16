@@ -8,23 +8,35 @@ export const routes = [
     link: "/about",
   },
   {
-    name: "Our Doctor",
+    name: "Departments",
     // link: "/services",
 
     subRoutes: [
       {
-        name: "Dr Visiting",
-        link: "/dr-visiting",
+        name: "Managements",
+        link: "/managements",
       },
       {
-        name: "Dr In Hospital",
+        name: "Dr In House",
         link: "/dr-in-hospital",
+      },
+      {
+        name: "Counsellor",
+        link: "/counsellor",
+      },
+      {
+        name: "Resident Medical Officer",
+        link: "/rmo",
+      },
+      {
+        name: "Nurses",
+        link: "/nurses",
       },
     ],
   },
 
   {
-    name: "All Departments",
+    name: "Specialities",
     // link: "/products",
 
     subRoutes: [
@@ -100,7 +112,7 @@ export const routes = [
   },
 
   {
-    name: "Specialities",
+    name: "Lab",
     link: "/specialities",
   },
   {

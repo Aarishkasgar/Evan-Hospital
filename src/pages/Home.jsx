@@ -49,6 +49,7 @@ import images14 from "../assets/TPA/images-14.jpg";
 import images15 from "../assets/TPA/images-15.png";
 import images16 from "../assets/TPA/images-16.jpg";
 import WhyChooseUs from "../assets/whychooseus.webp";
+import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -68,6 +69,19 @@ const Home = () => {
   function moveDoctorHandler() {
     navigate("/dr-in-hospital");
   }
+  function moveManagementHandler() {
+    navigate("/managements");
+  }
+  function moveCounsellorHandler() {
+    navigate("/counsellor");
+  }
+  function moveRmoHandler() {
+    navigate("/rmo");
+  }
+  function moveNursesHandler() {
+    navigate("/nurses");
+  }
+
   return (
     <>
       <div className="hero-container">
@@ -266,6 +280,53 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Our Management Section start */}
+      <section className="HD-container">
+        <div className="HD-inner-container">
+          <h1>Our Managements</h1>
+          <p>Meet Our Evan Managements</p>
+          <div className="our-doctors-container">
+            <DoctorsCard
+              img={DrImg01}
+              name="Mr. Vijay Jain"
+              destination="(CEO)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Mr. Vijay Jain (Dalda)"
+              destination="(Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Mr. Virendra"
+              destination="(COO)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Chanchal Gautam"
+              destination="(HR)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Mr. Gourav Singh"
+              destination="(B.D.M.)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+          </div>
+          <button
+            className="hospital-welcome-button"
+            onClick={moveManagementHandler}
+          >
+            View All
+          </button>
+        </div>
+      </section>
+      {/* Our Management section end */}
+
       {/* Our doctors section start */}
 
       <section className="HD-container">
@@ -319,6 +380,111 @@ const Home = () => {
           </button>
         </div>
       </section>
+
+      {/* Our Counsellor section start */}
+      <section className="HD-container">
+        <div className="HD-inner-container">
+          <h1>Our Counsellor</h1>
+          <p>Meet Our Evan Counsellor</p>
+          <div className="our-doctors-container">
+            <DoctorsCard
+              img={DrImg01}
+              name="Nalini Bansal"
+              destination="(Counsellor)"
+            />
+          </div>
+          <button
+            className="hospital-welcome-button"
+            onClick={moveCounsellorHandler}
+          >
+            View All
+          </button>
+        </div>
+      </section>
+      {/* Our counsellor section end */}
+
+      {/* Our RMO section start */}
+      <section className="HD-container">
+        <div className="HD-inner-container">
+          <h1>Our Resident Medical Officer</h1>
+          <p>Meet Our Evan RMO</p>
+          <div className="our-doctors-container">
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Hussain"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Farman"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Faisal"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Shamoon"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Yusuf"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Dilshad"
+              destination="(Resident Medical Officer)"
+            />
+          </div>
+          <button className="hospital-welcome-button" onClick={moveRmoHandler}>
+            View All
+          </button>
+        </div>
+      </section>
+      {/* Our RMO section end */}
+
+      {/* Our Nurse Section start */}
+      <section className="HD-container">
+        <div className="HD-inner-container">
+          <h1>Our Nurses</h1>
+          <p>Meet Our Evan Nurses</p>
+          <div className="our-doctors-container">
+            <DoctorsCard img={DrImg01} name="Sana" destination="(Head)" />
+            <DoctorsCard
+              img={DrImg01}
+              name="Deepausi"
+              destination="(Counsellor)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Himanshi"
+              destination="(Counsellor)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Sidra"
+              destination="(Counsellor)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Sristi"
+              destination="(Counsellor)"
+            />
+            <DoctorsCard img={DrImg01} name="Annu" destination="(Counsellor)" />
+          </div>
+          <button
+            className="hospital-welcome-button"
+            onClick={moveNursesHandler}
+          >
+            View All
+          </button>
+        </div>
+      </section>
+      {/* Our Nurse section end */}
 
       {/* Tpa section start */}
 

@@ -5,7 +5,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 // import OurDoctors from "./pages/OurDoctors";
-import DrVisiting from "./pages/DrVisiting";
+// import DrVisiting from "./pages/DrVisiting";
+import Managements from "./pages/Managements";
+import Rmo from "./pages/Rmo";
+import Nurses from "./pages/Nurses";
+import Counsellor from "./pages/Counsellor";
 import DrInHospital from "./pages/DrInHospital";
 import Pulmonology from "./pages/Pulmonology";
 import Ent from "./pages/Ent";
@@ -39,8 +43,11 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/dr-visiting" element={<DrVisiting />} />
+          <Route path="/managements" element={<Managements />} />
           <Route path="/dr-in-hospital" element={<DrInHospital />} />
+          <Route path="/counsellor" element={<Counsellor />} />
+          <Route path="/rmo" element={<Rmo />} />
+          <Route path="/nurses" element={<Nurses />} />
           <Route path="/pulmonology" element={<Pulmonology />} />
           <Route path="/ent" element={<Ent />} />
           <Route path="/surgery" element={<Surgery />} />
