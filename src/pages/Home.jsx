@@ -90,8 +90,7 @@ const Home = () => {
             <h3>Welcome To</h3>
             <h1>Evan Multi Speciality Hospital, Muzaffarnagar</h1>
             <h2>
-              where we believe that every <br /> patient deserves Care With
-              Smile
+              Believe that every <br /> patient deserves Care With Smile
             </h2>
             <p>
               <AccessTimeFilledIcon style={{ fontSize: 35 }} />
@@ -283,7 +282,7 @@ const Home = () => {
       {/* Our Management Section start */}
       <section className="HD-container">
         <div className="HD-inner-container">
-          <h1>Our Managements</h1>
+          <h1>Managements</h1>
           <p>Meet Our Evan Managements</p>
           <div className="our-doctors-container">
             <DoctorsCard
@@ -331,7 +330,7 @@ const Home = () => {
 
       <section className="HD-container">
         <div className="HD-inner-container">
-          <h1>Our Doctors</h1>
+          <h1>Doctors</h1>
           <p>Meet Our Experts Doctors</p>
           <div className="our-doctors-container">
             <DoctorsCard
@@ -384,7 +383,7 @@ const Home = () => {
       {/* Our Counsellor section start */}
       <section className="HD-container">
         <div className="HD-inner-container">
-          <h1>Our Counsellor</h1>
+          <h1>Counsellor</h1>
           <p>Meet Our Evan Counsellor</p>
           <div className="our-doctors-container">
             <DoctorsCard
@@ -406,7 +405,7 @@ const Home = () => {
       {/* Our RMO section start */}
       <section className="HD-container">
         <div className="HD-inner-container">
-          <h1>Our Resident Medical Officer</h1>
+          <h1>Resident Medical Officer</h1>
           <p>Meet Our Evan RMO</p>
           <div className="our-doctors-container">
             <DoctorsCard
@@ -450,7 +449,7 @@ const Home = () => {
       {/* Our Nurse Section start */}
       <section className="HD-container">
         <div className="HD-inner-container">
-          <h1>Our Nurses</h1>
+          <h1>Nurses</h1>
           <p>Meet Our Evan Nurses</p>
           <div className="our-doctors-container">
             <DoctorsCard img={DrImg01} name="Sana" destination="(Head)" />

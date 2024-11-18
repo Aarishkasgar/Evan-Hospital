@@ -12,7 +12,8 @@ const Rmo = () => {
       <div className="titlebanner-container">
         <img src={banner} className="titlebanner-img" />
         <div className="titlebanner-content">
-          <h1 className="titlebanner-title">Evan Hospital RMO</h1>
+          <h1 className="titlebanner-title">Evan Hospital</h1>
+          <span className="rmo-title">Resident Medical Officer</span>
         </div>
       </div>
       {/* page banner end */}

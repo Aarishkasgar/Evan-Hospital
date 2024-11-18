@@ -1,9 +1,9 @@
 .AUS-title {
-  font-size: 1.6vw;
+  font-size: 1.6vw !important;
   color: #01597d;
 }
 
 .AUS-para {
-  font-size: 1.3vw;
+  font-size: 1.3vw !important;
   color: #f9a61a;
 }
