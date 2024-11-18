@@ -8,7 +8,6 @@ import CoreValueItem from "../components/CoreValueItem";
 import EditIcon from "@mui/icons-material/Edit";
 import AboutUsServices from "../components/AboutUsServices";
 
-
 const About = () => {
   return (
     <>
@@ -27,22 +26,21 @@ const About = () => {
           <div className="about-left"></div>
           <div className="about-right">
             <p>
-              At Evan Hospital, we are dedicated to providing exceptional
-              healthcare services with compassion, integrity, and innovation.
-              With a commitment to excellence and a patient-centered approach,
-              we strive to be your trusted partner in health and wellness.
+              We are dedicated to provide exceptional healthcare services with
+              compassion to our patient: Good Hospital, Good Doctors, Good
+              Treatment, Good Medicine and Low Charges....
             </p>
           </div>
         </div>
       </div>
       <AboutUsContent
         title="Our Mission"
-        Content="Our mission is to deliver high-quality, compassionate care to our patients and their families, utilizing the latest medical advancements and evidence-based practices. We are dedicated to promoting health, preventing illness, and improving the quality of life for all those we serve."
+        Content="Our mission is to provide advance quality healthcare, preventing illness, and improving the quality of life for our patients and their families."
       />
       <br />
       <AboutUsContent
         title="Our Vision"
-        Content="Our vision is to be the leading healthcare provider in our community, recognized for our commitment to excellence, innovation, and patient-centered care. We aspire to create a healthier tomorrow by inspiring hope, restoring health, and transforming lives."
+        Content="Our vision is to be the leading healthcare provider for our community, committed for excellence, innovation, and patient-centered care."
       />
       <div className="corevalues-container">
         <div className="corevalues-title">Our Core Values</div>
