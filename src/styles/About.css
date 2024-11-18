@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+.about-inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  gap: 50px;
+  margin: 50px 0;
+}
+
+.about-left {
+  width: 50%;
+  height: 25vw;
+  background: url(../assets/AboutPage/evanceo.jpeg);
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 25vw;
+  font-size: 2vw;
+  text-align: center;
+  color: #01597d;
+
+  font-family: "Funnel Display", serif;
+  /* background-color: antiquewhite; */
+}
+
+/* Core values Section start */
+
+.corevalues-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* background-color: aquamarine; */
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+.corevalues-title {
+  font-size: 3vw;
+  background-color: #01597d;
+  color: white;
+  width: 30%;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.corevalues-content {
+  /* background-color: azure; */
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 30px;
+}
+
+.corevalues-left {
+  width: 50%;
+}
+
+.corevalues-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.corevalues-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.valueinner-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* medical services css start */
+.medicalservices-container {
+  width: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.medicalservices-inner-container {
+  width: 85%;
+  background-color: #01597d;
+  margin: 20px 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.medicalservices-left {
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.medicalservices-left h3 {
+  background-color: white;
+  color: #01597d;
+  /* width: 30%; */
+  text-align: center;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.medicalservices-left h1 {
+  margin: 10px 0 25px 0;
+}
+/* Medical services css end */
