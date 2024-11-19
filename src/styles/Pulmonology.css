@@ -1,0 +1,17 @@
+.pulmo-container {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pulmo-inner-container {
+  width: 85%;
+  background-color: antiquewhite;
+  font-size: 1.5vw;
+}
+
+.inner-ul {
+  margin-left: 30px;
+}

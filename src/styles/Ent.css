@@ -1,0 +1,17 @@
+.ent-container {
+  width: 100%;
+  background-color: rgb(200, 255, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ent-inner-container {
+  width: 85%;
+  background-color: rgb(139, 145, 228);
+  font-size: 1.5vw;
+}
+
+/* .ent-inner-ul {
+  margin-left: 30px;
+} */

@@ -1,9 +1,17 @@
 import React from "react";
+import SpecialitiesBanner from "../components/SpecialitiesBanner";
+import LungImg from "../assets/BannerImg/lungImg.png";
+import BookAppointment from "../components/BookAppointment";
 
 const InternalMedicins = () => {
   return (
     <div>
-      <h1>Internal Medicine Page</h1>
+      <SpecialitiesBanner
+        title="Diagnosis, Treatment, and Management of"
+        text="A wide range of Illnesses"
+        img={LungImg}
+      />
+      <BookAppointment />
     </div>
   );
 };
