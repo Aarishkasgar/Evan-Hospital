@@ -16,259 +16,135 @@ const Ent = () => {
       <BookAppointment />
       <div className="pulmo-container">
         <div className="pulmo-inner-container">
+          <h3>Overview</h3>
           <p className="top-para">
-            The Ear, Nose, and Throat (ENT) department, also known as the
-            Otolaryngology department, in Evan Hospital specializes in the
-            diagnosis, treatment, and management of diseases and disorders
-            affecting the ear, nose, throat, head, and neck regions. ENT
-            specialists, known as otolaryngologists, along with audiologists,
-            speech therapists, and other healthcare professionals, provide
-            comprehensive care for both pediatric and adult patients. Here is a
-            detailed description of the components and services typically found
-            in an ENT department:
+            At Evan Healthcare, we understand the importance of comprehensive
+            ear, nose, and throat care in maintaining overall health and
+            well-being. Our team of highly skilled ENT specialists is dedicated
+            to providing care to patients of all ages. Whether you're
+            experiencing hearing loss, sinus problems, or throat disorders, our
+            experts are here to help you find relief and improve your quality of
+            life.
           </p>
-          <ol>
-            {/* one section */}
-            <li className="main-heading">
-              <strong>Diagnostic Services:</strong>
+          <h2 className="first-heading">Our Services</h2>
+          <ul className="services-list">
+            <li>
+              <strong>Otology and Neurotology:</strong> Our otology and
+              neurotology specialists focus on the diagnosis and treatment of
+              ear-related conditions. From hearing loss and tinnitus to ear
+              infections and balance disorders, our team is equipped with
+              state-of-the-art technology to accurately diagnose and provide the
+              most effective treatment options. Whether you need a hearing aid
+              fitting or complex ear surgery, we offer comprehensive care
+              tailored to your needs.
             </li>
-            <ul className="inner-ul">
-              <li>
-                <strong>Audiology:</strong>Comprehensive hearing assessments,
-                including audiometry, tympanometry, and auditory brainstem
-                response (ABR) testing to diagnose hearing loss and other
-                auditory disorders.
-              </li>
-              <li>
-                <strong>Imaging Studies:</strong>Use of CT scans, MRIs, and
-                X-rays to visualize structures of the ear, nose, throat, and
-                neck for accurate diagnosis of conditions like sinusitis,
-                tumors, and structural abnormalities.
-              </li>
-              <li>
-                <strong>Endoscopy:</strong>Nasal endoscopy, laryngoscopy, and
-                otoscopy to visually inspect the nasal passages, throat, and
-                ears, often performed with flexible or rigid scopes.
-              </li>
-            </ul>
+            <li>
+              <strong>Rhinology and Sinus Surgery:</strong> Our rhinology and
+              sinus surgery team specialises in the diagnosis and management of
+              nasal and sinus disorders. If you're suffering from chronic
+              sinusitis, nasal polyps, or nasal obstructions, our experts will
+              conduct thorough evaluations and develop personalised treatment
+              plans. We offer minimally invasive procedures, such as endoscopic
+              sinus surgery, to provide long-term relief and restore normal
+              nasal function.
+            </li>
+            <li>
+              <strong>Head and Neck Surgery:</strong> Our head and neck surgeons
+              are highly experienced in managing a wide range of conditions
+              affecting the head and neck region. From thyroid and parathyroid
+              disorders to salivary gland diseases and throat cancers, we
+              provide comprehensive evaluations, advanced diagnostic techniques,
+              and innovative surgical interventions.
+            </li>
+            <li>
+              <strong>Paediatric ENT:</strong> We understand that children have
+              unique ENT needs. Our pediatric ENT specialists are trained to
+              diagnose and treat a wide array of ear, nose, and throat disorders
+              in children. From ear infections and tonsillitis to congenital
+              abnormalities and speech disorders, our team provides
+              compassionate care in a child-friendly environment.
+            </li>
+            <li>
+              <strong>Voice and Swallowing Disorders:</strong> If you're
+              experiencing voice changes, swallowing difficulties, or throat
+              discomfort, our voice and swallowing disorder specialists are here
+              to help. Using advanced diagnostic tools, such as swallowing
+              studies, we accurately diagnose and treat various conditions,
+              including vocal cord nodules, acid reflux-related laryngitis and
+              swallowing disorders.
+            </li>
+          </ul>
 
-            {/* second section */}
-            <li className="main-heading">
-              <strong>Ear (Otolaryngology) Services:</strong>
+          <h2 className="second-heading">
+            Surgeries performed by ENT surgeons
+          </h2>
+          <ul className="surgeries-list services-list">
+            <li>Tympanoplasty - Repair of the eardrum</li>
+            <li>Adenoidectomy - Removal of the adenoids</li>
+            <li>Septoplasty - Correction of the deviated nasal septum</li>
+            <li>
+              Rhinoplasty - Nasal surgery for cosmetic or functional purposes
             </li>
-            <ul className="inner-ul">
-              <li>
-                <strong>Hearing Loss:</strong>Diagnosis and management of
-                conductive and sensorineural hearing loss, including fitting of
-                hearing aids and cochlear implants.
-              </li>
-              <li>
-                <strong>Ear Infections:</strong>Treatment of acute and chronic
-                otitis media (middle ear infections) and otitis externa (outer
-                ear infections).
-              </li>
-              <li>
-                <strong>Balance Disorders:</strong>Evaluation and treatment of
-                vertigo, dizziness, and other balance disorders, often involving
-                vestibular rehabilitation.
-              </li>
-              <li>
-                <strong>Tinnitus Management:</strong>Diagnosis and treatment of
-                tinnitus (ringing in the ears), including sound therapy and
-                counseling.
-              </li>
-            </ul>
+            <li>Sinus surgery - Surgery to improve sinus function</li>
+            <li>Otoplasty - Ear reshaping surgery</li>
+            <li>Stapedectomy - Surgery to improve hearing in the middle ear</li>
+            <li>Tonsillectomy - Removal of tonsils</li>
+            <li>Laryngectomy - Removal of the larynx</li>
+            <li>Tracheostomy - Creation of an opening in the trachea</li>
+            <li>Neck dissection - Removal of lymph nodes in the neck</li>
+            <li>Parathyroidectomy - Removal of parathyroid glands</li>
+            <li>Thyroidectomy - Removal of the thyroid gland</li>
+            <li>
+              Salivary gland surgery - Surgery to remove or repair salivary
+              glands.
+            </li>
+          </ul>
 
-            {/* third section */}
-            <li className="main-heading">
-              <strong>Nose (Rhinology) Services:</strong>
+          <h2 className="second-heading">Why Choose Evan Healthcare?</h2>
+          <ul className="why-choose-evan-list services-list">
+            <li>
+              <strong>Experienced and Skilled Specialists: </strong>
+              Our ENT specialists are highly trained, experienced, and committed
+              to delivering the highest quality of care. They employ
+              evidence-based practices to ensure optimal outcomes.
             </li>
-            <ul className="inner-ul">
-              <li>
-                <strong>Sinus Disorders:</strong>Management of acute and chronic
-                sinusitis, including medical therapy and surgical interventions
-                like functional endoscopic sinus surgery (FESS).
-              </li>
-              <li>
-                <strong>Allergy Treatment:</strong>Diagnosis and treatment of
-                nasal allergies, including allergy testing, immunotherapy
-                (allergy shots), and medication management.
-              </li>
-              <li>
-                <strong>Nasal Obstruction: </strong>Treatment of nasal
-                obstructions due to deviated septum, nasal polyps, and turbinate
-                hypertrophy, often involving surgical correction.
-              </li>
-              <li>
-                <strong>Rhinoplasty:</strong>Cosmetic and functional nasal
-                surgery to improve appearance and breathing function.
-              </li>
-            </ul>
+            <li>
+              <strong>Advanced Diagnostic and Treatment Facilities: </strong>
+              Evan Healthcare is equipped with state-of-the-art technology and
+              facilities to provide accurate diagnoses and effective treatment
+              options. From audiology labs and sleep study centres to dedicated
+              operation theatres and rehabilitation facilities, we have
+              everything needed for comprehensive ENT care.
+            </li>
+            <li>
+              <strong>Multidisciplinary Approach: </strong>
+              We believe in a collaborative approach to healthcare. Our ENT
+              specialists work closely with other medical disciplines, including
+              neurology, pulmonology, and oncology, to provide integrated and
+              holistic care for complex cases.
+            </li>
+            <li>
+              <strong>Patient-Centric Care: </strong>
+              At Evan Healthcare, we prioritise the needs and well-being of our
+              patients. From the moment you step into our facility until your
+              recovery, our dedicated staff ensures that you receive
+              personalised attention, compassionate care, and support throughout
+              your journey.
+            </li>
+          </ul>
 
-            {/* fourth section */}
-            <li className="main-heading">
-              <strong>Throat (Laryngology) Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                <strong>Voice Disorders:</strong>Evaluation and treatment of
-                voice disorders, including hoarseness, vocal cord nodules, and
-                polyps, with options like voice therapy and phonosurgery.
-              </li>
-              <li>
-                <strong>Swallowing Disorders:</strong>Diagnosis and management
-                of dysphagia (difficulty swallowing) through swallow studies,
-                therapy, and surgical intervention if needed.
-              </li>
-              <li>
-                <strong>Throat Infections: </strong>Treatment of tonsillitis,
-                pharyngitis, and other infections of the throat, including
-                tonsillectomy and adenoidectomy when necessary.
-              </li>
-              <li>
-                <strong>Sleep Apnea:</strong>Evaluation and treatment of
-                obstructive sleep apnea, including surgical options like
-                uvulopalatopharyngoplasty (UPPP) and non-surgical treatments
-                such as CPAP.
-              </li>
-            </ul>
-
-            {/* fifth section */}
-            <li className="main-heading">
-              <strong>Head and Neck Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                <strong>Head and Neck Cancer:</strong>Diagnosis, staging, and
-                treatment of cancers of the head and neck region, including
-                surgery, radiation therapy, and chemotherapy.
-              </li>
-              <li>
-                <strong>Thyroid and Parathyroid Disorders:</strong>Surgical and
-                medical management of thyroid nodules, goiters, thyroid cancer,
-                and parathyroid gland disorders.
-              </li>
-              <li>
-                <strong>Salivary Gland Disorders: </strong>Treatment of salivary
-                gland infections, stones, and tumors, often involving
-                sialendoscopy or gland excision.
-              </li>
-              <li>
-                <strong>Reconstructive Surgery:</strong>Reconstructive
-                procedures following trauma, cancer surgery, or congenital
-                deformities to restore function and appearance.
-              </li>
-            </ul>
-
-            {/* sixth section */}
-            <li className="main-heading">
-              <strong>Pediatric ENT Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                <strong>Pediatric Hearing Loss:</strong>Diagnosis and treatment
-                of congenital and acquired hearing loss in children, including
-                auditory brainstem response (ABR) testing and cochlear implants.
-              </li>
-              <li>
-                <strong>Pediatric Infections:</strong>Management of recurrent
-                ear infections, tonsillitis, and adenoiditis, including ear tube
-                placement and tonsillectomy/adenoidectomy.
-              </li>
-              <li>
-                <strong>Airway Disorders: </strong>Evaluation and treatment of
-                pediatric airway disorders such as laryngomalacia,
-                tracheomalacia, and subglottic stenosis.
-              </li>
-              <li>
-                <strong>Speech and Language Disorders:</strong>Collaboration
-                with speech therapists to address speech and language delays and
-                disorders in children.
-              </li>
-            </ul>
-
-            {/* seventh section */}
-            <li className="main-heading">
-              <strong>Surgical Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                <strong>Microsurgery:</strong>Use of advanced microscopes for
-                precise surgical procedures on the delicate structures of the
-                ear, nose, and throat.
-              </li>
-              <li>
-                <strong>Minimally Invasive Surgery:</strong>Endoscopic and
-                robotic-assisted surgeries to reduce recovery time and improve
-                outcomes for patients.
-              </li>
-              <li>
-                <strong>Reconstructive Surgery: </strong>Procedures to
-                reconstruct and restore function and appearance following
-                injury, cancer resection, or congenital defects.
-              </li>
-            </ul>
-
-            {/* eighth section */}
-            <li className="main-heading">
-              <strong>Multidisciplinary Collaboration:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The ENT department often collaborates with other specialties
-                such as audiology, speech-language pathology, oncology, allergy
-                and immunology, and pulmonology to provide comprehensive care.
-              </li>
-              <li>
-                Multidisciplinary teams meet regularly to discuss complex cases
-                and coordinate treatment plans.
-              </li>
-            </ul>
-
-            {/* nineth section */}
-            <li className="main-heading">
-              <strong>Patient Education and Counseling:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The department provides extensive education and counseling for
-                patients and their families regarding their conditions,
-                treatment options, and postoperative care.
-              </li>
-              <li>
-                Programs and workshops may be offered to help patients manage
-                chronic conditions like tinnitus, allergies, and voice
-                disorders.
-              </li>
-            </ul>
-
-            {/* tenth section */}
-            <li className="main-heading">
-              <strong>Research and Education:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The ENT department often engages in clinical research to advance
-                the understanding and treatment of ear, nose, and throat
-                conditions.
-              </li>
-              <li>
-                Participation in clinical trials, development of new surgical
-                techniques, and investigation of innovative treatments are
-                common.
-              </li>
-              <li>
-                The department also plays a crucial role in the education and
-                training of medical students, residents, and fellows through
-                academic programs and hands-on clinical experience.
-              </li>
-            </ul>
-          </ol>
           <p className="last-para">
-            Overall, the ENT department in hospitals provides comprehensive care
-            for a wide range of conditions affecting the ear, nose, throat,
-            head, and neck, employing advanced diagnostic and therapeutic
-            techniques to improve patient outcomes and quality of life.
+            If you're seeking exceptional ENT care, we invite you to schedule an
+            appointment with our renowned specialists at Evan Healthcare. Our
+            team will work closely with you to understand your concerns, provide
+            accurate diagnoses, and develop tailored treatment plans to help you
+            achieve optimal ear, nose, and throat health.
+          </p>
+
+          <p className="last-para">
+            Take the first step towards better health today. Contact Evan
+            Healthcare to book your appointment and experience the finest ENT
+            care like never before!
           </p>
         </div>
       </div>

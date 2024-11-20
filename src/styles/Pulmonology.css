@@ -18,20 +18,48 @@
   line-height: 1.4;
 }
 
-.top-para {
-  margin-bottom: 20px;
-  color: #01597d;
+.pulmo-inner-container h3 {
+  color: #616161;
+  font-weight: 800;
 }
 
-.main-heading {
+.top-para {
+  margin-bottom: 20px;
+  color: #6e778c;
+}
+
+.first-heading {
+  margin-bottom: 20px;
+  color: #616161;
+}
+
+.second-heading {
+  margin: 20px 0;
+  color: #616161;
+}
+
+.list-style li {
+  color: #616161;
+  margin-top: 25px;
+  margin-left: 23px;
+  font-weight: 700;
+}
+
+.list-style p {
+  color: #6e778c;
+}
+
+.last-para {
+  margin: 40px 0;
+  color: #6e778c;
+}
+
+/* .main-heading {
   margin: 20px 0;
   color: #f9a61a;
 }
 
-.last-para {
-  margin-top: 40px;
-  color: #01597d;
-}
+
 
 .inner-ul {
   margin-left: 30px;
@@ -40,4 +68,4 @@
 .inner-ul li {
   color: #01597d;
   margin-bottom: 10px;
-}
+} */

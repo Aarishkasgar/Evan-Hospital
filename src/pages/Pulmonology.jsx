@@ -15,228 +15,135 @@ const Pulmonology = () => {
       <BookAppointment />
       <div className="pulmo-container">
         <div className="pulmo-inner-container">
+          <h3>Overview</h3>
           <p className="top-para">
-            The pulmonology department in Evan hospital specializes in the
-            diagnosis, treatment, and management of diseases and conditions
-            affecting the respiratory system, including the lungs and airways.
-            Pulmonologists, respiratory therapists, and other healthcare
-            professionals work together to provide comprehensive care for
-            patients with acute and chronic respiratory issues. Here is a
-            detailed description of the components and services typically found
-            in a pulmonology department:
+            Pulmonology is superspeciality that deals with preventing,
+            diagnosing and treating lung conditions and respiratory tract. Our
+            specialists are trained in managing conditions like asthma,
+            pneumonia, tuberculosis, and other severe chest infections.
           </p>
-          <ol>
-            {/* one section */}
-            <li className="main-heading">
-              <strong>Pulmonary Consultation Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Pulmonologists conduct initial consultations and evaluations for
-                patients with respiratory symptoms or conditions such as chronic
-                cough, shortness of breath, wheezing, and chest pain.
-              </li>
-              <li>
-                They perform detailed assessments, review medical histories, and
-                order diagnostic tests to diagnose and manage respiratory
-                diseases.
-              </li>
-            </ul>
-            {/* second section */}
-            <li className="main-heading">
-              <strong>Diagnostic Testing:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The pulmonology department offers a wide range of diagnostic
-                tests to evaluate lung function and diagnose respiratory
-                conditions. These tests include:
-              </li>
-              <ul className="inner-ul">
-                <li>
-                  <strong>Spirometry:</strong>Measures lung function and airflow
-                  obstruction.
-                </li>
-                <li>
-                  <strong>Pulmonary Function Tests (PFTs):</strong>Comprehensive
-                  tests to assess lung volumes, capacities, and gas exchange.
-                </li>
-                <li>
-                  <strong>Bronchoscopy:</strong>A procedure using a flexible
-                  tube with a camera to examine the airways and collect tissue
-                  samples.
-                </li>
-                <li>
-                  <strong>Chest X-rays and CT Scans:</strong>Imaging studies to
-                  visualize lung structures and identify abnormalities.
-                </li>
-                <li>
-                  <strong>Arterial Blood Gas (ABG) Analysis:</strong>Measures
-                  oxygen and carbon dioxide levels in the blood to assess
-                  respiratory function.
-                </li>
-              </ul>
-            </ul>
-            {/* third section */}
-            <li className="main-heading">
-              <strong>Treatment and Management:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Pulmonologists develop individualized treatment plans for
-                patients with respiratory conditions such as asthma, chronic
-                obstructive pulmonary disease (COPD), interstitial lung disease,
-                pulmonary hypertension, and lung infections.
-              </li>
-              <li>
-                Treatment options may include medications (inhalers,
-                antibiotics, bronchodilators, corticosteroids), pulmonary
-                rehabilitation, oxygen therapy, and lifestyle modifications.
-              </li>
-            </ul>
-            {/* fourth section */}
-            <li className="main-heading">
-              <strong>
-                Critical Care and Intensive Care Unit (ICU) Services:
-              </strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Pulmonologists often manage patients with severe respiratory
-                illnesses in the ICU, providing advanced respiratory support and
-                monitoring.
-              </li>
-              <li>
-                They perform and oversee mechanical ventilation, non-invasive
-                ventilation (CPAP/BiPAP), and extracorporeal membrane
-                oxygenation (ECMO) for critically ill patients.
-              </li>
-            </ul>
-            {/* fifth section */}
-            <li className="main-heading">
-              <strong>Interventional Pulmonology:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Interventional pulmonologists perform minimally invasive
-                procedures to diagnose and treat complex respiratory conditions.
-                These procedures include:
-              </li>
-              <ul className="inner-ul">
-                <li>
-                  <strong>Endobronchial Ultrasound (EBUS):</strong>A
-                  bronchoscopy technique with ultrasound to guide needle
-                  biopsies of lymph nodes and lung masses.
-                </li>
-                <li>
-                  <strong>Navigational Bronchoscopy:</strong>Uses advanced
-                  imaging to guide bronchoscopy to peripheral lung lesions.
-                </li>
-                <li>
-                  <strong>Pleuroscopy:</strong>Examination and treatment of the
-                  pleural cavity, including pleurodesis for recurrent pleural
-                  effusions.
-                </li>
-                <li>
-                  <strong>Airway Stenting:</strong>Placement of stents to open
-                  narrowed or obstructed airways.
-                </li>
-              </ul>
-            </ul>
-            {/* sixth section */}
-            <li className="main-heading">
-              <strong>Sleep Medicine:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Many pulmonology departments include sleep medicine services to
-                diagnose and treat sleep-related breathing disorders such as
-                obstructive sleep apnea (OSA).
-              </li>
-              <li>
-                Sleep specialists conduct sleep studies (polysomnography) and
-                offer treatments like CPAP therapy, lifestyle changes, and
-                surgical options for sleep apnea.
-              </li>
-            </ul>
-            {/* seventh section */}
-            <li className="main-heading">
-              <strong>Pulmonary Rehabilitation:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Pulmonary rehabilitation programs help patients with chronic
-                respiratory diseases improve their physical conditioning, reduce
-                symptoms, and enhance their quality of life.
-              </li>
-              <li>
-                These programs include supervised exercise training, breathing
-                exercises, nutritional counseling, and education on disease
-                management.
-              </li>
-            </ul>
-            {/* eighth section */}
-            <li className="main-heading">
-              <strong>Lung Cancer Screening and Management:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Pulmonologists are involved in lung cancer screening programs
-                for high-risk individuals, typically using low-dose CT scans.
-              </li>
-              <li>
-                They collaborate with oncologists, thoracic surgeons, and
-                radiologists to provide comprehensive care for lung cancer
-                patients, including diagnostic evaluation, biopsy, staging, and
-                treatment planning.
-              </li>
-            </ul>
-            {/* nineth section */}
-            <li className="main-heading">
-              <strong>Allergy and Immunology Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Some pulmonology departments offer allergy and immunology
-                services to diagnose and manage allergic respiratory conditions
-                such as allergic rhinitis, asthma, and hypersensitivity
-                pneumonitis.
-              </li>
-              <li>
-                Allergy testing, immunotherapy (allergy shots), and patient
-                education are part of the services provided.
-              </li>
-            </ul>
-            {/* tenth section */}
-            <li className="main-heading">
-              <strong>Research and Education:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Pulmonology departments are often involved in clinical research
-                to advance the understanding and treatment of respiratory
-                diseases.
-              </li>
-              <li>
-                They conduct clinical trials, epidemiological studies, and
-                translational research to develop new therapies and improve
-                patient outcomes.
-              </li>
-              <li>
-                Pulmonology departments also play a role in medical education,
-                training medical students, residents, and fellows through
-                academic programs, clinical rotations, and continuing medical
-                education initiatives.
-              </li>
-            </ul>
-          </ol>
-          <p className="last-para">
-            Overall, the pulmonology department in hospitals is dedicated to
-            providing comprehensive and specialized care for patients with
-            respiratory conditions, improving their lung health, and enhancing
-            their overall quality of life through advanced diagnostic
-            techniques, personalized treatment plans, and collaborative care.
+          <p className="top-para">
+            At Evan Healthcare, we offer multidisciplinary treatment including
+            bronchoscopy for patients who have lung cancer, COPD, sleep
+            problems, and Cystic Fibrosis. We offer the best care to our
+            patients with our fully equipped pulmonary function laboratory.
           </p>
+          <p className="top-para">
+            We comprise a team of experts who also provide ancillary services,
+            including respiratory care and nutrition in a comprehensive set up.
+          </p>
+
+          <h4 className="first-heading">Pulmonary Diseases</h4>
+
+          <p className="top-para">
+            There is a wide range of pulmonary diseases that affect the people
+            all around the world. Some of the common ones include:
+          </p>
+          <ul className="list-style">
+            <li>Asthma</li>
+            <p>
+              It is a lung disorder due to which the airways get inflamed,
+              narrow and swollen resulting in breathing issues. Some of the
+              common symptoms include wheezing, coughing, shortness of breath
+              and tightness in the chest.
+            </p>
+          </ul>
+
+          <ul className="list-style">
+            <li>Chronic Obstructive Pulmonary Disease</li>
+            <p>
+              Also known as COPD, Chronic Obstructive Pulmonary Disease refers
+              to a group of lung diseases that lead to blockage in the airflow
+              causing breathing issues. The common conditions in COPD are
+              chronic bronchitis and emphysema. Common signs and symptoms are
+              wheezing, chronic cough, bluish fingernails, unexplained weight
+              loss and shortness of breath.
+            </p>
+          </ul>
+
+          <ul className="list-style">
+            <li>Tuberculosis</li>
+            <p>
+              Tuberculosis is a contagious disease and can spread when the
+              patient sneezes or coughs. Common symptoms are pain in the chest,
+              fatigue, fever, chronic cough, shortness of breath, night sweats
+              among others.
+            </p>
+          </ul>
+
+          <ul className="list-style">
+            <li>Cystic Fibrosis</li>
+            <p>
+              It is a genetically inherited disorder that affects the cells
+              which produce mucus, digestive juice and sweat. Its symptoms vary
+              from person to person, but common ones include repeated lung
+              infections, persistent cough with thick mucus, and wheezing.
+            </p>
+          </ul>
+
+          <ul className="list-style">
+            <li>Lung Cancer</li>
+            <p>
+              This is the most serious lung disease during which there is an
+              overproduction of abnormal cells in the lung that leads to the
+              formation of a malignant tumour. The common symptoms are cough,
+              chest pain, weight loss and wheezing.
+            </p>
+            <p>
+              Most of the pulmonary diseases have similar symptoms. This is the
+              reason that the person who experiences any of them must visit the
+              best pulmonology hospital for an accurate diagnosis. After the
+              diagnosis, the doctors can suggest the treatment options which
+              suit the condition.
+            </p>
+          </ul>
+
+          <h4 className="second-heading">Treatments</h4>
+
+          <p className="top-para">
+            Be it the treatment for asthma, cancer or lung diseases, we at Evan
+            Healthcare, offer the best care to our patients. Some of the common
+            treatment options that are adopted to help the patient lead a
+            healthy life are as follows:
+          </p>
+          <ul className="list-style">
+            <li>Lifestyle Changes</li>
+            <p>
+              For conditions like asthma and COPD, doctors suggest various
+              lifestyle changes which can effectively manage the symptoms and
+              reduce the harmful effect. Some of the changes are quitting
+              smoking, eating a healthy diet, avoiding excessive heat and cold,
+              learning breathing exercises among others.
+            </p>
+          </ul>
+
+          <ul className="list-style">
+            <li>Medications</li>
+            <p>
+              Several medications are also prescribed to manage the disease and
+              stop its progression. For instance, doctors prescribe quick-relief
+              drugs for asthma attacks.
+            </p>
+          </ul>
+
+          <ul className="list-style">
+            <li>Pulmonary Rehabilitation</li>
+            <p>
+              It is a program through which doctors help the patient in managing
+              the symptoms and improve their quality of life through various
+              exercises and awareness sessions at lungs hospital.
+            </p>
+          </ul>
+
+          <ul className="list-style">
+            <li>Surgery</li>
+            <p>
+              This treatment option is used in severe pulmonary conditions like
+              lung cancer. Some people suffering from serious COPD or cystic
+              fibrosis have to go through lung transplant to treat the
+              condition.
+            </p>
+          </ul>
         </div>
       </div>
     </div>
