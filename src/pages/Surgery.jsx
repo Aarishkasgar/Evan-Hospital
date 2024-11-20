@@ -12,9 +12,9 @@ const Surgery = () => {
         img={LungImg}
       />
       <BookAppointment />
-      <div className="ent-container">
-        <div className="ent-inner-container">
-          <p>
+      <div className="pulmo-container">
+        <div className="pulmo-inner-container">
+          <p className="top-para">
             The surgery department in Evan hospital is a vital and multifaceted
             unit dedicated to the diagnosis, treatment, and management of
             patients requiring surgical intervention. The department comprises
@@ -25,7 +25,9 @@ const Surgery = () => {
           </p>
           <ol>
             {/* one section */}
-            <li>Surgical Consultation and Evaluation:</li>
+            <li className="main-heading">
+              <strong>Surgical Consultation and Evaluation:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Surgeons conduct initial consultations and evaluations for
@@ -39,7 +41,9 @@ const Surgery = () => {
             </ul>
 
             {/* second section */}
-            <li>Preoperative Services:</li>
+            <li className="main-heading">
+              <strong>Preoperative Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The preoperative area prepares patients for surgery, including
@@ -54,7 +58,9 @@ const Surgery = () => {
             </ul>
 
             {/* third section */}
-            <li>Operating Rooms (OR):</li>
+            <li className="main-heading">
+              <strong>Operating Rooms (OR):</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The heart of the surgery department, operating rooms are
@@ -70,7 +76,9 @@ const Surgery = () => {
             </ul>
 
             {/* fourth section */}
-            <li>Anesthesia Services:</li>
+            <li className="main-heading">
+              <strong>Anesthesia Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Anesthesiologists and nurse anesthetists are responsible for
@@ -85,6 +93,9 @@ const Surgery = () => {
             </ul>
 
             {/* fifth section */}
+            <li className="main-heading">
+              <strong>Surgical Specialties:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The surgery department encompasses numerous subspecialties, each
@@ -140,7 +151,9 @@ const Surgery = () => {
             </ul>
 
             {/* sixth section */}
-            <li>Postoperative Care and Recovery:</li>
+            <li className="main-heading">
+              <strong>Postoperative Care and Recovery:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 After surgery, patients are transferred to the postoperative
@@ -155,7 +168,9 @@ const Surgery = () => {
             </ul>
 
             {/* seventh section */}
-            <li>Intensive Care Unit (ICU):</li>
+            <li className="main-heading">
+              <strong>Intensive Care Unit (ICU):</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Patients who require close monitoring and advanced care
@@ -169,7 +184,9 @@ const Surgery = () => {
             </ul>
 
             {/* eighth section */}
-            <li>Ambulatory Surgery and Outpatient Services:</li>
+            <li className="main-heading">
+              <strong>Ambulatory Surgery and Outpatient Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The surgery department often includes facilities for outpatient
@@ -183,7 +200,9 @@ const Surgery = () => {
             </ul>
 
             {/* nineth section */}
-            <li>Minimally Invasive Surgery:</li>
+            <li className="main-heading">
+              <strong>Minimally Invasive Surgery:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The surgery department increasingly utilizes minimally invasive
@@ -198,7 +217,9 @@ const Surgery = () => {
             </ul>
 
             {/* tenth section */}
-            <li>Surgical Oncology:</li>
+            <li className="main-heading">
+              <strong>Surgical Oncology:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Surgeons specializing in oncology focus on the surgical
@@ -212,7 +233,9 @@ const Surgery = () => {
             </ul>
 
             {/* eleventh section */}
-            <li>Trauma Surgery:</li>
+            <li className="main-heading">
+              <strong>Trauma Surgery:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Trauma surgeons are specialized in treating patients with acute
@@ -225,7 +248,9 @@ const Surgery = () => {
             </ul>
 
             {/* twelveth section */}
-            <li>Education and Training:</li>
+            <li className="main-heading">
+              <strong>Education and Training:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The surgery department plays a significant role in medical
@@ -241,7 +266,9 @@ const Surgery = () => {
             </ul>
 
             {/* thirteen section */}
-            <li>Research and Innovation:</li>
+            <li className="main-heading">
+              <strong>Research and Innovation:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Many surgery departments are involved in clinical research and
@@ -255,7 +282,9 @@ const Surgery = () => {
             </ul>
 
             {/* fourteen section */}
-            <li>Multidisciplinary Collaboration:</li>
+            <li className="main-heading">
+              <strong>Multidisciplinary Collaboration:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The surgery department collaborates with various other
@@ -269,7 +298,7 @@ const Surgery = () => {
               </li>
             </ul>
           </ol>
-          <p>
+          <p className="last-para">
             Overall, the surgery department in hospitals is a dynamic and
             essential unit dedicated to providing high-quality surgical care
             across a broad spectrum of medical conditions, employing advanced

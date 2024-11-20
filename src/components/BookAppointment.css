@@ -19,7 +19,7 @@
 }
 
 .BA-inner-container h2 {
-  color: black;
+  color: white;
 }
 
 .BA-inner-container p {
@@ -28,6 +28,6 @@
   border-radius: 10px;
   padding: 10px;
   color: white;
-  /* background-color: #333333; */
+  background-color: #01597d;
   font-weight: 600;
 }

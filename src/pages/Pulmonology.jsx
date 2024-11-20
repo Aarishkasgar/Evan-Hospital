@@ -15,7 +15,7 @@ const Pulmonology = () => {
       <BookAppointment />
       <div className="pulmo-container">
         <div className="pulmo-inner-container">
-          <p>
+          <p className="top-para">
             The pulmonology department in Evan hospital specializes in the
             diagnosis, treatment, and management of diseases and conditions
             affecting the respiratory system, including the lungs and airways.
@@ -27,7 +27,9 @@ const Pulmonology = () => {
           </p>
           <ol>
             {/* one section */}
-            <li>Pulmonary Consultation Services:</li>
+            <li className="main-heading">
+              <strong>Pulmonary Consultation Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Pulmonologists conduct initial consultations and evaluations for
@@ -41,7 +43,9 @@ const Pulmonology = () => {
               </li>
             </ul>
             {/* second section */}
-            <li>Diagnostic Testing:</li>
+            <li className="main-heading">
+              <strong>Diagnostic Testing:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The pulmonology department offers a wide range of diagnostic
@@ -74,7 +78,9 @@ const Pulmonology = () => {
               </ul>
             </ul>
             {/* third section */}
-            <li>Treatment and Management:</li>
+            <li className="main-heading">
+              <strong>Treatment and Management:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Pulmonologists develop individualized treatment plans for
@@ -89,7 +95,11 @@ const Pulmonology = () => {
               </li>
             </ul>
             {/* fourth section */}
-            <li>Critical Care and Intensive Care Unit (ICU) Services:</li>
+            <li className="main-heading">
+              <strong>
+                Critical Care and Intensive Care Unit (ICU) Services:
+              </strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Pulmonologists often manage patients with severe respiratory
@@ -103,7 +113,9 @@ const Pulmonology = () => {
               </li>
             </ul>
             {/* fifth section */}
-            <li>Interventional Pulmonology:</li>
+            <li className="main-heading">
+              <strong>Interventional Pulmonology:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Interventional pulmonologists perform minimally invasive
@@ -132,7 +144,9 @@ const Pulmonology = () => {
               </ul>
             </ul>
             {/* sixth section */}
-            <li>Sleep Medicine:</li>
+            <li className="main-heading">
+              <strong>Sleep Medicine:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Many pulmonology departments include sleep medicine services to
@@ -146,7 +160,9 @@ const Pulmonology = () => {
               </li>
             </ul>
             {/* seventh section */}
-            <li>Pulmonary Rehabilitation:</li>
+            <li className="main-heading">
+              <strong>Pulmonary Rehabilitation:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Pulmonary rehabilitation programs help patients with chronic
@@ -160,7 +176,9 @@ const Pulmonology = () => {
               </li>
             </ul>
             {/* eighth section */}
-            <li>Lung Cancer Screening and Management:</li>
+            <li className="main-heading">
+              <strong>Lung Cancer Screening and Management:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Pulmonologists are involved in lung cancer screening programs
@@ -174,7 +192,9 @@ const Pulmonology = () => {
               </li>
             </ul>
             {/* nineth section */}
-            <li>Allergy and Immunology Services:</li>
+            <li className="main-heading">
+              <strong>Allergy and Immunology Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Some pulmonology departments offer allergy and immunology
@@ -188,7 +208,9 @@ const Pulmonology = () => {
               </li>
             </ul>
             {/* tenth section */}
-            <li>Research and Education:</li>
+            <li className="main-heading">
+              <strong>Research and Education:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 Pulmonology departments are often involved in clinical research
@@ -208,7 +230,7 @@ const Pulmonology = () => {
               </li>
             </ul>
           </ol>
-          <p>
+          <p className="last-para">
             Overall, the pulmonology department in hospitals is dedicated to
             providing comprehensive and specialized care for patients with
             respiratory conditions, improving their lung health, and enhancing

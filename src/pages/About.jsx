@@ -15,8 +15,7 @@ const About = () => {
       <div className="titlebanner-container">
         <img src={banner} className="titlebanner-img" />
         <div className="titlebanner-content">
-          <h1 className="titlebanner-title">Evan Hospital</h1>
-          <span>About Us</span>
+          <h1 className="titlebanner-title">About Us</h1>
         </div>
       </div>
       {/* page banner end */}

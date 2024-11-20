@@ -14,9 +14,9 @@ const Ent = () => {
         img={LungImg}
       />
       <BookAppointment />
-      <div className="ent-container">
-        <div className="ent-inner-container">
-          <p>
+      <div className="pulmo-container">
+        <div className="pulmo-inner-container">
+          <p className="top-para">
             The Ear, Nose, and Throat (ENT) department, also known as the
             Otolaryngology department, in Evan Hospital specializes in the
             diagnosis, treatment, and management of diseases and disorders
@@ -29,7 +29,9 @@ const Ent = () => {
           </p>
           <ol>
             {/* one section */}
-            <li>Diagnostic Services:</li>
+            <li className="main-heading">
+              <strong>Diagnostic Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 <strong>Audiology:</strong>Comprehensive hearing assessments,
@@ -51,7 +53,9 @@ const Ent = () => {
             </ul>
 
             {/* second section */}
-            <li>Ear (Otolaryngology) Services:</li>
+            <li className="main-heading">
+              <strong>Ear (Otolaryngology) Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 <strong>Hearing Loss:</strong>Diagnosis and management of
@@ -76,7 +80,9 @@ const Ent = () => {
             </ul>
 
             {/* third section */}
-            <li>Nose (Rhinology) Services:</li>
+            <li className="main-heading">
+              <strong>Nose (Rhinology) Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 <strong>Sinus Disorders:</strong>Management of acute and chronic
@@ -100,7 +106,9 @@ const Ent = () => {
             </ul>
 
             {/* fourth section */}
-            <li>Throat (Laryngology) Services:</li>
+            <li className="main-heading">
+              <strong>Throat (Laryngology) Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 <strong>Voice Disorders:</strong>Evaluation and treatment of
@@ -126,7 +134,9 @@ const Ent = () => {
             </ul>
 
             {/* fifth section */}
-            <li>Head and Neck Services:</li>
+            <li className="main-heading">
+              <strong>Head and Neck Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 <strong>Head and Neck Cancer:</strong>Diagnosis, staging, and
@@ -151,7 +161,9 @@ const Ent = () => {
             </ul>
 
             {/* sixth section */}
-            <li>Pediatric ENT Services:</li>
+            <li className="main-heading">
+              <strong>Pediatric ENT Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 <strong>Pediatric Hearing Loss:</strong>Diagnosis and treatment
@@ -176,7 +188,9 @@ const Ent = () => {
             </ul>
 
             {/* seventh section */}
-            <li>Surgical Services:</li>
+            <li className="main-heading">
+              <strong>Surgical Services:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 <strong>Microsurgery:</strong>Use of advanced microscopes for
@@ -196,7 +210,9 @@ const Ent = () => {
             </ul>
 
             {/* eighth section */}
-            <li>Multidisciplinary Collaboration:</li>
+            <li className="main-heading">
+              <strong>Multidisciplinary Collaboration:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The ENT department often collaborates with other specialties
@@ -210,7 +226,9 @@ const Ent = () => {
             </ul>
 
             {/* nineth section */}
-            <li>Patient Education and Counseling:</li>
+            <li className="main-heading">
+              <strong>Patient Education and Counseling:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The department provides extensive education and counseling for
@@ -225,7 +243,9 @@ const Ent = () => {
             </ul>
 
             {/* tenth section */}
-            <li>Research and Education:</li>
+            <li className="main-heading">
+              <strong>Research and Education:</strong>
+            </li>
             <ul className="inner-ul">
               <li>
                 The ENT department often engages in clinical research to advance
@@ -244,7 +264,7 @@ const Ent = () => {
               </li>
             </ul>
           </ol>
-          <p>
+          <p className="last-para">
             Overall, the ENT department in hospitals provides comprehensive care
             for a wide range of conditions affecting the ear, nose, throat,
             head, and neck, employing advanced diagnostic and therapeutic
