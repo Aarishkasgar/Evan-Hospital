@@ -14,296 +14,102 @@ const Surgery = () => {
       <BookAppointment />
       <div className="pulmo-container">
         <div className="pulmo-inner-container">
+          <h3>Overview</h3>
           <p className="top-para">
-            The surgery department in Evan hospital is a vital and multifaceted
-            unit dedicated to the diagnosis, treatment, and management of
-            patients requiring surgical intervention. The department comprises
-            various subspecialties and highly trained healthcare professionals,
-            including surgeons, anesthesiologists, surgical nurses, and support
-            staff. Here is a detailed description of the components and services
-            typically found in a surgery department:
+            General surgery is a medical speciality that helps with the
+            diagnosis and treatment of a wide range of surgical conditions
+            affecting various organs and systems of the body.
           </p>
-          <ol>
-            {/* one section */}
-            <li className="main-heading">
-              <strong>Surgical Consultation and Evaluation:</strong>
+          <p className="top-para">
+            As a leading healthcare provider, we offer a wide range of general
+            surgery services, from routine procedures to complex surgeries, to
+            help you get back to living your best life.
+          </p>
+          <p className="top-para">
+            Our general surgery department is staffed by board-certified
+            surgeons who have years of experience treating patients with a
+            variety of conditions. We use the latest techniques to perform
+            surgeries with precision and accuracy, ensuring the best possible
+            outcomes for our patients.
+          </p>
+          <h2 className="first-heading">
+            We specialise in a range of surgical procedures, including:
+          </h2>
+          <ul className="services-list">
+            <li>
+              <strong>Abdominal surgery -</strong> Our surgeons are skilled in
+              performing a variety of abdominal surgeries, such as appendectomy,
+              cholecystectomy, and hernia repair.
             </li>
-            <ul className="inner-ul">
-              <li>
-                Surgeons conduct initial consultations and evaluations for
-                patients who may require surgical treatment.
-              </li>
-              <li>
-                These consultations involve a thorough review of the patient’s
-                medical history, physical examinations, diagnostic tests, and
-                discussions about the potential benefits and risks of surgery.
-              </li>
-            </ul>
+            <li>
+              <strong>Breast surgery -</strong> We offer a comprehensive range
+              of breast surgery services, including breast biopsy, lumpectomy,
+              and mastectomy.
+            </li>
+            <li>
+              <strong>Colorectal surgery -</strong> Our team of colorectal
+              surgeons is experienced in treating conditions such as colon
+              cancer, diverticulitis, and inflammatory bowel disease.
+            </li>
+            <li>
+              <strong>Endocrine surgery - </strong> We perform surgeries to
+              treat conditions related to the thyroid, parathyroid, and adrenal
+              glands.
+            </li>
+            <li>
+              <strong>Vascular surgery - </strong> Our vascular surgeons
+              specialise in treating conditions affecting the blood vessels,
+              such as aneurysms and peripheral artery disease.
+            </li>
+          </ul>
 
-            {/* second section */}
-            <li className="main-heading">
-              <strong>Preoperative Services:</strong>
+          <h2 className="second-heading">
+            We have some of the latest technologies that are used in general
+            surgery:
+          </h2>
+          <ul className="surgeries-list services-list">
+            <li>
+              <strong>Robotics: </strong>Robotic surgery systems are becoming
+              increasingly popular in general surgery. These systems allow
+              surgeons to perform minimally invasive surgeries with greater
+              precision and accuracy, resulting in less blood loss, reduced
+              scarring, and faster recovery times.
             </li>
-            <ul className="inner-ul">
-              <li>
-                The preoperative area prepares patients for surgery, including
-                medical assessments, anesthesia evaluations, and necessary
-                pre-surgical testing (e.g., blood tests, imaging studies).
-              </li>
-              <li>
-                Preoperative nurses provide patient education, explaining the
-                surgical procedure, postoperative care, and answering any
-                questions or concerns.
-              </li>
-            </ul>
+            <li>
+              <strong>Laparoscopic surgery: </strong>Laparoscopic surgery
+              involves using small incisions and a camera to perform surgeries.
+              This minimally invasive technique reduces the risk of infection,
+              decreases pain and discomfort, and shortens recovery time compared
+              to traditional open surgeries.
+            </li>
+            <li>
+              <strong>3D printing: </strong>It is being used to create
+              customised surgical implants and tools that fit the specific needs
+              of individual patients.
+            </li>
+            <li>
+              <strong>Enhanced Recovery After Surgery (ERAS): </strong>ERAS is a
+              program that involves using a comprehensive approach to surgical
+              care that includes preoperative preparation, intraoperative
+              techniques, and postoperative care. This approach is designed to
+              reduce pain, minimise the risk of complications, and decrease the
+              recovery time.
+            </li>
+            <li>
+              <strong>Image-guided surgery: </strong>Image-guided surgery
+              involves using advanced imaging techniques, such as MRI and CT
+              scans, to create detailed maps of the surgical area. This
+              technology allows surgeons to perform surgeries with greater
+              accuracy and precision, reducing the risk of complications.
+            </li>
+          </ul>
 
-            {/* third section */}
-            <li className="main-heading">
-              <strong>Operating Rooms (OR):</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The heart of the surgery department, operating rooms are
-                equipped with advanced surgical instruments, anesthesia
-                machines, and monitoring equipment to perform various surgical
-                procedures.
-              </li>
-              <li>
-                Each OR is designed to accommodate specific types of surgeries,
-                from minor outpatient procedures to complex, high-risk
-                operations.
-              </li>
-            </ul>
-
-            {/* fourth section */}
-            <li className="main-heading">
-              <strong>Anesthesia Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Anesthesiologists and nurse anesthetists are responsible for
-                administering anesthesia, monitoring patients during surgery,
-                and ensuring pain control and vital stability.
-              </li>
-              <li>
-                They provide different types of anesthesia, including general,
-                regional, and local anesthesia, tailored to the needs of each
-                patient and surgical procedure.
-              </li>
-            </ul>
-
-            {/* fifth section */}
-            <li className="main-heading">
-              <strong>Surgical Specialties:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The surgery department encompasses numerous subspecialties, each
-                focusing on different areas of the body and types of surgery:
-              </li>
-              <ul className="inner-ul">
-                <li>
-                  <strong>General Surgery:</strong>Covers a broad range of
-                  procedures on the abdominal organs, breast, skin, and soft
-                  tissues.
-                </li>
-                <li>
-                  <strong>Orthopedic Surgery:</strong>Focuses on the
-                  musculoskeletal system, including bones, joints, ligaments,
-                  tendons, and muscles.
-                </li>
-                <li>
-                  <strong>Cardiothoracic Surgery:</strong>Involves surgical
-                  treatment of the heart, lungs, and other thoracic (chest)
-                  organs.
-                </li>
-                <li>
-                  <strong>Neurosurgery:</strong>Deals with surgical
-                  interventions on the brain, spinal cord, and nervous system.
-                </li>
-                <li>
-                  <strong>Otolaryngology (ENT):</strong>Specializes in surgeries
-                  of the ear, nose, throat, and related structures of the head
-                  and neck.
-                </li>
-                <li>
-                  <strong>Plastic and Reconstructive Surgery:</strong>
-                  Focuses on reconstructive procedures to repair or restore
-                  appearance and function, as well as cosmetic surgery.
-                </li>
-                <li>
-                  <strong>Vascular Surgery:</strong>Involves surgical treatment
-                  of blood vessels, excluding those of the heart and brain.
-                </li>
-                <li>
-                  <strong>Urological Surgery:</strong>Concerns the urinary tract
-                  and male reproductive organs.
-                </li>
-                <li>
-                  <strong>Gynecological Surgery:</strong>Focuses on the female
-                  reproductive system.
-                </li>
-                <li>
-                  <strong>Pediatric Surgery:</strong>Specializes in surgical
-                  care for infants, children, and adolescents.
-                </li>
-              </ul>
-            </ul>
-
-            {/* sixth section */}
-            <li className="main-heading">
-              <strong>Postoperative Care and Recovery:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                After surgery, patients are transferred to the postoperative
-                recovery area (post-anesthesia care unit, or PACU), where they
-                are closely monitored as they wake from anesthesia.
-              </li>
-              <li>
-                Nurses and healthcare providers in the PACU manage pain, monitor
-                vital signs, and address any immediate postoperative
-                complications.
-              </li>
-            </ul>
-
-            {/* seventh section */}
-            <li className="main-heading">
-              <strong>Intensive Care Unit (ICU):</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Patients who require close monitoring and advanced care
-                following major surgery may be admitted to the ICU.
-              </li>
-              <li>
-                The ICU is equipped with specialized equipment and staffed by
-                critical care specialists who provide continuous monitoring and
-                support.
-              </li>
-            </ul>
-
-            {/* eighth section */}
-            <li className="main-heading">
-              <strong>Ambulatory Surgery and Outpatient Services:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The surgery department often includes facilities for outpatient
-                or same-day surgeries that do not require an overnight hospital
-                stay.
-              </li>
-              <li>
-                These services allow patients to undergo less complex procedures
-                with quicker recovery times and return home the same day.
-              </li>
-            </ul>
-
-            {/* nineth section */}
-            <li className="main-heading">
-              <strong>Minimally Invasive Surgery:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The surgery department increasingly utilizes minimally invasive
-                techniques, such as laparoscopy, endoscopy, and robotic-assisted
-                surgery.
-              </li>
-              <li>
-                These techniques involve smaller incisions, reduced pain,
-                shorter hospital stays, and quicker recovery times compared to
-                traditional open surgery.
-              </li>
-            </ul>
-
-            {/* tenth section */}
-            <li className="main-heading">
-              <strong>Surgical Oncology:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Surgeons specializing in oncology focus on the surgical
-                treatment of cancer, including tumor removal, biopsy, and
-                reconstructive procedures following cancer surgery.
-              </li>
-              <li>
-                They work closely with oncologists, radiologists, and other
-                specialists to provide comprehensive cancer care.
-              </li>
-            </ul>
-
-            {/* eleventh section */}
-            <li className="main-heading">
-              <strong>Trauma Surgery:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Trauma surgeons are specialized in treating patients with acute
-                injuries from accidents, falls, or violence.
-              </li>
-              <li>
-                The trauma team operates in emergency settings to provide
-                life-saving surgical interventions and stabilization.
-              </li>
-            </ul>
-
-            {/* twelveth section */}
-            <li className="main-heading">
-              <strong>Education and Training:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The surgery department plays a significant role in medical
-                education, training surgical residents, fellows, and medical
-                students through rigorous academic programs and hands-on
-                clinical experience.
-              </li>
-              <li>
-                Continuing medical education (CME) and professional development
-                opportunities ensure that surgeons and surgical staff stay
-                updated with the latest advancements and techniques.
-              </li>
-            </ul>
-
-            {/* thirteen section */}
-            <li className="main-heading">
-              <strong>Research and Innovation:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                Many surgery departments are involved in clinical research and
-                trials to advance surgical techniques, improve patient outcomes,
-                and develop new treatments.
-              </li>
-              <li>
-                Research may focus on areas such as surgical robotics, tissue
-                engineering, and enhanced recovery protocols.
-              </li>
-            </ul>
-
-            {/* fourteen section */}
-            <li className="main-heading">
-              <strong>Multidisciplinary Collaboration:</strong>
-            </li>
-            <ul className="inner-ul">
-              <li>
-                The surgery department collaborates with various other
-                departments, including radiology, pathology, oncology, and
-                anesthesiology, to provide comprehensive and coordinated care.
-              </li>
-              <li>
-                Multidisciplinary team meetings (tumor boards, case conferences)
-                ensure that complex cases are reviewed and managed with input
-                from various specialists.
-              </li>
-            </ul>
-          </ol>
           <p className="last-para">
-            Overall, the surgery department in hospitals is a dynamic and
-            essential unit dedicated to providing high-quality surgical care
-            across a broad spectrum of medical conditions, employing advanced
-            technology and techniques to improve patient outcomes and enhance
-            recovery.
+            We understand that undergoing surgery can be a stressful experience,
+            which is why we provide personalised care and support to all of our
+            patients. Our specialists work closely with each patient to develop
+            a customised treatment plan tailored to their unique needs, ensuring
+            that they receive the best possible care from start to finish.
           </p>
         </div>
       </div>

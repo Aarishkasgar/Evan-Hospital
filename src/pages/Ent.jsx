@@ -57,7 +57,7 @@ const Ent = () => {
               and innovative surgical interventions.
             </li>
             <li>
-              <strong>Paediatric ENT:</strong> We understand that children have
+              <strong>Pediatric ENT:</strong> We understand that children have
               unique ENT needs. Our pediatric ENT specialists are trained to
               diagnose and treat a wide array of ear, nose, and throat disorders
               in children. From ear infections and tonsillitis to congenital
