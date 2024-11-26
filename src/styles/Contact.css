@@ -1,0 +1,41 @@
+.contact-container {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-inner-container {
+  width: 85%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  /* gap: 20px; */
+}
+
+.contact-box {
+  background-color: #f9a61a;
+  height: 18vw;
+  width: 26vw;
+  border-radius: 15px;
+  padding: 25px;
+  color: white;
+}
+
+.contact-title {
+  font-size: 2vw;
+  padding: 20px 0 50px 0;
+}
+
+.contact-text {
+  font-size: 1.4vw;
+}
+
+.underline {
+  border: 1px solid white;
+  margin-top: 10px;
+}

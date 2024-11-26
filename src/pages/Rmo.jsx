@@ -4,6 +4,13 @@ import "../styles/Home.css";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
+import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
+import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
+// import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
+import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
+// import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
+import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
+import Rmo7 from "../assets/DepartmentsImg/rmo7.jpg";
 
 const Rmo = () => {
   return (
@@ -32,8 +39,13 @@ const Rmo = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg01}
+              img={Rmo1}
               name="Dr. Hussain"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={Rmo2}
+              name="Dr. Faisal"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
@@ -42,12 +54,7 @@ const Rmo = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr. Faisal"
-              destination="(Resident Medical Officer)"
-            />
-            <DoctorsCard
-              img={DrImg01}
+              img={Rmo4}
               name="Dr. Shamoon"
               destination="(Resident Medical Officer)"
             />
@@ -57,12 +64,12 @@ const Rmo = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={Rmo6}
               name="Dr. Dilshad"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={Rmo7}
               name="Dr. Nisar"
               destination="(Resident Medical Officer)"
             />

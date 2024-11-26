@@ -1,7 +1,7 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import Nalini from "../assets/DepartmentsImg/nalini.jpg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 
@@ -31,7 +31,7 @@ const Counsellor = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg01}
+              img={Nalini}
               name="Nalini Bansal"
               destination="(Counsellor)"
             />

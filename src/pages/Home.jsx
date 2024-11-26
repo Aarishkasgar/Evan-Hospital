@@ -50,6 +50,15 @@ import images15 from "../assets/TPA/images-15.png";
 import images16 from "../assets/TPA/images-16.jpg";
 import WhyChooseUs from "../assets/whychooseus.webp";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+// management images
+import Mgt1 from "../assets/DepartmentsImg/mgt1.jpg";
+// import Mgt2 from "../assets/DepartmentsImg/mgt2.jpg";
+import Mgt3 from "../assets/DepartmentsImg/mgt3.jpg";
+import Mgt4 from "../assets/DepartmentsImg/mgt4.jpg";
+import Mgt5 from "../assets/DepartmentsImg/mgt5.jpg";
+import Mgt6 from "../assets/DepartmentsImg/mgt6.jpg";
+// counsellor image
+import Nalini from "../assets/DepartmentsImg/nalini.jpg";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -286,33 +295,22 @@ const Home = () => {
           <h1>Managements</h1>
           <p>Meet Our Evan Managements</p>
           <div className="our-doctors-container">
+            <DoctorsCard img={Mgt1} name="Mr. Vijay Jain" destination="(CEO)" />
             <DoctorsCard
               img={DrImg01}
-              name="Mr. Vijay Jain"
-              destination="(CEO)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Mr. Vijay Jain (Dalda)"
+              name="Manju Jain"
               destination="(Director)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Mr. Virendra"
-              destination="(COO)"
+              img={Mgt3}
+              name="Mr. Vijay Jain (Dalda)"
+              destination="(Director)"
             />
+            <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(COO)" />
+            <DoctorsCard img={Mgt5} name="Chanchal Gautam" destination="(HR)" />
+
             <DoctorsCard
-              img={DrImg01}
-              name="Chanchal Gautam"
-              destination="(HR)"
-            />
-            <DoctorsCard
-              img={DrImg01}
-              name="Mr. Gourav Singh"
-              destination="(B.D.M.)"
-            />
-            <DoctorsCard
-              img={DrImg01}
+              img={Mgt6}
               name="Dr. Pankaj"
               destination="(Medical Director)"
             />
@@ -388,7 +386,7 @@ const Home = () => {
           <p>Meet Our Evan Counsellor</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg01}
+              img={Nalini}
               name="Nalini Bansal"
               destination="(Counsellor)"
             />
