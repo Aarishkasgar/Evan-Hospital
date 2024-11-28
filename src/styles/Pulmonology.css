@@ -58,6 +58,14 @@
   margin-left: 23px;
 }
 
+.ambl-top-para {
+  margin-top: 20px;
+}
+
+.ambl-underline {
+  border: 1px solid #f9a61a;
+}
+
 /* .main-heading {
   margin: 20px 0;
   color: #f9a61a;

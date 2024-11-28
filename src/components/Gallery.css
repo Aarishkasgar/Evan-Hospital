@@ -1,0 +1,33 @@
+.gallery-container {
+  /* background-color: violet; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery-cards {
+  width: 85%;
+  /* background-color: royalblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.gallery-card {
+  /* background-color: red; */
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-img {
+  /* width: 300px; */
+  height: 180px;
+  border-radius: 10px;
+}

@@ -1,17 +1,14 @@
 import React from "react";
-// import ContactBanner from "../assets/ContactImg/contactbanner.webp";
+import data from "../galleryData";
+import GalleryCards from "../components/GalleryCards";
 
 const Gallery = () => {
+  const galleryData = data;
   return (
     <div>
-      {/* page banner start */}
-      <div className="titlebanner-container">
-        {/* <img src={ContactBanner} className="titlebanner-img" /> */}
-        <div className="titlebanner-content">
-          <h1 className="titlebanner-title">Gallery</h1>
-        </div>
+      <div className="app">
+        <GalleryCards galleryData={galleryData} />
       </div>
-      {/* page banner end */}
     </div>
   );
 };

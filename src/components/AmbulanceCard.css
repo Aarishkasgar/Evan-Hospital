@@ -1,0 +1,25 @@
+.ambulance-card {
+  background-color: #f7f7f7;
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  border-bottom: 2px solid #01597d;
+}
+
+.ambulance-card h3 {
+  margin: 10px 0 20px 0;
+  font-size: 1.5vw;
+  color: #616161;
+  /* font-family: "Lato", sans-serif; */
+}
+
+.ambulance-card p {
+  font-size: 1.3vw;
+  color: #616161;
+}
+
+/* .ambulance-card:hover * {
+  color: black;
+  transition: 0.5s;
+} */

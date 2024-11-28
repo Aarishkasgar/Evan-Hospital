@@ -1,0 +1,84 @@
+.ambulanceService-container {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.ambulanceService-inner-container {
+  width: 85%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ambulanceService-left {
+  width: 60%;
+}
+
+.ambulanceService-left h2 {
+  font-size: 2.2vw;
+  margin-bottom: 20px;
+  color: #01597d;
+}
+
+.ambulanceService-left p {
+  font-size: 1.2vw;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding-right: 50px;
+  line-height: 1.6;
+  color: #616161;
+}
+
+.ambulanceService-right {
+  width: 40%;
+}
+
+.ambulanceService-right img {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* banner */
+
+.ambulanceService-Banner {
+  background-color: #f9a61a;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.ambulanceService-inner-container {
+  width: 85%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ambulanceService-left {
+  width: 60%;
+}
+
+.AS-banner-title {
+  font-size: 2.2vw;
+  margin-bottom: 20px;
+  color: white !important;
+}
+
+.AS-banner-para {
+  font-size: 1.2vw;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding-right: 50px;
+  line-height: 1.6;
+  color: white !important;
+}
+
+.ambulanceService-right {
+  width: 40%;
+}

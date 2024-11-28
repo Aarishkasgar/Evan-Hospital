@@ -2,8 +2,8 @@
 
 .navtop-container {
   width: 100%;
-  background-color: #f9a61a;
-  height: 40px;
+  background-color: #01597d;
+  /* height: 40px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,9 +11,10 @@
 
 .navtop-inner-container {
   color: white;
-  font-size: 2.3rem;
+  font-size: 1.3vw;
   width: 85%;
-  height: 40px;
+  padding: 15px 0;
+  /* height: 40px; */
   /* background-color: aqua; */
   display: flex;
   align-items: center;
