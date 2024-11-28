@@ -26,7 +26,7 @@ import InsuranceTPA from "./pages/InsuranceTPA";
 import AmbulanceService from "./pages/AmbulanceService";
 import Radiology from "./pages/Radiology";
 import Ayushman from "./pages/Ayushman";
-import Specialities from "./pages/Specialities";
+// import Specialities from "./pages/Specialities";
 import InternationalPatients from "./pages/InternationalPatients";
 import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
@@ -63,7 +63,7 @@ const App = () => {
           <Route path="/ambulance-service" element={<AmbulanceService />} />
           <Route path="/radiology" element={<Radiology />} />
           <Route path="/ayushman" element={<Ayushman />} />
-          <Route path="/specialities" element={<Specialities />} />
+          {/* <Route path="/specialities" element={<Specialities />} /> */}
           <Route
             path="/international-patients"
             element={<InternationalPatients />}
