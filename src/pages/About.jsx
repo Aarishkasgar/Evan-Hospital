@@ -12,12 +12,17 @@ const About = () => {
   return (
     <>
       {/* page banner start */}
-      <div className="titlebanner-container">
+      <div className="aboutUs-banner">
+        <div className="aboutUs-inner-banner">
+          <h1>About Us</h1>
+        </div>
+      </div>
+      {/* <div className="titlebanner-container">
         <img src={banner} className="titlebanner-img" />
         <div className="titlebanner-content">
           <h1 className="titlebanner-title">About Us</h1>
         </div>
-      </div>
+      </div> */}
       {/* page banner end */}
       {/* about us start */}
       <div className="about-container">

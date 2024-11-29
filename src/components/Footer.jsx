@@ -11,57 +11,45 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-inner-container">
         <div className="footer-box">
-          <img src={EvanLogo} height={100} />
+          <img src={EvanLogo} />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
-            impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eum, impedit.
+            Near Kiran City 4th Km, Bhopa Rd, Muzaffarnagar, Uttar Pradesh
+            251001
           </p>
-          <p>Call us: +91 70786-93040</p>
-          <p>Mail us: evan@evan.com</p>
-          <p>Follow us on social media:</p>
+        </div>
+        <div className="footer-box footer-box2">
+          <h4 className="footer-title">STAY IN TOUCH</h4>
           <div className="SM-footer-box">
             <span className="SM-footer-icon">
               <a href="#">
-                <FacebookRoundedIcon style={{ fontSize: 45 }} />
+                <FacebookRoundedIcon style={{ fontSize: 40 }} />
               </a>
             </span>
             <span className="SM-footer-icon">
               <a href="#">
-                <InstagramIcon className="SMF-icon" style={{ fontSize: 40 }} />
+                <InstagramIcon className="SMF-icon" style={{ fontSize: 35 }} />
               </a>
             </span>
             <span className="SM-footer-icon">
               <a href="#">
-                <YouTubeIcon className="SMF-icon" style={{ fontSize: 40 }} />
+                <YouTubeIcon className="SMF-icon" style={{ fontSize: 35 }} />
               </a>
             </span>
             <span className="SM-footer-icon">
               <a href="#">
-                <XIcon className="SMF-icon" style={{ fontSize: 35 }} />
+                <XIcon className="SMF-icon" style={{ fontSize: 30 }} />
               </a>
             </span>
           </div>
         </div>
-        <div className="footer-box footer-box2">
-          <h2 className="footer-title">About Hospital</h2>
-          <ul className="footer-nav">
-            <li>Home</li>
-            <li>About</li>
-            <li>Our Doctors</li>
-            <li>Department</li>
-            <li>Services</li>
-          </ul>
-        </div>
-        <div className="footer-box footer-box2">
-          <h2 className="footer-title">Help & Support</h2>
-          <ul className="footer-nav">
-            <li>Home</li>
-            <li>About</li>
-            <li>Our Doctors</li>
-            <li>Department</li>
-            <li>Services</li>
-          </ul>
+        <div className="footer-box">
+          <p className="footer-para">
+            <strong>Call us: </strong>+91 9068995077, +91 7088002601, <br />
+            +91 7078693040
+          </p>
+          <p className="footer-para">
+            © 2025 Evan Healthcare. All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>

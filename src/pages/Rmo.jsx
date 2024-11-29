@@ -6,7 +6,7 @@ import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
 import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
-// import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
+import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
 import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
 // import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
 import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
@@ -49,7 +49,7 @@ const Rmo = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={Rmo3}
               name="Dr. Farman"
               destination="(Resident Medical Officer)"
             />

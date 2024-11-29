@@ -13,7 +13,7 @@ import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
 import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
 import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
 import DrImg10 from "../assets/DoctorsImg/DrImg10.jpg";
-import DrImg11 from "../assets/DoctorsImg/DrImg11.jpeg";
+import DrImg11 from "../assets/DoctorsImg/DrImg11.jpg";
 import DrImg12 from "../assets/DoctorsImg/DrImg12.jpeg";
 
 const DrInHospital = () => {
@@ -100,7 +100,7 @@ const DrInHospital = () => {
             />
             <DoctorsCard
               img={DrImg11}
-              name="Dr Intekhab"
+              name="Dr Yashasvi"
               degree="MBBS"
               destination="(Physician)"
             />

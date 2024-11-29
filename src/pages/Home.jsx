@@ -59,6 +59,14 @@ import Mgt5 from "../assets/DepartmentsImg/mgt5.jpg";
 import Mgt6 from "../assets/DepartmentsImg/mgt6.jpg";
 // counsellor image
 import Nalini from "../assets/DepartmentsImg/nalini.jpg";
+// rmo
+import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
+import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
+import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
+import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
+// import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
+import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
+import Rmo7 from "../assets/DepartmentsImg/rmo7.jpg";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -67,8 +75,26 @@ const Home = () => {
     navigate("/cardiology");
   }
 
-  function clickAllHandler1() {
-    navigate("/specialities");
+  function orthoHandler() {
+    navigate("/orthopedics");
+  }
+  function neuroHandler() {
+    navigate("/neurology");
+  }
+  function pulmoHandler() {
+    navigate("/pulmonology");
+  }
+  function surgeryHandler() {
+    navigate("/surgery");
+  }
+  function gyneHandler() {
+    navigate("/gynecology");
+  }
+  function entHandler() {
+    navigate("/ENT");
+  }
+  function internalHandler() {
+    navigate("/internal-medicins");
   }
 
   function moveAboutHandler() {
@@ -89,6 +115,10 @@ const Home = () => {
   }
   function moveNursesHandler() {
     navigate("/nurses");
+  }
+
+  function movetpaHandler() {
+    navigate("/insurance-tpa");
   }
 
   return (
@@ -179,29 +209,46 @@ const Home = () => {
               <div onClick={clickHandler}>
                 <SpecialitiesBox img={Cardia} h1="Cardiac Science" />
               </div>
-              <SpecialitiesBox img={Orthoimg} h1="Orthopedics" />
-              <SpecialitiesBox img={Neurosciences} h1="Neurosciences" />
-              <SpecialitiesBox img={Pulmonology} h1="Pulmonology" />
+              <div onClick={orthoHandler}>
+                <SpecialitiesBox img={Orthoimg} h1="Orthopedics" />
+              </div>
+              <div onClick={neuroHandler}>
+                <SpecialitiesBox img={Neurosciences} h1="Neurosciences" />
+              </div>
+              <div onClick={pulmoHandler}>
+                <SpecialitiesBox img={Pulmonology} h1="Pulmonology" />
+              </div>
 
               {/* <SpecialitiesBox img={Cardia} h1="Surgery" /> */}
             </div>
             <div className="SpecialitiesBox2">
-              <SpecialitiesBox img={Surgary} h1="Surgery" />
-              <SpecialitiesBox img={Gynecology} h1="Gynecology" />
-              <SpecialitiesBox img={ent} h1="ENT" />
-              <SpecialitiesBox img={InternalMedicine} h1="Internal Medicine" />
+              <div onClick={surgeryHandler}>
+                <SpecialitiesBox img={Surgary} h1="Surgery" />
+              </div>
+              <div onClick={gyneHandler}>
+                <SpecialitiesBox img={Gynecology} h1="Gynecology" />
+              </div>
+              <div onClick={entHandler}>
+                <SpecialitiesBox img={ent} h1="ENT" />
+              </div>
+              <div onClick={internalHandler}>
+                <SpecialitiesBox
+                  img={InternalMedicine}
+                  h1="Internal Medicine"
+                />
+              </div>
 
               {/* <SpecialitiesBox img={Cardia} h1="Nephrology" /> */}
             </div>
           </div>
-          <div className="HS-viewBtn">
+          {/* <div className="HS-viewBtn">
             <button
               onClick={clickAllHandler1}
               className="Home-Specialities-viewButton"
             >
               View All &gt;
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="home-specialities-right">
           <img src={doctorConsultImg} className="hsr-img" />
@@ -408,22 +455,22 @@ const Home = () => {
           <p>Meet Our Evan RMO</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg01}
+              img={Rmo1}
               name="Dr. Hussain"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
-              name="Dr. Farman"
-              destination="(Resident Medical Officer)"
-            />
-            <DoctorsCard
-              img={DrImg01}
+              img={Rmo2}
               name="Dr. Faisal"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={Rmo3}
+              name="Dr. Farman"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={Rmo4}
               name="Dr. Shamoon"
               destination="(Resident Medical Officer)"
             />
@@ -433,8 +480,13 @@ const Home = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={Rmo6}
               name="Dr. Dilshad"
+              destination="(Resident Medical Officer)"
+            />
+            <DoctorsCard
+              img={Rmo7}
+              name="Dr. Nisar"
               destination="(Resident Medical Officer)"
             />
           </div>
@@ -496,6 +548,9 @@ const Home = () => {
               <img src={images16} />
             </marquee>
           </div>
+          <button className="hospital-welcome-button" onClick={movetpaHandler}>
+            View More
+          </button>
         </div>
       </section>
 

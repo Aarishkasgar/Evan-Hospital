@@ -12,12 +12,17 @@ const Contact = () => {
   return (
     <div>
       {/* page banner start */}
-      <div className="titlebanner-container">
+      <div className="aboutUs-banner">
+        <div className="aboutUs-inner-banner">
+          <h1>Contact</h1>
+        </div>
+      </div>
+      {/* <div className="titlebanner-container">
         <img src={ContactBanner} className="titlebanner-img" />
         <div className="titlebanner-content">
           <h1 className="titlebanner-title">Contact Us</h1>
         </div>
-      </div>
+      </div> */}
       {/* page banner end */}
       <div className="contact-container">
         <div className="contact-inner-container">

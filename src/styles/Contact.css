@@ -18,8 +18,8 @@
 }
 
 .contact-box {
-  background-color: #f9a61a;
-  height: 18vw;
+  background-color: #01597d;
+  /* height: 18vw; */
   width: 26vw;
   border-radius: 15px;
   padding: 25px;
@@ -28,7 +28,7 @@
 
 .contact-title {
   font-size: 2vw;
-  padding: 20px 0 50px 0;
+  padding: 1.5vw 0 2vw 0;
 }
 
 .contact-text {
