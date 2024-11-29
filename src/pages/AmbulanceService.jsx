@@ -11,13 +11,6 @@ import AmbulanceImg from "../assets/AmbulanceImg/ambulanceimg.jpg";
 const AmbulanceService = () => {
   return (
     <div>
-      {/* <SpecialitiesBanner
-        title="(Call +91 7088002628)"
-        text="Ambulance Services"
-        img={LungImg}
-      /> */}
-      {/* <BookAppointment /> */}
-
       <div className="ambulanceService-container ambulanceService-Banner">
         <div className="ambulanceService-inner-container">
           <div className="ambulanceService-left">
