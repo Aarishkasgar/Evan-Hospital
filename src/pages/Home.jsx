@@ -31,23 +31,26 @@ import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import NearMeIcon from "@mui/icons-material/NearMe";
 import Accreditation from "../assets/Accreditation.webp";
-import TestimonialCard from "../components/TestimonialCard";
-import images1 from "../assets/TPA/images-1.png";
-import images2 from "../assets/TPA/images-2.png";
-import images3 from "../assets/TPA/images-3.png";
-import images4 from "../assets/TPA/images-4.png";
-import images5 from "../assets/TPA/images-5.png";
-import images6 from "../assets/TPA/images-6.png";
-import images7 from "../assets/TPA/images-7.png";
-import images8 from "../assets/TPA/images-8.png";
-import images9 from "../assets/TPA/images-9.webp";
-import images10 from "../assets/TPA/images-10.png";
-import images11 from "../assets/TPA/images-11.png";
-import images12 from "../assets/TPA/images-12.png";
-import images13 from "../assets/TPA/images-13.png";
+import Testimonials from "../components/Testimonials";
+import images1 from "../assets/TPA/images-1.jpg";
+import images2 from "../assets/TPA/images-2.jpg";
+import images3 from "../assets/TPA/images-3.jpg";
+import images4 from "../assets/TPA/images-4.jpg";
+import images5 from "../assets/TPA/images-5.jpg";
+import images6 from "../assets/TPA/images-6.jpg";
+import images7 from "../assets/TPA/images-7.jpg";
+import images8 from "../assets/TPA/images-8.jpg";
+import images9 from "../assets/TPA/images-9.jpg";
+import images10 from "../assets/TPA/images-10.jpg";
+import images11 from "../assets/TPA/images-11.jpg";
+import images12 from "../assets/TPA/images-12.jpg";
+import images13 from "../assets/TPA/images-13.jpg";
 import images14 from "../assets/TPA/images-14.jpg";
-import images15 from "../assets/TPA/images-15.png";
+import images15 from "../assets/TPA/images-15.jpg";
 import images16 from "../assets/TPA/images-16.jpg";
+import images17 from "../assets/TPA/images-17.jpg";
+import images18 from "../assets/TPA/images-18.jpg";
+import images19 from "../assets/TPA/images-19.jpg";
 import WhyChooseUs from "../assets/whychooseus.webp";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 // management images
@@ -342,7 +345,11 @@ const Home = () => {
           <h1>Managements</h1>
           <p>Meet Our Evan Managements</p>
           <div className="our-doctors-container">
-            <DoctorsCard img={Mgt1} name="Mr. Vijay Jain" destination="(CEO)" />
+            <DoctorsCard
+              img={Mgt1}
+              name="Mr. Vijay Jain"
+              destination="(C.E.O)"
+            />
             <DoctorsCard
               img={DrImg01}
               name="Manju Jain"
@@ -353,8 +360,12 @@ const Home = () => {
               name="Mr. Vijay Jain (Dalda)"
               destination="(Director)"
             />
-            <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(COO)" />
-            <DoctorsCard img={Mgt5} name="Chanchal Gautam" destination="(HR)" />
+            <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(C.O.O)" />
+            <DoctorsCard
+              img={Mgt5}
+              name="Chanchal Gautam"
+              destination="(Administrator)"
+            />
 
             <DoctorsCard
               img={Mgt6}
@@ -546,6 +557,9 @@ const Home = () => {
               <img src={images14} />
               <img src={images15} />
               <img src={images16} />
+              <img src={images17} />
+              <img src={images18} />
+              <img src={images19} />
             </marquee>
           </div>
           <button className="hospital-welcome-button" onClick={movetpaHandler}>
@@ -554,20 +568,9 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Evan Testimonial */}
-      <section className="testimonial-container">
-        <div className="testimonial-inner-container">
-          <div className="testimonial-title">
-            <h3>TESTIMONIAL</h3>
-            <h1>What Our Patients Say</h1>
-          </div>
-          <div className="testimonial-box">
-            <marquee behavior="scroll" direction="right" scrollamount="0">
-              <TestimonialCard />
-            </marquee>
-          </div>
-        </div>
-      </section>
+      <div>
+        <Testimonials />
+      </div>
     </>
   );
 };

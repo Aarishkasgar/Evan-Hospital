@@ -36,7 +36,11 @@ const Managements = () => {
             standards in healthcare services.
           </p>
           <div className="our-doctors-container">
-            <DoctorsCard img={Mgt1} name="Mr. Vijay Jain" destination="(CEO)" />
+            <DoctorsCard
+              img={Mgt1}
+              name="Mr. Vijay Jain"
+              destination="(C.E.O)"
+            />
             <DoctorsCard
               img={DrImg01}
               name="Manju Jain"
@@ -47,8 +51,12 @@ const Managements = () => {
               name="Mr. Vijay Jain (Dalda)"
               destination="(Director)"
             />
-            <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(COO)" />
-            <DoctorsCard img={Mgt5} name="Chanchal Gautam" destination="(HR)" />
+            <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(C.O.O)" />
+            <DoctorsCard
+              img={Mgt5}
+              name="Chanchal Gautam"
+              destination="(Administrator)"
+            />
 
             <DoctorsCard
               img={Mgt6}

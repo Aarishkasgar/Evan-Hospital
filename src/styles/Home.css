@@ -482,34 +482,6 @@
 }
 
 .TPA-logo img {
-  height: 150px;
+  height: 100px;
   margin-right: 50px;
-}
-
-/* Evan Testimonial CSS start */
-
-.testimonial-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: #01597d; */
-  padding: 50px 0;
-}
-
-.testimonial-inner-container {
-  width: 85%;
-  /* background-color: #f9a61a; */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 1.7vw;
-  gap: 50px;
-}
-
-.testimonial-box {
-  width: 100%;
-  background-color: #6e778c;
 }
