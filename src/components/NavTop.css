@@ -22,3 +22,12 @@
   /* font-family: "Open Sans", serif; */
   font-family: "Lato", sans-serif;
 }
+
+@media (max-width: 600px) {
+  .nav-top-hidden {
+    display: none;
+  }
+  .navtop-inner-container h5 {
+    font-size: 2.4vw;
+  }
+}

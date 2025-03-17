@@ -4,15 +4,16 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import Menu from "./Menu";
 import evanlogo from "../../assets/evan-logo.png";
+import "../Navigation/NavRes.css";
 const Navbar = ({ toggleDrawer, routes }) => {
   return (
     <SNavbar>
-      <NavContainer>
-        <DrawerButton onClick={toggleDrawer}>
-          <FaBars />
+      <NavContainer className="nav-container">
+        <DrawerButton onClick={toggleDrawer} className="drawer-btn">
+          <FaBars className="FaBars-line"/>
         </DrawerButton>
-        <SNavbarBrand>
-          <img src={evanlogo} alt="logo" width={100} />
+        <SNavbarBrand className="logo-brand">
+          <img src={evanlogo} alt="logo" width={100} className="evan-logo"/>
         </SNavbarBrand>
         <RightNav>
           <NavRoutes>
@@ -27,7 +28,7 @@ const Navbar = ({ toggleDrawer, routes }) => {
               );
             })}
           </NavRoutes>
-          <LoginButton>
+          <LoginButton className="nav-login-btn">
             <a
               href="http://192.168.0.146:1082/viphahms/doctorwiseopdprocedurereport/index"
               className="NavLoginBtn"

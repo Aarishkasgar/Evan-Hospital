@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  .NavLoginBtn {
+    font-size: 4vw;
+  }
+  .nav-login-btn {
+    margin-right: 4vw;
+  }
+  .FaBars-line {
+    margin-left: 4vw;
+    font-size: 7vw;
+  }
+  .logo-brand {
+    margin-left: 8vw;
+  }
+
+  .evan-logo {
+    width: 23vw;
+  }
+}

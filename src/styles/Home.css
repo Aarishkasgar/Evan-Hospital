@@ -485,3 +485,23 @@
   height: 100px;
   margin-right: 50px;
 }
+
+/* Responsiv Code Start */
+
+@media (max-width: 600px) {
+  .hero-inner-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #00796b;
+  }
+  .hero-content-box {
+    width: 100%;
+    background-color: #8fbcd4;
+  }
+  .hero-content-box h3 {
+    font-size: 5vw;
+  }
+  .hero-content-box h1 {
+    font-size: 5.5vw;
+  }
+}

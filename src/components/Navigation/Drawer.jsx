@@ -8,7 +8,7 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
       {isOpen && <Backdrop onClick={toggleDrawer} />}
       <SDrawer isOpen={isOpen}>
         <RightNav>
-          <SNavbarBrand>LOGO</SNavbarBrand>
+          <SNavbarBrand>Evan Hospital</SNavbarBrand>
           <NavRoutes>
             {routes.map((route) => {
               if (route.subRoutes) {
