@@ -1,9 +1,25 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+// import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
+//nurse images
+import Nurse1 from "../assets/NurseImg/nurse1.jpg";
+import Nurse2 from "../assets/NurseImg/nurse2.jpg";
+import Nurse3 from "../assets/NurseImg/nurse3.jpg";
+import Nurse4 from "../assets/NurseImg/nurse4.jpg";
+import Nurse5 from "../assets/NurseImg/nurse5.jpg";
+import Nurse6 from "../assets/NurseImg/nurse6.jpg";
+import Nurse7 from "../assets/NurseImg/nurse7.jpg";
+import Nurse8 from "../assets/NurseImg/nurse8.jpg";
+import Nurse9 from "../assets/NurseImg/nurse9.jpg";
+import Nurse10 from "../assets/NurseImg/nurse10.jpg";
+import Nurse11 from "../assets/NurseImg/nurse11.jpg";
+import Nurse12 from "../assets/NurseImg/nurse12.jpg";
+import Nurse13 from "../assets/NurseImg/nurse13.jpg";
+import Nurse14 from "../assets/NurseImg/nurse14.jpg";
+import Nurse15 from "../assets/NurseImg/nurse15.jpg";
 
 const Nurses = () => {
   return (
@@ -30,34 +46,34 @@ const Nurses = () => {
             standards in healthcare services.
           </p>
           <div className="our-doctors-container">
-            <DoctorsCard img={DrImg01} name="Sana" destination="(Head)" />
-            <DoctorsCard img={DrImg01} name="Deepausi" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Himanshi" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Sidra" destination="(Nurse)" />
+            <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
+            <DoctorsCard img={Nurse2} name="Deepausi" destination="(Nurse)" />
+            <DoctorsCard img={Nurse3} name="Himanshi" destination="(Nurse)" />
+            <DoctorsCard img={Nurse4} name="Sidra" destination="(Nurse)" />
             <DoctorsCard
-              img={DrImg01}
+              img={Nurse5}
               name="Sristi"
               destination="(Counsellor)"
             />
-            <DoctorsCard img={DrImg01} name="Annu" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Ekta" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Preeti" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Zainab" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Deepmala" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Deepak" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Himanshu" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Praveen" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Sahile" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Irfan" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Pankaj" destination="(Nurse)" />
+            <DoctorsCard img={Nurse6} name="Annu" destination="(Nurse)" />
+            <DoctorsCard img={Nurse7} name="Ekta" destination="(Nurse)" />
+            <DoctorsCard img={Nurse8} name="Preeti" destination="(Nurse)" />
+            <DoctorsCard img={Nurse9} name="Zainab" destination="(Nurse)" />
+            <DoctorsCard img={Nurse10} name="Deepmala" destination="(Nurse)" />
+            <DoctorsCard img={Nurse11} name="Deepak" destination="(Nurse)" />
+            <DoctorsCard img={Nurse12} name="Himanshu" destination="(Nurse)" />
+            <DoctorsCard img={Nurse13} name="Praveen" destination="(Nurse)" />
+            <DoctorsCard img={Nurse14} name="Sahile" destination="(Nurse)" />
+            <DoctorsCard img={Nurse15} name="Irfan" destination="(Nurse)" />
+            <DoctorsCard img={Nurse1} name="Pankaj" destination="(Nurse)" />
             <DoctorsCard
-              img={DrImg01}
+              img={Nurse12}
               name="Ilahi Jaan"
               destination="(Nurse)"
             />
-            <DoctorsCard img={DrImg01} name="Mohit" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Rashid" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Reeta" destination="(Nurse)" />
+            <DoctorsCard img={Nurse13} name="Mohit" destination="(Nurse)" />
+            <DoctorsCard img={Nurse14} name="Rashid" destination="(Nurse)" />
+            <DoctorsCard img={Nurse15} name="Reeta" destination="(Nurse)" />
           </div>
         </div>
       </section>

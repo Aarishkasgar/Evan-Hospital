@@ -55,7 +55,7 @@ import WhyChooseUs from "../assets/whychooseus.webp";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 // management images
 import Mgt1 from "../assets/DepartmentsImg/mgt1.jpg";
-// import Mgt2 from "../assets/DepartmentsImg/mgt2.jpg";
+import Mgt2 from "../assets/DepartmentsImg/mgt2.jpg";
 import Mgt3 from "../assets/DepartmentsImg/mgt3.jpg";
 import Mgt4 from "../assets/DepartmentsImg/mgt4.jpg";
 import Mgt5 from "../assets/DepartmentsImg/mgt5.jpg";
@@ -70,6 +70,13 @@ import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
 // import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
 import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
 import Rmo7 from "../assets/DepartmentsImg/rmo7.jpg";
+// nurse images
+import Nurse1 from "../assets/NurseImg/nurse1.jpg";
+import Nurse2 from "../assets/NurseImg/nurse2.jpg";
+import Nurse3 from "../assets/NurseImg/nurse3.jpg";
+import Nurse4 from "../assets/NurseImg/nurse4.jpg";
+import Nurse5 from "../assets/NurseImg/nurse5.jpg";
+import Nurse6 from "../assets/NurseImg/nurse6.jpg";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -351,7 +358,7 @@ const Home = () => {
               destination="(C.E.O)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={Mgt2}
               name="Manju Jain"
               destination="(Director)"
             />
@@ -514,12 +521,12 @@ const Home = () => {
           <h1>Nurses</h1>
           <p>Meet Our Evan Nurses</p>
           <div className="our-doctors-container">
-            <DoctorsCard img={DrImg01} name="Sana" destination="(Head)" />
-            <DoctorsCard img={DrImg01} name="Deepausi" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Himanshi" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Sidra" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Sristi" destination="(Nurse)" />
-            <DoctorsCard img={DrImg01} name="Annu" destination="(Nurse)" />
+            <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
+            <DoctorsCard img={Nurse2} name="Deepausi" destination="(Nurse)" />
+            <DoctorsCard img={Nurse3} name="Himanshi" destination="(Nurse)" />
+            <DoctorsCard img={Nurse4} name="Sidra" destination="(Nurse)" />
+            <DoctorsCard img={Nurse5} name="Sristi" destination="(Nurse)" />
+            <DoctorsCard img={Nurse6} name="Rida" destination="(Nurse)" />
           </div>
           <button
             className="hospital-welcome-button"
