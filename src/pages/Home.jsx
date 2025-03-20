@@ -142,11 +142,14 @@ const Home = () => {
               Muzaffarnagar
             </h1>
 
-            <p>
-              <AccessTimeFilledIcon style={{ fontSize: 35 }} />
+            <p className="hero-icon">
+              <AccessTimeFilledIcon
+                style={{ fontSize: 35 }}
+                className="timeicon-size"
+              />
               Open 24/7
             </p>
-            <p>
+            <p className="hero-icon-2">
               <a
                 href="https://maps.app.goo.gl/VEYqE8XpBKEDTF5b6"
                 className="getLink"
