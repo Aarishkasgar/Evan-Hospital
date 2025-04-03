@@ -24,6 +24,7 @@ const About = () => {
         </div>
       </div> */}
       {/* page banner end */}
+
       {/* about us start */}
       <div className="about-container">
         <div className="about-inner-container">
@@ -60,7 +61,7 @@ const About = () => {
                 }
                 valuetitle="Compassion"
                 valuecontent="We treat every individual with kindness, empathy, and respect,
-          understanding the unique needs and concerns of each patient."
+                understanding the unique needs and concerns of each patient."
               />
               <CoreValueItem
                 valueicon={

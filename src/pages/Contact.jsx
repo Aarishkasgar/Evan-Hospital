@@ -27,22 +27,26 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-inner-container">
           <div className="contact-box">
-            <MailIcon style={{ fontSize: 40 }} />
+            <MailIcon style={{ fontSize: 50 }} />
             <hr className="underline" />
             <h2 className="contact-title">Mail us 24/7</h2>
-            <p className="contact-text">evanhealthcare@gmail.com</p>
+            <p className="contact-text">info@evanhealthcare.com</p>
           </div>
           <div className="contact-box">
-            <CallIcon style={{ fontSize: 40 }} />
+            <CallIcon style={{ fontSize: 50 }} />
             <hr className="underline" />
             <h2 className="contact-title">Call us 24/7</h2>
-            <p className="contact-text">Phone: +91 9068995077</p>
             <p className="contact-text">
-              Mobile: +91 7088002601 | <br /> +91 7078693040
+              <strong>Emgergency:</strong>
+              <br /> +91 9068995077
+            </p>
+            <p className="contact-text">
+              <strong>Mobile:</strong>
+              <br /> +91 7088002601 | +91 7078693040
             </p>
           </div>
           <div className="contact-box">
-            <LocationOnIcon style={{ fontSize: 40 }} />
+            <LocationOnIcon style={{ fontSize: 50 }} />
             <hr className="underline" />
             <h2 className="contact-title">Our Address</h2>
             <p className="contact-text">

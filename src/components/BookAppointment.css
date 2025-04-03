@@ -36,3 +36,25 @@
   text-decoration: none;
   color: white;
 }
+
+/* media query css start */
+@media (max-width: 600px) {
+  .BA-container {
+    /* height: 80px; */
+  }
+  .BA-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: aqua; */
+    padding: 50px 0;
+  }
+  .BA-inner-container h2 {
+    font-size: 6vw;
+  }
+  .BA-inner-container p {
+    font-size: 4.5vw;
+  }
+}

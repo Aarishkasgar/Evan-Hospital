@@ -16,3 +16,17 @@
   font-size: 1.1vw;
   color: #616161;
 }
+
+/* media query start */
+
+@media (max-width: 600px) {
+  .corevalue-item {
+    /* background-color:thistle; */
+  }
+  .corevalue-item h3 {
+    font-size: 6vw;
+  }
+  .corevalue-item p {
+    font-size: 4vw;
+  }
+}

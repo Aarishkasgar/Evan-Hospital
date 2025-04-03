@@ -21,17 +21,17 @@ const Footer = () => {
           <h4 className="footer-title">STAY IN TOUCH</h4>
           <div className="SM-footer-box">
             <span className="SM-footer-icon">
-              <a href="#">
+              <a href="https://www.facebook.com/EvanMultispeciality/">
                 <FacebookRoundedIcon style={{ fontSize: 40 }} />
               </a>
             </span>
             <span className="SM-footer-icon">
-              <a href="#">
+              <a href="https://www.instagram.com/evanhealthcare?igsh=cnlmb2d6ZXZyY2Zl">
                 <InstagramIcon className="SMF-icon" style={{ fontSize: 35 }} />
               </a>
             </span>
             <span className="SM-footer-icon">
-              <a href="#">
+              <a href="https://youtube.com/@evanhealthcare?si=DqGiDucJRaktP2lA">
                 <YouTubeIcon className="SMF-icon" style={{ fontSize: 35 }} />
               </a>
             </span>
@@ -47,7 +47,7 @@ const Footer = () => {
             <strong>Call us: </strong>+91 9068995077, +91 7088002601, <br />
             +91 7078693040
           </p>
-          <p className="footer-para">
+          <p className="footer-para footer-para-res">
             © 2025 Evan Healthcare. All Rights Reserved.
           </p>
         </div>

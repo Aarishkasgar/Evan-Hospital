@@ -162,3 +162,70 @@
   margin: 10px 0 25px 0;
 }
 /* Medical services css end */
+
+/* media query start */
+@media (max-width: 600px) {
+  .about-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-left {
+    width: 100%;
+    height: 55vw;
+    background: url(../assets/AboutPage/evanceo.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .about-right {
+    width: 100%;
+  }
+  .about-right p {
+    font-size: 5vw;
+  }
+  .corevalues-container {
+    /* background-color: aquamarine; */
+  }
+  .corevalues-title {
+    font-size: 6vw;
+    width: 60vw;
+  }
+  .corevalues-content {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .corevalues-left {
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .corevalues-left img {
+    width: 80vw;
+  }
+  .corevalues-right {
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+  }
+  .valueinner-right {
+    /* background-color: chocolate; */
+  }
+  .medicalservices-left h3 {
+    font-size: 5vw;
+    /* font-weight: 700; */
+  }
+  .medicalservices-left h1 {
+    font-size: 6.5vw;
+  }
+  .medicalservices-left p {
+    font-size: 4vw;
+  }
+}

@@ -7,3 +7,14 @@
   font-size: 1.3vw !important;
   color: #f9a61a;
 }
+
+/* media query css start */
+
+@media (max-width: 600px) {
+  .AUS-title {
+    font-size: 4vw !important;
+  }
+  .AUS-para {
+    font-size: 3vw !important;
+  }
+}
