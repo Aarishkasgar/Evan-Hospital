@@ -20,3 +20,16 @@
 .Specialities-box h2 {
   color: #01597d;
 }
+
+/* media query start */
+@media (max-width: 600px) {
+  .Specialities-box {
+    width: 80vw;
+  }
+  .Specialities-box img {
+    width: 8vw;
+  }
+  .Specialities-box h2 {
+    font-size: 5vw;
+  }
+}

@@ -38,3 +38,20 @@
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
+
+/* media query start */
+@media (max-width: 600px) {
+  .project-facts-box {
+    /* background-color: var(--bg2); */
+    /* text-align: center; */
+  }
+  .project-facts-box img {
+    height: 40vw;
+  }
+  .project-facts-box h2 {
+    font-size: 8vw;
+  }
+  .project-facts-box p {
+    font-size: 5vw;
+  }
+}
