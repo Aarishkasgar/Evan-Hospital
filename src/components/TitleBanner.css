@@ -48,3 +48,14 @@
 .rmo-title {
   color: white !important;
 }
+
+/* media query start */
+
+@media (max-width: 600px) {
+  .titlebanner-container {
+    height: 25vh;
+  }
+  .titlebanner-title {
+    font-size: 10vw;
+  }
+}

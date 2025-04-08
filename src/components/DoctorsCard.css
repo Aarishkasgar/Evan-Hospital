@@ -13,3 +13,18 @@
   /* width: 250px; */
   /* border-radius: 50%; */
 }
+
+/* media query start */
+
+@media (max-width: 600px) {
+  .drname-title {
+    font-size: 5.5vw !important;
+    font-weight: 600 !important;
+  }
+  .drCard-title1 {
+    font-size: 4vw !important;
+  }
+  .drCard-title2 {
+    font-size: 4vw !important;
+  }
+}

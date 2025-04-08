@@ -41,3 +41,26 @@
   width: 100%;
   height: auto;
 }
+
+/* media query start */
+
+@media (max-width: 600px) {
+  .SB-container {
+    /* background-color: antiquewhite; */
+    height: 40vw;
+    margin-bottom: 20px;
+  }
+  .SB-inner-container {
+    /* background-color: burlywood; */
+    /* height: 40vw; */
+  }
+  .SB-left-side {
+    /* background-color: brown; */
+  }
+  .SB-title {
+    font-size: 3.5vw;
+  }
+  .SB-text {
+    font-size: 9vw !important;
+  }
+}

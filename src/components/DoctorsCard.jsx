@@ -25,10 +25,18 @@ export default function DoctorsCard(props) {
           >
             {props.name}
           </Typography>
-          <Typography variant="h5" sx={{ color: "#f9a61a" }}>
+          <Typography
+            variant="h5"
+            sx={{ color: "#f9a61a" }}
+            className="drCard-title1"
+          >
             {props.degree}
           </Typography>
-          <Typography variant="h6" sx={{ color: "#f9a61a" }}>
+          <Typography
+            variant="h6"
+            sx={{ color: "#f9a61a" }}
+            className="drCard-title2"
+          >
             {props.destination}
           </Typography>
         </CardContent>

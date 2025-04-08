@@ -81,3 +81,17 @@
   color: #01597d;
   margin-bottom: 10px;
 } */
+
+/* media query start */
+
+@media (max-width: 600px) {
+  .pulmo-inner-container h3 {
+    font-size: 7vw;
+  }
+  .top-para {
+    font-size: 4.5vw;
+  }
+  .services-list li {
+    font-size: 4vw;
+  }
+}
