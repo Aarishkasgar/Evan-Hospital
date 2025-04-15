@@ -94,4 +94,19 @@
   .services-list li {
     font-size: 4vw;
   }
+  .first-heading {
+    font-size: 5vw;
+  }
+  .list-style li {
+    font-size: 4vw;
+  }
+  .list-style p {
+    font-size: 4vw;
+  }
+  .second-heading {
+    font-size: 5vw;
+  }
+  .last-para {
+    font-size: 4.5vw;
+  }
 }

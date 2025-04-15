@@ -1,6 +1,6 @@
 import React from "react";
 import SpecialitiesBanner from "../components/SpecialitiesBanner";
-import LungImg from "../assets/BannerImg/lungImg.png";
+import GyneImg from "../assets/BannerImg/gyneImg.png";
 import BookAppointment from "../components/BookAppointment";
 
 const Gynecology = () => {
@@ -9,7 +9,7 @@ const Gynecology = () => {
       <SpecialitiesBanner
         title="Diagnosis, Treatment, and Management of"
         text="Female Reproductive System"
-        img={LungImg}
+        img={GyneImg}
       />
       <BookAppointment />
       <div className="pulmo-container">

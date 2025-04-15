@@ -1,6 +1,6 @@
 import React from "react";
 import SpecialitiesBanner from "../components/SpecialitiesBanner";
-import LungImg from "../assets/BannerImg/lungImg.png";
+import MedicineImg from "../assets/BannerImg/medicineImg.png";
 import BookAppointment from "../components/BookAppointment";
 
 const InternalMedicins = () => {
@@ -9,7 +9,7 @@ const InternalMedicins = () => {
       <SpecialitiesBanner
         title="Diagnosis, Treatment, and Management of"
         text="A wide range of Illnesses"
-        img={LungImg}
+        img={MedicineImg}
       />
       <BookAppointment />
       <div className="pulmo-container">

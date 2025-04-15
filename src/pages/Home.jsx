@@ -205,7 +205,7 @@ const Home = () => {
             </p>
           </div>
           <div className="H-about-right">
-            <img src={Accreditation} />
+            {/* <img src={Accreditation} /> */}
           </div>
         </div>
       </div>
@@ -414,8 +414,8 @@ const Home = () => {
               destination="(Sr. Cardiologist)"
             />
             <DoctorsCard
-              img={DrImg4}
-              name="Dr Parmod Kumar"
+              // img={DrImg4}
+              name="Dr Vipin Deo Tiwari"
               degree="MBBS, MD"
               destination="(Pulmonologist)"
             />

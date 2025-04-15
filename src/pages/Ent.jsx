@@ -1,6 +1,7 @@
 import React from "react";
 import SpecialitiesBanner from "../components/SpecialitiesBanner";
-import LungImg from "../assets/BannerImg/lungImg.png";
+// import LungImg from "../assets/BannerImg/lungImg.png";
+import EntImg from "../assets/BannerImg/entImg.png";
 import BookAppointment from "../components/BookAppointment";
 // import Ent from "../assets/BannerImg/entImg.png";
 import "../styles/Ent.css";
@@ -11,7 +12,7 @@ const Ent = () => {
       <SpecialitiesBanner
         title="Diagnosis, Treatment, and Management of"
         text="The Ear, Nose, & Throat (ENT)"
-        img={LungImg}
+        img={EntImg}
       />
       <BookAppointment />
       <div className="pulmo-container">

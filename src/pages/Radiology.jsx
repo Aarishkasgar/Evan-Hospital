@@ -91,7 +91,7 @@ const Radiology = () => {
             <li>
               A formal QA/QC software under development with GE’s partnership
               which will further boost the quality ratings (to be implemented
-              this year
+              this year)
             </li>
             <p className="top-para">
               <strong>Our offerings (teleradiology and others)</strong>

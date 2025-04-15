@@ -61,11 +61,11 @@ export default function AboutUsServices() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className="AUS-para">
-            Need a consultation regarding your treatment or diagnosis? I’m
-            always ready to provide you with professional healthcare consulting
-            that is offered at an affordable price. At MedoX, you can expect
-            nothing less than the ultimate level of care when it comes to
-            treatments and consultations.
+            Get expert advice on your treatment or diagnosis from our
+            experienced medical professionals. At Evan Hospital, we are
+            committed to providing top-quality healthcare consultation at
+            affordable rates—ensuring the highest standards of care and
+            personalized attention.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -78,11 +78,9 @@ export default function AboutUsServices() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className="AUS-para">
-            Need a consultation regarding your treatment or diagnosis? I’m
-            always ready to provide you with professional healthcare consulting
-            that is offered at an affordable price. At MedoX, you can expect
-            nothing less than the ultimate level of care when it comes to
-            treatments and consultations.
+            Our state-of-the-art diagnostic center offers a wide range of
+            accurate and reliable testing services to assist in early detection
+            and effective treatment planning.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -95,11 +93,9 @@ export default function AboutUsServices() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className="AUS-para">
-            Need a consultation regarding your treatment or diagnosis? I’m
-            always ready to provide you with professional healthcare consulting
-            that is offered at an affordable price. At MedoX, you can expect
-            nothing less than the ultimate level of care when it comes to
-            treatments and consultations.
+            Immediate medical attention for non-life-threatening emergencies.
+            Our Urgent Care team ensures timely and effective treatment when you
+            need it most.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -112,11 +108,9 @@ export default function AboutUsServices() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className="AUS-para">
-            Need a consultation regarding your treatment or diagnosis? I’m
-            always ready to provide you with professional healthcare consulting
-            that is offered at an affordable price. At MedoX, you can expect
-            nothing less than the ultimate level of care when it comes to
-            treatments and consultations.
+            Your first point of contact for general health concerns. Our
+            compassionate primary care providers focus on preventive care,
+            chronic disease management, and overall wellness.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -131,11 +125,9 @@ export default function AboutUsServices() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className="AUS-para">
-            Need a consultation regarding your treatment or diagnosis? I’m
-            always ready to provide you with professional healthcare consulting
-            that is offered at an affordable price. At MedoX, you can expect
-            nothing less than the ultimate level of care when it comes to
-            treatments and consultations.
+            Stay on top of your health with our comprehensive annual wellness
+            exams, designed to detect early signs of health issues and promote
+            long-term well-being.
           </Typography>
         </AccordionDetails>
       </Accordion>

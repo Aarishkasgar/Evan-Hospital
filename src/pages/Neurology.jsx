@@ -1,6 +1,6 @@
 import React from "react";
 import SpecialitiesBanner from "../components/SpecialitiesBanner";
-import LungImg from "../assets/BannerImg/lungImg.png";
+import NeuroImg from "../assets/BannerImg/neuroImg.png";
 import BookAppointment from "../components/BookAppointment";
 
 const Neurology = () => {
@@ -9,7 +9,7 @@ const Neurology = () => {
       <SpecialitiesBanner
         title="Diagnosis, Treatment, and Management of"
         text="The Brain, Spinal Cord, and Nerves"
-        img={LungImg}
+        img={NeuroImg}
       />
       <BookAppointment />
       <div className="pulmo-container">

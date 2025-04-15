@@ -22,23 +22,13 @@ const InsuranceTPA = () => {
           <hr className="Headingunderline" />
           <ul className="tpa-list">
             <li>Aditya Birla Health Insurance company Ltd</li>
-            <li>Alankit Healthcare TPA Limited</li>
-            <li>Apollo Munich Health Insurance Co. Ltd</li>
             <li>Bajaj Allianz General Insurance Company Ltd.</li>
             <li>Chola Mandalam Ms General Insurance Co. Ltd.</li>
-            <li>East West Assist Private Limited</li>
             <li>Ericson TPA Healthcare Pvt. Ltd.</li>
-            <li>Family Health Plan (TPA) Ltd.</li>
-            <li>Future Generali India Insurance Co. Ltd.</li>
-            <li>Genins India TPA Limited</li>
-            <li>Good Health TPA Services Ltd.</li>
             <li>Hdfc Ergo General Insurance Co. Ltd.</li>
-            <li>Health India TPA Services Pvt. Ltd.</li>
             <li>Heritage Health TPA Pvt. Ltd.</li>
             <li>Icici Lombard General Insurance Co. Ltd.</li>
-            <li>Icici Prudential Life Insurance Co. Ltd.</li>
             <li>Iffco Tokio General Insracne Co. Ltd.</li>
-            <li>MAGMA HDI GENERAL INSURANCE COMPANY LIMITED</li>
             <li>Manipal Cigna Health Insurance co Ltd</li>
             <li>Max Bupa Health Insurance Company Ltd</li>
             <li>Md India Healthcare Services (TPA) Pvt. Ltd.</li>
@@ -48,14 +38,10 @@ const InsuranceTPA = () => {
             <li>Park Mediclaim TPA Pvt. Ltd.</li>
             <li>Raksha TPA Pvt. Ltd.</li>
             <li>Reliance General Insurance Co. Ltd</li>
-            <li>Religare Health Insurance Co. Ltd</li>
             <li>Safeway TPA Services Pvt. Ltd.</li>
             <li>Star Health & Allied Insurance Co. Ltd.</li>
-            <li>Tata Aig General Insurance Company</li>
-            <li>United Healthcare Parekh TPA Pvt. Ltd.</li>
             <li>Universal Sompo General Insurance Co. Ltd.</li>
             <li>Vidal Health TPA Pvt. Ltd.</li>
-            <li>Vipul Medcorp TPA Pvt. Ltd</li>
             <li>Health Insurance TPA of India Limited</li>
           </ul>
         </div>

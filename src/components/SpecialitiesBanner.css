@@ -56,11 +56,15 @@
   }
   .SB-left-side {
     /* background-color: brown; */
+    width: 100%;
   }
   .SB-title {
     font-size: 3.5vw;
   }
   .SB-text {
-    font-size: 9vw !important;
+    font-size: 8vw !important;
+  }
+  .SB-right-side {
+    display: none;
   }
 }
