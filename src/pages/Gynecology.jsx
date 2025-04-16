@@ -16,8 +16,8 @@ const Gynecology = () => {
         <div className="pulmo-inner-container">
           <h3>Overview</h3>
           <p className="top-para">
-            At Max Healthcare's Department of Obstetrics and Gynaecology, we are
-            committed to providing exceptional care for women, it is a
+            At Evan Healthcare's Department of Obstetrics and Gynaecology, we
+            are committed to providing exceptional care for women, it is a
             multi-speciality tertiary care hospital focusing on the reproductive
             health, pregnancy, and overall well-being of women. Equipped with
             in-house state-of-the-art facilities end to end and the latest
@@ -41,10 +41,10 @@ const Gynecology = () => {
           <h2 className="first-heading">Conditions We Treat</h2>
           <ul className="services-list">
             <p className="top-para">
-              The Obstetrics and Gynaecology Department at Max Healthcare treats
-              a wide range of conditions related to women's reproductive health
-              and pregnancy. Some of the conditions treated by the department
-              include:
+              The Obstetrics and Gynaecology Department at Evan Healthcare
+              treats a wide range of conditions related to women's reproductive
+              health and pregnancy. Some of the conditions treated by the
+              department include:
             </p>
 
             <h3>Pregnancy-related Conditions</h3>
@@ -117,14 +117,14 @@ const Gynecology = () => {
 
             <p className="top-para">
               These are just some of the many conditions treated by the
-              Obstetrics and Gynaecology Department at Max Healthcare. The
+              Obstetrics and Gynaecology Department at Evan Healthcare. The
               department provides comprehensive care and treatment options
               tailored to each patient's unique needs and circumstances.
             </p>
           </ul>
 
           <h2 className="first-heading">
-            Obstetrics and Gynaecology Subspecialties at Max Hospitals
+            Obstetrics and Gynaecology Subspecialties at Evan Hospitals
           </h2>
           <ul className="services-list">
             <li>
@@ -188,17 +188,17 @@ const Gynecology = () => {
           </ul>
 
           <h2 className="first-heading">
-            Why Choose Max Hospitals for Obstetrics and Gynaecology Treatments
+            Why Choose Evan Hospitals for Obstetrics and Gynaecology Treatments
           </h2>
           <ul className="services-list">
             <p className="top-para">
-              Here are some compelling reasons why patients choose Max Hospitals
-              for Obstetrics and Gynaecology treatments:
+              Here are some compelling reasons why patients choose Evan
+              Hospitals for Obstetrics and Gynaecology treatments:
             </p>
 
             <h3>Expertise and Experience</h3>
             <li>
-              Highly skilled team: Max Hospitals boasts a team of renowned and
+              Highly skilled team: Evan Hospitals boasts a team of renowned and
               experienced obstetricians, gynaecologists, and other healthcare
               professionals. Our specialists possess extensive knowledge,
               expertise, and a proven track record of successful outcomes.
@@ -212,7 +212,7 @@ const Gynecology = () => {
 
             <h3>Advanced Technology and Facilities</h3>
             <li>
-              State-of-the-art infrastructure: Max Hospitals is equipped with
+              State-of-the-art infrastructure: Evan Hospitals is equipped with
               cutting-edge technology and advanced facilities, including
               minimally invasive surgical tools, advanced imaging equipment, and
               dedicated birthing suites. This ensures accurate diagnosis,
@@ -227,7 +227,7 @@ const Gynecology = () => {
 
             <h3>Comprehensive Care and Personalized Approach</h3>
             <li>
-              Holistic approach: Max Hospitals emphasises providing holistic
+              Holistic approach: Evan Hospitals emphasises providing holistic
               care that addresses not only the physical but also the emotional
               and psychological well-being of patients.
             </li>
@@ -255,7 +255,7 @@ const Gynecology = () => {
               patients in various regions.
             </li>
             <li>
-              Support Services: Max Hospitals provides comprehensive support
+              Support Services: Evan Hospitals provides comprehensive support
               services, including pre- and post-operative care, counselling, and
               patient education programs.
             </li>
@@ -302,7 +302,7 @@ const Gynecology = () => {
 
             <h3>Other Key Factors</h3>
             <li>
-              Reputation and Accreditation: Max Hospitals enjoys a strong
+              Reputation and Accreditation: Evan Hospitals enjoys a strong
               reputation for excellence in healthcare and is accredited by
               leading national and international bodies.
             </li>
@@ -312,7 +312,7 @@ const Gynecology = () => {
               patients in various regions.
             </li>
             <li>
-              Support Services: Max Hospitals provides comprehensive support
+              Support Services: Evan Hospitals provides comprehensive support
               services, including pre- and post-operative care, counselling, and
               patient education programs.
             </li>

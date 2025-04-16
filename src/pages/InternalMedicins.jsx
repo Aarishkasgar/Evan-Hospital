@@ -91,7 +91,7 @@ const InternalMedicins = () => {
           </ul>
 
           <p className="last-para">
-            Here at Max Healthcare, we have excellent team of doctors who
+            Here at Evan Healthcare, we have excellent team of doctors who
             provide superior care & management. Our services are not just
             limited to the diagnosis and treatment of various diseases but also
             extend to create awareness about a healthy life style & prevention

@@ -20,7 +20,7 @@ const Neurology = () => {
             disorders of the brain, spinal cord, peripheral nerves,
             neuromuscular junction and muscles. As a healthcare provider
             dedicated to providing the finest possible care, the Department of
-            Neurology at Max Hospitals provide comprehensive diagnostic and
+            Neurology at Evan Hospitals provide comprehensive diagnostic and
             therapeutic Neurology services as per internationally accepted
             evidence-based protocols.
           </p>

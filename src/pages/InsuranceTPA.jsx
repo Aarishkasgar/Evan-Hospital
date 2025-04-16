@@ -13,7 +13,7 @@ const InsuranceTPA = () => {
         <div className="tpaInfo-inner-container">
           <p>
             To get you back to your healthy self and back to the comfort of your
-            home, we at Max Healthcare have tied up with recognized Third Party
+            home, we at Evan Healthcare have tied up with recognized Third Party
             Administrators and insurance companies, providing you with a
             hassle-free experience.
           </p>

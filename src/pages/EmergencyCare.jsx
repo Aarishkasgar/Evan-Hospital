@@ -16,7 +16,7 @@ const EmergencyCare = () => {
         <div className="pulmo-inner-container">
           <h3>Overview</h3>
           <p className="top-para">
-            The Emergency department at Max Healthcare cares for over 2,50,000+
+            The Emergency department at Evan Healthcare cares for over 2,50,000+
             adult and paediatric patients every year across our emergency
             departments. In an effort to deliver world class care, our emergency
             department follows international protocols in acute care management,

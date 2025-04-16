@@ -16,7 +16,7 @@ const Radiology = () => {
         <div className="pulmo-inner-container">
           <h3>Overview</h3>
           <p className="top-para">
-            Radiology Department at Max Healthcare is equipped with a
+            Radiology Department at Evan Healthcare is equipped with a
             comprehensive radiology system, providing 24x7 radiology services
             and performing almost millions of examinations every year Pillars of
             quality for delivering superior radiology services: State of the art
@@ -64,8 +64,7 @@ const Radiology = () => {
             <li>International and national accreditations</li>
             <ul className="inner-ul">
               <li>
-                JCI accreditation for Max Saket hospital ensuring quality of
-                service
+                JCI accreditation for Evan hospital ensuring quality of service
               </li>
               <li>
                 NABH accreditations for all Hospitals covering all aspects of
