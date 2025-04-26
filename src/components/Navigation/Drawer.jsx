@@ -50,7 +50,7 @@ const Backdrop = styled.div`
 const SDrawer = styled.div`
   z-index: 150;
   position: absolute;
-  top: 0;
+  // top: 0;
   height: 100vh;
   width: 60%;
   background-color: white;

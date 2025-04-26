@@ -414,7 +414,7 @@ const Home = () => {
               destination="(Sr. Cardiologist)"
             />
             <DoctorsCard
-              // img={DrImg4}
+              img={DrImg4}
               name="Dr Vipin Deo Tiwari"
               degree="MBBS, MD"
               destination="(Pulmonologist)"

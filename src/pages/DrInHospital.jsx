@@ -13,6 +13,7 @@ import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
 import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
 import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
 import DrImg10 from "../assets/DoctorsImg/DrImg10.jpg";
+import DrImg11 from "../assets/DoctorsImg/DrImg11.jpg";
 
 const DrInHospital = () => {
   return (
@@ -55,7 +56,7 @@ const DrInHospital = () => {
               destination="(Sr. Cardiologist)"
             />
             <DoctorsCard
-              // img={DrImg4}
+              img={DrImg4}
               name="Dr Vipin Deo Tiwari"
               degree="MBBS, MD"
               destination="(Pulmonologist)"
@@ -91,15 +92,15 @@ const DrInHospital = () => {
               destination="(ENT & HNS)"
             />
             <DoctorsCard
-              // img={DrImg10}
+              img={DrImg10}
               name="Dr Archit Singhal"
               degree="BPT, MPT"
               destination="(Physiotheraphy)"
             />
             <DoctorsCard
-              // img={DrImg10}
+              img={DrImg11}
               name="Dr Aakash Mogha"
-              degree="N/A"
+              degree="BDS"
               destination="(Dentist)"
             />
           </div>
