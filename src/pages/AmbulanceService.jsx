@@ -55,7 +55,7 @@ const AmbulanceService = () => {
           <h2 className="second-heading ">Equipment in the Ambulances</h2>
           <hr className="ambl-underline" />
           <p className="top-para ambl-top-para">
-            At Max Healthcare, we understand that the quality of medical care
+            At Evan Healthcare, we understand that the quality of medical care
             during transportation is crucial in emergency situations. Our
             ambulances are equipped with a comprehensive array of cutting-edge
             medical equipment to address diverse healthcare needs.

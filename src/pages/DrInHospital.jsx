@@ -97,12 +97,12 @@ const DrInHospital = () => {
               degree="BPT, MPT"
               destination="(Physiotheraphy)"
             />
-            <DoctorsCard
+            {/* <DoctorsCard
               img={DrImg11}
               name="Dr Aakash Mogha"
               degree="BDS"
               destination="(Dentist)"
-            />
+            /> */}
           </div>
         </div>
       </section>

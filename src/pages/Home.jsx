@@ -525,8 +525,8 @@ const Home = () => {
           <p>Meet Our Evan Nurses</p>
           <div className="our-doctors-container">
             <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
-            <DoctorsCard img={Nurse2} name="Deepausi" destination="(Nurse)" />
-            <DoctorsCard img={Nurse3} name="Himanshi" destination="(Nurse)" />
+            <DoctorsCard img={Nurse2} name="Deepanshi" destination="(Nurse)" />
+            <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" />
             <DoctorsCard img={Nurse4} name="Sidra" destination="(Nurse)" />
             <DoctorsCard img={Nurse5} name="Sristi" destination="(Nurse)" />
             <DoctorsCard img={Nurse6} name="Rida" destination="(Nurse)" />

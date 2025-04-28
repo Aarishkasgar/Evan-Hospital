@@ -245,7 +245,7 @@ const Gynecology = () => {
 
             <h3>Other Key Factors</h3>
             <li>
-              Reputation and Accreditation: Max Hospitals enjoys a strong
+              Reputation and Accreditation: Evan Hospitals enjoys a strong
               reputation for excellence in healthcare and is accredited by
               leading national and international bodies.
             </li>

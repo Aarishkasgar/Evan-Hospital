@@ -25,7 +25,7 @@ const Neurology = () => {
             evidence-based protocols.
           </p>
           <p className="top-para">
-            Along with chronic neurological cases and regular OPDs, the Max
+            Along with chronic neurological cases and regular OPDs, the Evan
             Neurology Department is also adept at handling emergencies such as
             Convulsions, Stroke, head trauma, change in mental status/coma,
             intracranial haemorrhage, myasthenic crisis and infections.

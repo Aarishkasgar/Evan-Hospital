@@ -30,7 +30,7 @@ const Contact = () => {
             <MailIcon style={{ fontSize: 50 }} />
             <hr className="underline" />
             <h2 className="contact-title">Mail us 24/7</h2>
-            <p className="contact-text">evan.mzn@gmail.com</p>
+            <p className="contact-text">info@evanhospital.in</p>
           </div>
           <div className="contact-box">
             <CallIcon style={{ fontSize: 50 }} />
