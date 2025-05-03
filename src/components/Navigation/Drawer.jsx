@@ -34,10 +34,13 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
 
 export default Drawer;
 const SNavbarBrand = styled.h2`
-  font-size: 3rem;
+  font-size: 4.5rem;
+  color: #f9a61a;
+  text-align: center;
+  text-decoration: underline;
 `;
 const Backdrop = styled.div`
-  height: 100%;
+  height: 110vh;
   width: 100%;
   z-index: 100;
   position: absolute;
@@ -49,9 +52,10 @@ const Backdrop = styled.div`
 `;
 const SDrawer = styled.div`
   z-index: 150;
+  // position: sticky;
   position: absolute;
-  // top: 0;
-  height: 100vh;
+  top: 0;
+  height: 110vh;
   width: 60%;
   background-color: white;
   transition: 0.3s ease;
@@ -69,8 +73,9 @@ const NavRoutes = styled.div``;
 const NavRoute = styled(Link)`
   display: flex;
   text-decoration: none;
-  color: black;
-  font-size: 2.5rem;
+  color: #01597d;
+  font-size: 3rem;
+  font-weight: 500;
   padding: 0.5rem;
 `;
 
