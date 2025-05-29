@@ -60,7 +60,7 @@ const Rmo = () => {
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Yusuf"
+              name="N/A"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard

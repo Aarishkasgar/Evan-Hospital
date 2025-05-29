@@ -1,7 +1,7 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import Nalini from "../assets/DepartmentsImg/nalini.jpg";
+import Nalini from "../assets/DoctorsImg/DrImg01.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 
@@ -30,11 +30,7 @@ const Counsellor = () => {
             standards in healthcare services.
           </p>
           <div className="our-doctors-container">
-            <DoctorsCard
-              img={Nalini}
-              name="Nalini Bansal"
-              destination="(Counsellor)"
-            />
+            <DoctorsCard img={Nalini} name="N/A" destination="(Counsellor)" />
           </div>
         </div>
       </section>

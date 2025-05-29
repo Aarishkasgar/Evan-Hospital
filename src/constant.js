@@ -17,8 +17,12 @@ export const routes = [
         link: "/managements",
       },
       {
-        name: "Dr In House",
+        name: "Consultant",
         link: "/dr-in-hospital",
+      },
+      {
+        name: "Supportive Doctor's",
+        link: "/supportive-dr",
       },
       {
         name: "Counsellor",
@@ -32,6 +36,10 @@ export const routes = [
         name: "Nurses",
         link: "/nurses",
       },
+      {
+        name: "Technician",
+        link: "/technician",
+      },
     ],
   },
 
@@ -44,6 +52,7 @@ export const routes = [
         name: "Pulmonology",
         link: "/pulmonology",
       },
+
       {
         name: "ENT",
         link: "/ent",
@@ -80,6 +89,58 @@ export const routes = [
         name: "Pharmacy",
         link: "/pharmacy",
       },
+      {
+        name: "View all Specialities",
+        link: "/viewall-specialities",
+      },
+      // {
+      //   name: "Nephro",
+      //   link: "/nephro",
+      // },
+      // {
+      //   name: "Gastro",
+      //   link: "/gastro",
+      // },
+      // {
+      //   name: "Oncology",
+      //   link: "/oncology",
+      // },
+      // {
+      //   name: "Dental",
+      //   link: "/dental",
+      // },
+      // {
+      //   name: "Home HealthCare",
+      //   link: "/home-healthcare",
+      // },
+      // {
+      //   name: "Physiotherapy",
+      //   link: "/physiotherapy",
+      // },
+      // {
+      //   name: "Urology",
+      //   link: "/urology",
+      // },
+      // {
+      //   name: "Dermatology",
+      //   link: "/dermatology",
+      // },
+      // {
+      //   name: "Paediatric",
+      //   link: "/paediatric",
+      // },
+      // {
+      //   name: "ICU/CCU",
+      //   link: "/icu-ccu",
+      // },
+      // {
+      //   name: "NICU/PICU",
+      //   link: "/nicu-picu",
+      // },
+      // {
+      //   name: "Dialysis",
+      //   link: "/dialysis",
+      // },
     ],
   },
 
