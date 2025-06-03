@@ -8,7 +8,7 @@ import banner from "../assets/AboutPage/doctorbanner.jpg";
 import Nurse1 from "../assets/NurseImg/nurse1.jpg";
 import Nurse2 from "../assets/NurseImg/nurse2.jpg";
 import Nurse3 from "../assets/NurseImg/nurse3.jpg";
-import Nurse4 from "../assets/NurseImg/nurse4.jpg";
+// import Nurse4 from "../assets/NurseImg/nurse4.jpg";
 import Nurse5 from "../assets/NurseImg/nurse5.jpg";
 import Nurse6 from "../assets/NurseImg/nurse6.jpg";
 import Nurse7 from "../assets/NurseImg/nurse7.jpg";
