@@ -30,7 +30,7 @@ import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
 import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import NearMeIcon from "@mui/icons-material/NearMe";
-import Accreditation from "../assets/Accreditation.webp";
+// import Accreditation from "../assets/Accreditation.webp";
 import Testimonials from "../components/Testimonials";
 import images1 from "../assets/TPA/images-1.jpg";
 import images2 from "../assets/TPA/images-2.jpg";
@@ -61,7 +61,7 @@ import Mgt4 from "../assets/DepartmentsImg/mgt4.jpg";
 import Mgt5 from "../assets/DepartmentsImg/mgt5.jpg";
 import Mgt6 from "../assets/DepartmentsImg/mgt6.jpg";
 // counsellor image
-import Nalini from "../assets/DepartmentsImg/nalini.jpg";
+// import Nalini from "../assets/DepartmentsImg/nalini.jpg";
 // rmo
 import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
 import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
@@ -157,7 +157,7 @@ const Home = () => {
                 <NearMeIcon style={{ fontSize: 35 }} />
                 Get Directions
               </a>
-              | Call us +91 70786-93040
+              | Call us +91 70603-11156
             </p>
             <button className="hero-btn" onClick={moveDoctorHandler}>
               Find a Doctor
@@ -453,11 +453,7 @@ const Home = () => {
           <h1>Counsellor</h1>
           <p>Meet Our Evan Counsellor</p>
           <div className="our-doctors-container">
-            <DoctorsCard
-              img={Nalini}
-              name="Nalini Bansal"
-              destination="(Counsellor)"
-            />
+            <DoctorsCard img={DrImg01} name="N/A" destination="(Counsellor)" />
           </div>
           <button
             className="hospital-welcome-button"

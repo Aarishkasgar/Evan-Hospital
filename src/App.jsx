@@ -10,7 +10,7 @@ import About from "./pages/About";
 // Department-----------
 import Managements from "./pages/Managements";
 import DrInHospital from "./pages/DrInHospital";
-import SupportiveDr from "./pages/SupportiveDr";
+// import SupportiveDr from "./pages/SupportiveDr";
 import Counsellor from "./pages/Counsellor";
 import Rmo from "./pages/Rmo";
 import Nurses from "./pages/Nurses";
@@ -75,7 +75,7 @@ const App = () => {
           {/* ----------Department--------- */}
           <Route path="/managements" element={<Managements />} />
           <Route path="/dr-in-hospital" element={<DrInHospital />} />
-          <Route path="/supportive-dr" element={<SupportiveDr />} />
+          {/* <Route path="/supportive-dr" element={<SupportiveDr />} /> */}
           <Route path="/counsellor" element={<Counsellor />} />
           <Route path="/rmo" element={<Rmo />} />
           <Route path="/nurses" element={<Nurses />} />

@@ -20,10 +20,10 @@ export const routes = [
         name: "Consultant",
         link: "/dr-in-hospital",
       },
-      {
-        name: "Supportive Doctor's",
-        link: "/supportive-dr",
-      },
+      // {
+      //   name: "Supportive Doctor's",
+      //   link: "/supportive-dr",
+      // },
       {
         name: "Counsellor",
         link: "/counsellor",

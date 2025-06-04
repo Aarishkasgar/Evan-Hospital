@@ -1,7 +1,8 @@
 import React from "react";
 import SpecialitiesBanner from "../components/SpecialitiesBanner";
 import BookAppointment from "../components/BookAppointment";
-import LungImg from "../assets/BannerImg/lungImg.png";
+// import LungImg from "../assets/BannerImg/lungImg.png";
+import OncoImg from "../assets/BannerImg/cancerImg.png";
 
 const Oncology = () => {
   return (
@@ -9,7 +10,7 @@ const Oncology = () => {
       <SpecialitiesBanner
         title="Diagnosis, Treatment, and Management of"
         text="Medical Oncology"
-        img={LungImg}
+        img={OncoImg}
       />
       <BookAppointment />
       <div className="pulmo-container">

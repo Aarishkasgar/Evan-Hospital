@@ -3,17 +3,7 @@ import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
-// import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
-// import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
-// import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
-// import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
-import DrImg5 from "../assets/DoctorsImg/DrImg5.png";
-import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
-// import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
-// import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
-import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
-import DrImg10 from "../assets/DoctorsImg/DrImg10.jpg";
-// import DrImg11 from "../assets/DoctorsImg/DrImg11.jpg";
+import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
 
 const Technician = () => {
   return (
@@ -39,29 +29,40 @@ const Technician = () => {
             </p>
             <div className="our-doctors-container">
               <DoctorsCard
-                img={DrImg5}
-                name="Dr Rakesh Khurana"
-                degree="MBBS, MS"
-                destination="(General Surgery & Lap Surgery)"
+                img={Demo}
+                name="Tushar Kashyap"
+                degree="Lab Technician"
+                // destination="(General Surgery & Lap Surgery)"
               />
               <DoctorsCard
-                img={DrImg6}
-                name="Dr Pallvi Singh"
-                degree="MBBS, DA, DNB"
-                destination="(Anesthesia)"
-              />
-
-              <DoctorsCard
-                img={DrImg9}
-                name="Dr Akshi Singhal"
-                degree="MBBS, MS"
-                destination="(ENT & HNS)"
+                img={Demo}
+                name="Kartik"
+                degree="Radiologist Technician"
+                // destination="(Anesthesia)"
               />
               <DoctorsCard
-                img={DrImg10}
-                name="Dr Archit Singhal"
-                degree="BPT, MPT"
-                destination="(Physiotheraphy)"
+                img={Demo}
+                name="Arun Pal"
+                degree="OT Technician"
+                // destination="(ENT & HNS)"
+              />
+              <DoctorsCard
+                img={Demo}
+                name="Sagar Kumar"
+                degree="OT Technician"
+                // destination="(Physiotheraphy)"
+              />
+              <DoctorsCard
+                img={Demo}
+                name="Mohit Kumar"
+                degree="Dialysis"
+                // destination="(Physiotheraphy)"
+              />
+              <DoctorsCard
+                img={Demo}
+                name="Altamash"
+                degree="Cardiology Laboratory"
+                // destination="(Physiotheraphy)"
               />
             </div>
           </div>
