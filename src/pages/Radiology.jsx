@@ -25,12 +25,9 @@ const Radiology = () => {
           </p>
 
           <ul className="services-list">
-            <li>MRI units across network- 5 and 3 Tesla</li>
             <li>CT machines- 16, 64, 128 and 256 slice</li>
-            <li>High end ultrasound Doppler machines</li>
             <li>Digital X-ray machines</li>
             <li>Interventional Radiology cath labs</li>
-            <li>Dexa and Mammography*</li>
             <p className="top-para">
               Comprehensive reporting system The entire network covered with
               integrated RIS-PACS system providing advantages of:
