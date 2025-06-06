@@ -7,7 +7,7 @@ import banner from "../assets/AboutPage/doctorbanner.jpg";
 //nurse images
 import Nurse1 from "../assets/NurseImg/nurse1.jpg";
 import Nurse2 from "../assets/NurseImg/nurse2.jpg";
-import Nurse3 from "../assets/NurseImg/nurse3.jpg";
+// import Nurse3 from "../assets/NurseImg/nurse3.jpg";
 // import Nurse4 from "../assets/NurseImg/nurse4.jpg";
 import Nurse5 from "../assets/NurseImg/nurse5.jpg";
 import Nurse6 from "../assets/NurseImg/nurse6.jpg";
@@ -49,8 +49,8 @@ const Nurses = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
-            <DoctorsCard img={Nurse2} name="Deepanshi" destination="(Nurse)" />
-            <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" />
+            <DoctorsCard img={Nurse2} name="Deepanshi" destination="(Head)" />
+            {/* <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" /> */}
             <DoctorsCard img={DrImg01} name="N/A" destination="(Nurse)" />
             <DoctorsCard
               img={Nurse5}

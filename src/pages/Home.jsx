@@ -63,18 +63,18 @@ import Mgt6 from "../assets/DepartmentsImg/mgt6.jpg";
 // counsellor image
 // import Nalini from "../assets/DepartmentsImg/nalini.jpg";
 // rmo
-import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
+// import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
 import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
 import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
 import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
 // import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
 import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
-import Rmo7 from "../assets/DepartmentsImg/rmo7.jpg";
+// import Rmo7 from "../assets/DepartmentsImg/rmo7.jpg";
 // nurse images
 import Nurse1 from "../assets/NurseImg/nurse1.jpg";
 import Nurse2 from "../assets/NurseImg/nurse2.jpg";
-import Nurse3 from "../assets/NurseImg/nurse3.jpg";
-import Nurse4 from "../assets/NurseImg/nurse4.jpg";
+// import Nurse3 from "../assets/NurseImg/nurse3.jpg";
+// import Nurse4 from "../assets/NurseImg/nurse4.jpg";
 import Nurse5 from "../assets/NurseImg/nurse5.jpg";
 import Nurse6 from "../assets/NurseImg/nurse6.jpg";
 
@@ -472,11 +472,6 @@ const Home = () => {
           <p>Meet Our Evan RMO</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={Rmo1}
-              name="Dr. Hussain"
-              destination="(Resident Medical Officer)"
-            />
-            <DoctorsCard
               img={Rmo2}
               name="Dr. Faisal"
               destination="(Resident Medical Officer)"
@@ -502,8 +497,8 @@ const Home = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={Rmo7}
-              name="Dr. Nisar"
+              img={DrImg01}
+              name="Dr. Robin"
               destination="(Resident Medical Officer)"
             />
           </div>
@@ -522,8 +517,8 @@ const Home = () => {
           <div className="our-doctors-container">
             <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
             <DoctorsCard img={Nurse2} name="Deepanshi" destination="(Nurse)" />
-            <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" />
-            <DoctorsCard img={Nurse4} name="Sidra" destination="(Nurse)" />
+            {/* <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" /> */}
+            {/* <DoctorsCard img={Nurse4} name="Sidra" destination="(Nurse)" /> */}
             <DoctorsCard img={Nurse5} name="Sristi" destination="(Nurse)" />
             <DoctorsCard img={Nurse6} name="Rida" destination="(Nurse)" />
           </div>

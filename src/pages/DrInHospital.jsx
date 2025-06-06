@@ -8,7 +8,7 @@ import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
 import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
 import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
 import DrImg5 from "../assets/DoctorsImg/DrImg5.png";
-import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
+// import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
 import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
 import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
 import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
@@ -67,12 +67,6 @@ const DrInHospital = () => {
               name="Dr Rakesh Khurana"
               degree="MBBS, MS"
               destination="(General Surgery & Lap Surgery)"
-            />
-            <DoctorsCard
-              img={DrImg6}
-              name="Dr Pallvi Singh"
-              degree="MBBS, DA, DNB"
-              destination="(Anesthesia)"
             />
             <DoctorsCard
               img={DrImg7}

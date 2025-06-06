@@ -9,9 +9,6 @@ const BookAppointment = () => {
         <p>
           <a href="tel:9068995077">Call us +91 70880-02601</a>
         </p>
-        <p>
-          <a href="tel:9068995077">Call us +91 90689-95077</a>
-        </p>
       </div>
     </div>
   );

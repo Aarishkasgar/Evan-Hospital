@@ -38,18 +38,18 @@ const AmbulanceService = () => {
             <strong>Ambulance Services in Muzaffarnagar: </strong>At Evan
             Healthcare, we stand as industry leaders in emergency medical
             services, providing swift and reliable ambulance solutions. A simple
-            call to 011 4055 4055 connects you to our dedicated Emergency
-            Services, ensuring a well-equipped ambulance with trained emergency
-            staff is dispatched to your location within 30 minutes* (only for
-            house calls). With a record of catering to over 2,50,000 adult and
-            paediatric patients annually across our emergency departments, we
-            adhere to international protocols for acute care management,
-            especially in cases of heart attack (MI), stroke, abdominal
-            emergencies, and polytrauma. Our commitment to excellence is
-            reflected in our qualified teams, cutting-edge technology, and
-            specialised ambulances tailored to diverse needs. We take pride in
-            being the top ambulance provider in Delhi, ensuring unparalleled
-            care in critical situations.
+            call to 7088002628 connects you to our dedicated Emergency Services,
+            ensuring a well-equipped ambulance with trained emergency staff is
+            dispatched to your location within 30 minutes* (only for house
+            calls). With a record of catering to over 5,000 adult and paediatric
+            patients annually across our emergency departments, we adhere to
+            international protocols for acute care management, especially in
+            cases of heart attack (MI), stroke, abdominal emergencies, and
+            polytrauma. Our commitment to excellence is reflected in our
+            qualified teams, cutting-edge technology, and specialised ambulances
+            tailored to diverse needs. We take pride in being the top ambulance
+            provider in Muzaffarnagar, ensuring unparalleled care in critical
+            situations.
           </p>
 
           <h2 className="second-heading ">Equipment in the Ambulances</h2>

@@ -39,11 +39,6 @@ const Rmo = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={Rmo1}
-              name="Dr. Hussain"
-              destination="(Resident Medical Officer)"
-            />
-            <DoctorsCard
               img={Rmo2}
               name="Dr. Faisal"
               destination="(Resident Medical Officer)"
@@ -69,8 +64,8 @@ const Rmo = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={Rmo7}
-              name="Dr. Nisar"
+              img={DrImg01}
+              name="Dr. Robin"
               destination="(Resident Medical Officer)"
             />
           </div>
