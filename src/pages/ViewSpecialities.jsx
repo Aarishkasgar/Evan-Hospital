@@ -62,17 +62,9 @@ const ViewSpecialities = () => {
     navigate("/paediatric");
   }
   function icuHandler() {
-    navigate("/icu");
+    navigate("/criticalcare");
   }
-  function ccuHandler() {
-    navigate("/ccu");
-  }
-  function nicuHandler() {
-    navigate("/nicu");
-  }
-  function picuHandler() {
-    navigate("/picu");
-  }
+
   function dialysisHandler() {
     navigate("/dialysis");
   }
@@ -82,15 +74,7 @@ const ViewSpecialities = () => {
   function gastroHandler() {
     navigate("/gastro");
   }
-  function yogaHandler() {
-    navigate("/yoga");
-  }
-  function zumbaHandler() {
-    navigate("/zumba");
-  }
-  function radiologyHandler() {
-    navigate("/radiology");
-  }
+
   function emergencycareHandler() {
     navigate("/emergency-care");
   }
@@ -135,16 +119,16 @@ const ViewSpecialities = () => {
               <div onClick={nephroHandler}>
                 <SpecialitiesBox img={InternalMedicine} h1="Nephro" />
               </div>
+            </div>
+
+            {/* Box 2 */}
+            <div className="SpecialitiesBox1">
               <div onClick={dialysisHandler}>
                 <SpecialitiesBox img={InternalMedicine} h1="Dialysis" />
               </div>
               <div onClick={gastroHandler}>
                 <SpecialitiesBox img={InternalMedicine} h1="Gastro" />
               </div>
-            </div>
-
-            {/* Box 2 */}
-            <div className="SpecialitiesBox1">
               <div onClick={homehealthcareHandler}>
                 <SpecialitiesBox img={InternalMedicine} h1="Home HealthCare" />
               </div>
@@ -160,22 +144,13 @@ const ViewSpecialities = () => {
               <div onClick={paediatricHandler}>
                 <SpecialitiesBox img={InternalMedicine} h1="Paediatric" />
               </div>
-              <div onClick={icuHandler}>
-                <SpecialitiesBox img={InternalMedicine} h1="ICU" />
-              </div>
-              <div onClick={ccuHandler}>
-                <SpecialitiesBox img={InternalMedicine} h1="CCU" />
-              </div>
-              <div onClick={nicuHandler}>
-                <SpecialitiesBox img={InternalMedicine} h1="NICU" />
-              </div>
-              <div onClick={picuHandler}>
-                <SpecialitiesBox img={InternalMedicine} h1="PICU" />
-              </div>
             </div>
 
             {/* Box 3 */}
             <div className="SpecialitiesBox2">
+              <div onClick={icuHandler}>
+                <SpecialitiesBox img={InternalMedicine} h1="Critical Care" />
+              </div>
               <div onClick={surgeryHandler}>
                 <SpecialitiesBox img={Surgary} h1="Surgery" />
               </div>
@@ -196,15 +171,6 @@ const ViewSpecialities = () => {
               </div>
               <div onClick={pharmacyHandler}>
                 <SpecialitiesBox img={InternalMedicine} h1="Pharmacy" />
-              </div>
-              <div onClick={yogaHandler}>
-                <SpecialitiesBox img={InternalMedicine} h1="Yoga" />
-              </div>
-              <div onClick={zumbaHandler}>
-                <SpecialitiesBox img={InternalMedicine} h1="Zumba" />
-              </div>
-              <div onClick={radiologyHandler}>
-                <SpecialitiesBox img={InternalMedicine} h1="Radiology" />
               </div>
             </div>
           </div>

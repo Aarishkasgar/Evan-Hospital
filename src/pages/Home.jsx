@@ -275,21 +275,21 @@ const Home = () => {
           <div>
             <ProjectFacts
               img={CounterHeartIcon}
-              h2="20000 +"
+              h2="2000 +"
               p="Successful Surgeries"
             />
           </div>
           <div>
             <ProjectFacts
               img={CounterDoctorIcon}
-              h2="50 +"
+              h2="30 +"
               p="Medical Experts"
             />
           </div>
           <div>
             <ProjectFacts
               img={CounterHeldPatientsIcon}
-              h2="100000 +"
+              h2="20000 +"
               p="Families Healed"
             />
           </div>
@@ -488,7 +488,7 @@ const Home = () => {
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Yusuf"
+              name="N/A"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
@@ -516,7 +516,11 @@ const Home = () => {
           <p>Meet Our Evan Nurses</p>
           <div className="our-doctors-container">
             <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
-            <DoctorsCard img={Nurse2} name="Deepanshi" destination="(Nurse)" />
+            <DoctorsCard
+              img={Nurse2}
+              name="Deepanshi"
+              destination="(Junior Head)"
+            />
             {/* <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" /> */}
             {/* <DoctorsCard img={Nurse4} name="Sidra" destination="(Nurse)" /> */}
             <DoctorsCard img={Nurse5} name="Sristi" destination="(Nurse)" />

@@ -46,11 +46,6 @@ const Managements = () => {
               name="Manju Jain"
               destination="(Director)"
             />
-            <DoctorsCard
-              img={Mgt3}
-              name="Mr. Vijay Jain (Dalda)"
-              destination="(Director)"
-            />
             <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(C.O.O)" />
             <DoctorsCard
               img={Mgt5}
@@ -60,6 +55,41 @@ const Managements = () => {
 
             <DoctorsCard
               img={Mgt6}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={DrImg01}
               name="Dr. Pankaj"
               destination="(Medical Director)"
             />

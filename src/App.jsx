@@ -35,15 +35,11 @@ import Physiotherapy from "./pages/Physiotherapy";
 import Urology from "./pages/Urology";
 import Dermatology from "./pages/Dermatology";
 import Paediatric from "./pages/Paediatric";
-import Icu from "./pages/Icu";
-import Ccu from "./pages/Ccu";
-import Nicu from "./pages/Nicu";
-import Picu from "./pages/Picu";
+import CriticalCare from "./pages/CriticalCare";
+
 import Dialysis from "./pages/Dialysis";
 import Nephro from "./pages/Nephro";
 import Gastro from "./pages/Gastro";
-import Yoga from "./pages/Yoga";
-import Zumba from "./pages/Zumba";
 
 // Specialities-----------
 
@@ -56,13 +52,14 @@ import EvanLab from "./pages/EvanLab";
 // Services------------
 
 // import Specialities from "./pages/Specialities";
-import InternationalPatients from "./pages/InternationalPatients";
+import VideoGallery from "./pages/VideoGallery";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 import Navigation from "./components/Navigation/Navigation";
 import ViewSpecialities from "./pages/ViewSpecialities";
+// import CriticalCare from "./pages/CriticalCare";
 const App = () => {
   return (
     <>
@@ -101,15 +98,11 @@ const App = () => {
           <Route path="/urology" element={<Urology />} />
           <Route path="/dermatology" element={<Dermatology />} />
           <Route path="/paediatric" element={<Paediatric />} />
-          <Route path="/icu" element={<Icu />} />
-          <Route path="/ccu" element={<Ccu />} />
-          <Route path="/nicu" element={<Nicu />} />
-          <Route path="/picu" element={<Picu />} />
+          <Route path="/criticalcare" element={<CriticalCare />} />
+
           <Route path="/dialysis" element={<Dialysis />} />
           <Route path="/nephro" element={<Nephro />} />
           <Route path="/gastro" element={<Gastro />} />
-          <Route path="/yoga" element={<Yoga />} />
-          <Route path="/zumba" element={<Zumba />} />
 
           {/* ------------Specialities------------- */}
 
@@ -122,10 +115,7 @@ const App = () => {
           {/* ---------Services---------- */}
 
           {/* <Route path="/specialities" element={<Specialities />} /> */}
-          <Route
-            path="/international-patients"
-            element={<InternationalPatients />}
-          />
+          <Route path="/video-gallery" element={<VideoGallery />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

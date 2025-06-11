@@ -173,11 +173,11 @@ export const routes = [
   },
 
   {
-    name: "International Patients",
-    link: "/international-patients",
+    name: "Video Gallery",
+    link: "/video-gallery",
   },
   {
-    name: "Gallery",
+    name: "Photo Gallery",
     link: "/gallery",
   },
 

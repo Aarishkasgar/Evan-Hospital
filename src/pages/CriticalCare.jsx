@@ -3,7 +3,7 @@ import SpecialitiesBanner from "../components/SpecialitiesBanner";
 import CriticalImg from "../assets/BannerImg/criticalImg.png";
 import BookAppointment from "../components/BookAppointment";
 
-const ICU = () => {
+const CriticalCare = () => {
   return (
     <div>
       <SpecialitiesBanner
@@ -87,4 +87,4 @@ const ICU = () => {
   );
 };
 
-export default ICU;
+export default CriticalCare;
