@@ -20,21 +20,19 @@ const Ayushman = () => {
           <h2>Services Covered:</h2>
           <hr className="Headingunderline" />
           <ul className="tpa-list">
+            <li>
+              Cardiac Care (Cath Lab procedures, Angiography, Angioplasty,
+              Pacemaker Implantation, Stent Placement, and advanced cardiac
+              diagnostics)
+            </li>
             <li>General & Laparoscopic Surgery</li>
             <li>Orthopedic & Joint Replacement</li>
             <li>Gynecology & Obstetrics</li>
             <li>Dialysis & Kidney-related care</li>
+            <li>Urology</li>
             <li>ICU & Emergency Services</li>
-            <li>ENT, Eye & Dental Procedures</li>
+            <li>Organ and Tissue Transplant</li>
             <li>Medical Treatments for chronic & acute illnesses</li>
-          </ul>
-
-          <h2>Documents Required:</h2>
-          <hr className="Headingunderline" />
-          <ul className="tpa-list">
-            <li>Ayushman Card</li>
-            <li>Aadhaar Card</li>
-            <li>Supporting Doctor’s Prescription / Diagnosis Report</li>
           </ul>
         </div>
       </div>

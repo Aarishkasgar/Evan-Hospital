@@ -46,6 +46,11 @@ const Managements = () => {
               name="Manju Jain"
               destination="(Director)"
             />
+            <DoctorsCard
+              img={Mgt6}
+              name="Dr. Pankaj"
+              destination="(Medical Director)"
+            />
             <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(C.O.O)" />
             <DoctorsCard
               img={Mgt5}
@@ -54,44 +59,67 @@ const Managements = () => {
             />
 
             <DoctorsCard
-              img={Mgt6}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              img={DrImg01}
+              name="Pradeep Gupta"
+              destination="(HR)"
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              name="Varun"
+              destination="(Operation Manager)"
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              name="Arvind Dhiman"
+              destination="(Operation Manager)"
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              name="Dr Archit Singhal"
+              destination="(Head of Home HealthCare)"
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              name="Sana"
+              destination="(Nursing Head)"
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              name="Priya Kakran"
+              destination="(Reception Manager)"
+            />
+            <DoctorsCard img={DrImg01} name="Rizwan" destination="(TPA Head)" />
+            <DoctorsCard
+              img={DrImg01}
+              name="Neha Tirkey"
+              destination="(Central Supply)"
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              name="Aarish"
+              destination="(Head of IT)"
+            />
+            <DoctorsCard img={DrImg01} name="Vikas" destination="(Maintance)" />
+            <DoctorsCard
+              img={DrImg01}
+              name="Rahul"
+              destination="(Head of fire)"
             />
             <DoctorsCard
               img={DrImg01}
-              name="Dr. Pankaj"
-              destination="(Medical Director)"
+              name="Mehkar"
+              destination="(Ambulance)"
+            />
+            <DoctorsCard
+              img={DrImg01}
+              name="Vinay"
+              destination="(Medical Store)"
+            />
+            <DoctorsCard img={DrImg01} name="Rekha" destination="(Canteen)" />
+            <DoctorsCard
+              img={DrImg01}
+              name="N/A"
+              destination="(Housekeeping)"
             />
           </div>
         </div>

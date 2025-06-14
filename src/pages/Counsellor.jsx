@@ -30,7 +30,7 @@ const Counsellor = () => {
             standards in healthcare services.
           </p>
           <div className="our-doctors-container">
-            <DoctorsCard img={Nalini} name="N/A" destination="(Counsellor)" />
+            <DoctorsCard img={Nalini} name="Varun" destination="(Counsellor)" />
           </div>
         </div>
       </section>

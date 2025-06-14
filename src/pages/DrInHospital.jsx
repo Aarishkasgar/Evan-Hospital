@@ -105,6 +105,12 @@ const DrInHospital = () => {
               destination="(Orthopedic)"
             />
             <DoctorsCard
+              img={DrImg10}
+              name="Dr Archit Singhal"
+              degree="BPT, MPT"
+              destination="(Physiotheraphy)"
+            />
+            <DoctorsCard
               img={Demo}
               name="Dr Pankaj Bohra"
               degree="MBBS, MD, DM"
@@ -136,7 +142,7 @@ const DrInHospital = () => {
             />
             <DoctorsCard
               img={Demo}
-              name="Dr Sharma"
+              name="Dr G. Sharma"
               degree="MBBS, MD (Clinical Oncology)"
               destination="(Medical Oncology)"
             />
@@ -145,12 +151,6 @@ const DrInHospital = () => {
               name="Dr Sanjeev Kumar Dubey"
               degree="MBBS"
               destination="(Physician)"
-            />
-            <DoctorsCard
-              img={DrImg10}
-              name="Dr Archit Singhal"
-              degree="BPT, MPT"
-              destination="(Physiotheraphy)"
             />
           </div>
         </div>

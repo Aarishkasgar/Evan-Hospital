@@ -59,6 +59,7 @@ import Footer from "./components/Footer";
 
 import Navigation from "./components/Navigation/Navigation";
 import ViewSpecialities from "./pages/ViewSpecialities";
+import SupportiveStaff from "./pages/SupportiveStaff";
 // import CriticalCare from "./pages/CriticalCare";
 const App = () => {
   return (
@@ -77,6 +78,7 @@ const App = () => {
           <Route path="/rmo" element={<Rmo />} />
           <Route path="/nurses" element={<Nurses />} />
           <Route path="/technician" element={<Technician />} />
+          <Route path="/supportive-staff" element={<SupportiveStaff />} />
           {/* ---------Department---------- */}
 
           {/* -----------Specialities---------- */}
@@ -99,7 +101,6 @@ const App = () => {
           <Route path="/dermatology" element={<Dermatology />} />
           <Route path="/paediatric" element={<Paediatric />} />
           <Route path="/criticalcare" element={<CriticalCare />} />
-
           <Route path="/dialysis" element={<Dialysis />} />
           <Route path="/nephro" element={<Nephro />} />
           <Route path="/gastro" element={<Gastro />} />

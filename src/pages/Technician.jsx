@@ -30,9 +30,39 @@ const Technician = () => {
             <div className="our-doctors-container">
               <DoctorsCard
                 img={Demo}
+                name="Chintoo Saini"
+                degree="Lab Technician"
+                // destination="(General Surgery & Lap Surgery)"
+              />
+              <DoctorsCard
+                img={Demo}
                 name="Tushar Kashyap"
                 degree="Lab Technician"
                 // destination="(General Surgery & Lap Surgery)"
+              />
+              <DoctorsCard
+                img={Demo}
+                name="Mansi Chandiwal"
+                degree="Lab Technician"
+                // destination="(General Surgery & Lap Surgery)"
+              />
+              <DoctorsCard
+                img={Demo}
+                name="Mohd Sarhan"
+                degree="Lab Technician"
+                // destination="(General Surgery & Lap Surgery)"
+              />
+              <DoctorsCard
+                img={Demo}
+                name="Jitender Kumar"
+                degree="Sample Collection"
+                // destination="(General Surgery & Lap Surgery)"
+              />
+              <DoctorsCard
+                img={Demo}
+                name="Harshit Tyagi"
+                degree="Radiologist Technician"
+                // destination="(Anesthesia)"
               />
               <DoctorsCard
                 img={Demo}

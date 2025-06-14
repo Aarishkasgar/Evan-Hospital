@@ -365,11 +365,6 @@ const Home = () => {
               name="Manju Jain"
               destination="(Director)"
             />
-            <DoctorsCard
-              img={Mgt3}
-              name="Mr. Vijay Jain (Dalda)"
-              destination="(Director)"
-            />
             <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(C.O.O)" />
             <DoctorsCard
               img={Mgt5}
@@ -453,7 +448,11 @@ const Home = () => {
           <h1>Counsellor</h1>
           <p>Meet Our Evan Counsellor</p>
           <div className="our-doctors-container">
-            <DoctorsCard img={DrImg01} name="N/A" destination="(Counsellor)" />
+            <DoctorsCard
+              img={DrImg01}
+              name="Varun"
+              destination="(Counsellor)"
+            />
           </div>
           <button
             className="hospital-welcome-button"

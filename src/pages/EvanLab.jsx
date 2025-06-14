@@ -24,12 +24,13 @@ const EvanLab = () => {
             <li>
               Complete Blood Count (CBC), LFT, KFT, Lipid Profile, Thyroid
             </li>
-            <li>Blood Sugar, HbA1c, Urine & Stool Tests</li>
-            <li>Hormone Assays, Vitamin Levels</li>
-            <li>Cancer Marker Tests</li>
-            <li>Infectious Disease Tests (Malaria, Dengue, Typhoid, etc.)</li>
-            <li>COVID-19 RT-PCR & Rapid Antigen</li>
-            <li>Antenatal & Pre-Marital Check-ups</li>
+            <li>Free Profile</li>
+            <li>Blood Sugar, HbA1c, Urine R/M & Stool Tests</li>
+            <li>PCOD Panel</li>
+            <li>Vitamin-D, Vitamin B12, ANA, Anti-CCP</li>
+            <li>CA125, (CA-19,9) PSA</li>
+            <li>Heart Levels (NTPro BNP, Trop-1, D-Dimer CK-NAC, CPK-MB)</li>
+            <li>ADA</li>
             <li>Routine & Advanced Health Packages</li>
           </ul>
 
