@@ -4,6 +4,16 @@ import "../styles/Home.css";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
+import Tech01 from "../assets/DepartmentsImg/tech01.jpeg";
+import Tech02 from "../assets/DepartmentsImg/tech02.jpg";
+import Tech03 from "../assets/DepartmentsImg/tech03.jpeg";
+// import Tech04 from "../assets/DepartmentsImg/tech04.jpeg";
+import Tech05 from "../assets/DepartmentsImg/tech05.jpg";
+import Tech06 from "../assets/DepartmentsImg/tech06.png";
+import Tech07 from "../assets/DepartmentsImg/tech07.png";
+import Tech08 from "../assets/DepartmentsImg/tech08.png";
+import Tech09 from "../assets/DepartmentsImg/tech09.jpg";
+import Tech10 from "../assets/DepartmentsImg/tech10.png";
 
 const Technician = () => {
   return (
@@ -21,33 +31,30 @@ const Technician = () => {
           <div className="HD-inner-container">
             <h1>Our Dedicated Team of Technician</h1>
             <p>
-              At Evan Hospital, we take pride in our team of highly skilled and
-              compassionate doctors, committed to providing exceptional care to
-              every patient. With expertise across a wide range of medical
-              specialties, our doctors are here to ensure you receive the best
-              treatment, personalized to your health needs.
+              At Evan Hospital, our team of skilled technicians forms the
+              backbone of our advanced medical services. Trained in the latest
+              technologies and diagnostic equipment, they work diligently behind
+              the scenes to ensure accurate testing, smooth operations, and
+              timely support for our doctors and nurses. Their expertise and
+              commitment to excellence play a crucial role in delivering safe,
+              efficient, and high-quality patient care every day.
             </p>
             <div className="our-doctors-container">
               <DoctorsCard
-                img={Demo}
+                img={Tech01}
                 name="Chintoo Saini"
                 degree="Lab Technician"
                 // destination="(General Surgery & Lap Surgery)"
               />
               <DoctorsCard
-                img={Demo}
+                img={Tech02}
                 name="Tushar Kashyap"
                 degree="Lab Technician"
                 // destination="(General Surgery & Lap Surgery)"
               />
+
               <DoctorsCard
-                img={Demo}
-                name="Mansi Chandiwal"
-                degree="Lab Technician"
-                // destination="(General Surgery & Lap Surgery)"
-              />
-              <DoctorsCard
-                img={Demo}
+                img={Tech03}
                 name="Mohd Sarhan"
                 degree="Lab Technician"
                 // destination="(General Surgery & Lap Surgery)"
@@ -59,37 +66,37 @@ const Technician = () => {
                 // destination="(General Surgery & Lap Surgery)"
               />
               <DoctorsCard
-                img={Demo}
+                img={Tech05}
                 name="Harshit Tyagi"
                 degree="Radiologist Technician"
                 // destination="(Anesthesia)"
               />
               <DoctorsCard
-                img={Demo}
+                img={Tech06}
                 name="Kartik"
                 degree="Radiologist Technician"
                 // destination="(Anesthesia)"
               />
               <DoctorsCard
-                img={Demo}
+                img={Tech07}
                 name="Arun Pal"
                 degree="OT Technician"
                 // destination="(ENT & HNS)"
               />
               <DoctorsCard
-                img={Demo}
+                img={Tech08}
                 name="Sagar Kumar"
                 degree="OT Technician"
                 // destination="(Physiotheraphy)"
               />
               <DoctorsCard
-                img={Demo}
+                img={Tech09}
                 name="Mohit Kumar"
                 degree="Dialysis"
                 // destination="(Physiotheraphy)"
               />
               <DoctorsCard
-                img={Demo}
+                img={Tech10}
                 name="Altamash"
                 degree="Cardiology Laboratory"
                 // destination="(Physiotheraphy)"

@@ -21,12 +21,19 @@ import CounterHeartIcon from "../assets/counter-Heart-icon.png";
 import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
 import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
-import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
-import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
-import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
-import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
-import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
-import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
+// docot images
+import DrImg1 from "../assets/DoctorsImg/DrImg01.jpg";
+import DrImg2 from "../assets/DoctorsImg/DrImg02.jpg";
+import DrImg3 from "../assets/DoctorsImg/DrImg03.jpeg";
+import DrImg4 from "../assets/DoctorsImg/DrImg04.jpg";
+import DrImg5 from "../assets/DoctorsImg/DrImg05.jpg";
+import DrImg6 from "../assets/DoctorsImg/DrImg06.jpeg";
+// import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
+// import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
+// import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
+// import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
+// import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
+// import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
 import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import NearMeIcon from "@mui/icons-material/NearMe";
@@ -54,21 +61,21 @@ import images19 from "../assets/TPA/images-19.jpg";
 import WhyChooseUs from "../assets/whychooseus.webp";
 import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 // management images
-import Mgt1 from "../assets/DepartmentsImg/mgt1.jpg";
-import Mgt2 from "../assets/DepartmentsImg/mgt2.jpg";
-import Mgt3 from "../assets/DepartmentsImg/mgt3.jpg";
-import Mgt4 from "../assets/DepartmentsImg/mgt4.jpg";
-import Mgt5 from "../assets/DepartmentsImg/mgt5.jpg";
-import Mgt6 from "../assets/DepartmentsImg/mgt6.jpg";
+import Mgt1 from "../assets/DepartmentsImg/MgtImg01.jpg";
+import Mgt2 from "../assets/DepartmentsImg/MgtImg02.jpg";
+import Mgt3 from "../assets/DepartmentsImg/MgtImg03.jpg";
+import Mgt4 from "../assets/DepartmentsImg/MgtImg04.jpg";
+
 // counsellor image
+import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
 // import Nalini from "../assets/DepartmentsImg/nalini.jpg";
 // rmo
-// import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
+import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
 import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
 import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
-import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
-// import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
-import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
+// import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
+import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
+// import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
 // import Rmo7 from "../assets/DepartmentsImg/rmo7.jpg";
 // nurse images
 import Nurse1 from "../assets/NurseImg/nurse1.jpg";
@@ -365,17 +372,15 @@ const Home = () => {
               name="Manju Jain"
               destination="(Director)"
             />
-            <DoctorsCard img={Mgt4} name="Mr. Virendra" destination="(C.O.O)" />
             <DoctorsCard
-              img={Mgt5}
-              name="Chanchal Gautam"
-              destination="(Administrator)"
-            />
-
-            <DoctorsCard
-              img={Mgt6}
+              img={Mgt3}
               name="Dr. Pankaj"
               destination="(Medical Director)"
+            />
+            <DoctorsCard
+              img={Mgt4}
+              name="Mr. Virendra Dhiman"
+              destination="(C.O.O)"
             />
           </div>
           <button
@@ -401,7 +406,12 @@ const Home = () => {
               degree="MBBS, DM, FCCP"
               destination="(General Physician)"
             />
-
+            <DoctorsCard
+              img={DrImg2}
+              name="Dr Shobit Tomar"
+              degree="MBBS, MD, DM"
+              destination="(Cardiologist)"
+            />
             <DoctorsCard
               img={DrImg3}
               name="Dr R.B. Singh"
@@ -415,22 +425,16 @@ const Home = () => {
               destination="(Pulmonologist)"
             />
             <DoctorsCard
-              img={DrImg7}
+              img={DrImg5}
+              name="Dr Rakesh Khurana"
+              degree="MBBS, MS"
+              destination="(General Surgery & Lap Surgery)"
+            />
+            <DoctorsCard
+              img={DrImg6}
               name="Dr Nidhi"
               degree="MBBS, MS"
               destination="(Gynecologist)"
-            />
-            <DoctorsCard
-              img={DrImg8}
-              name="Dr Faisal Shadab"
-              degree="MBBS, DNB"
-              destination="(Family Medicine)"
-            />
-            <DoctorsCard
-              img={DrImg9}
-              name="Dr Akshi Singhal"
-              degree="MBBS, MS"
-              destination="(ENT & HNS)"
             />
           </div>
           <button
@@ -449,8 +453,8 @@ const Home = () => {
           <p>Meet Our Evan Counsellor</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg01}
-              name="Varun"
+              img={Mgt7}
+              name="Varun Prakash"
               destination="(Counsellor)"
             />
           </div>
@@ -471,17 +475,17 @@ const Home = () => {
           <p>Meet Our Evan RMO</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={Rmo2}
+              img={Rmo1}
               name="Dr. Faisal"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={Rmo3}
+              img={Rmo2}
               name="Dr. Farman"
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={Rmo4}
+              img={Rmo3}
               name="Dr. Shamoon"
               destination="(Resident Medical Officer)"
             />
@@ -491,7 +495,7 @@ const Home = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={Rmo6}
+              img={Rmo5}
               name="Dr. Dilshad"
               destination="(Resident Medical Officer)"
             />

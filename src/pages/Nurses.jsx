@@ -38,14 +38,14 @@ const Nurses = () => {
         <div className="HD-inner-container">
           <h1>Our Nurses</h1>
           <p>
-            At Evan Hospital, our management team is dedicated to delivering
-            excellence in healthcare through efficient administration,
-            cutting-edge technology, and a patient-centric approach. We ensure
-            seamless coordination between our skilled medical professionals,
-            modern facilities, and supportive staff to provide comprehensive and
-            compassionate care. Our commitment to quality and innovation drives
-            us to constantly enhance patient experiences and achieve the highest
-            standards in healthcare services.
+            At Evan Hospital, our nursing team is the heart of patient care,
+            providing compassionate, attentive, and expert support at every
+            stage of the healing journey. With a deep sense of dedication and
+            professionalism, our nurses ensure each patient receives
+            personalized care, emotional comfort, and medical attention around
+            the clock. Trained in the latest healthcare practices and committed
+            to excellence, they work hand-in-hand with doctors and staff to
+            deliver a safe, nurturing, and healing environment for all.
           </p>
           <div className="our-doctors-container">
             <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
@@ -60,7 +60,7 @@ const Nurses = () => {
             <DoctorsCard img={Nurse6} name="Rida" destination="(Nurse)" />
             <DoctorsCard img={Nurse7} name="Deepak" destination="(Nurse)" />
             <DoctorsCard img={Nurse8} name="Rashid" destination="(Nurse)" />
-            <DoctorsCard img={Nurse9} name="Zainab" destination="(Nurse)" />
+            <DoctorsCard img={Nurse9} name="Ekta" destination="(Nurse)" />
             <DoctorsCard
               img={Nurse10}
               name="Illahijaan"

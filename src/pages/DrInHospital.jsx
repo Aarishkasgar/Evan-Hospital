@@ -3,16 +3,24 @@ import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
-import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
-import DrImg2 from "../assets/DoctorsImg/DrImg2.jpg";
-import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
-import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
-import DrImg5 from "../assets/DoctorsImg/DrImg5.png";
-// import DrImg6 from "../assets/DoctorsImg/DrImg6.jpg";
-import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
-import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
-import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
-import DrImg10 from "../assets/DoctorsImg/DrImg10.jpg";
+import DrImg1 from "../assets/DoctorsImg/DrImg01.jpg";
+import DrImg2 from "../assets/DoctorsImg/DrImg02.jpg";
+import DrImg3 from "../assets/DoctorsImg/DrImg03.jpeg";
+import DrImg4 from "../assets/DoctorsImg/DrImg04.jpg";
+import DrImg5 from "../assets/DoctorsImg/DrImg05.jpg";
+import DrImg6 from "../assets/DoctorsImg/DrImg06.jpeg";
+import DrImg7 from "../assets/DoctorsImg/DrImg07.jpg";
+import DrImg8 from "../assets/DoctorsImg/DrImg08.jpg";
+import DrImg9 from "../assets/DoctorsImg/DrImg09.png";
+import DrImg10 from "../assets/DoctorsImg/DrImg10.png";
+import DrImg11 from "../assets/DoctorsImg/DrImg11.png";
+import DrImg12 from "../assets/DoctorsImg/DrImg12.jpg";
+import DrImg13 from "../assets/DoctorsImg/DrImg13.png";
+import DrImg14 from "../assets/DoctorsImg/DrImg14.png";
+import DrImg15 from "../assets/DoctorsImg/DrImg15.png";
+import DrImg16 from "../assets/DoctorsImg/DrImg16.png";
+import DrImg17 from "../assets/DoctorsImg/DrImg17.png";
+
 import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
 // import DrImg11 from "../assets/DoctorsImg/DrImg11.jpg";
 
@@ -69,67 +77,67 @@ const DrInHospital = () => {
               destination="(General Surgery & Lap Surgery)"
             />
             <DoctorsCard
-              img={DrImg7}
+              img={DrImg6}
               name="Dr Nidhi"
               degree="MBBS, MS"
               destination="(Gynecologist)"
             />
             <DoctorsCard
-              img={DrImg8}
+              img={DrImg7}
               name="Dr Faisal Shadab"
               degree="MBBS, DNB"
               destination="(Family Medicine)"
             />
             <DoctorsCard
-              img={DrImg9}
+              img={DrImg8}
               name="Dr Akshi Singhal"
               degree="MBBS, MS"
               destination="(ENT & HNS)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg9}
               name="Dr Raman Jindal"
               degree="MBBS, MS"
               destination="(Orthopedic)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg10}
               name="Dr Anu Aggarwal"
               degree="MBBS, DNB"
               destination="(Orthopedic)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg11}
               name="Dr Zubair Khan"
               degree="MBBS, D-Ortho, DNB"
               destination="(Orthopedic)"
             />
             <DoctorsCard
-              img={DrImg10}
+              img={DrImg12}
               name="Dr Archit Singhal"
               degree="BPT, MPT"
               destination="(Physiotheraphy)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg13}
               name="Dr Pankaj Bohra"
               degree="MBBS, MD, DM"
               destination="(Cardiology)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg14}
               name="Dr Sagar Narang"
               degree="MBBS, MD"
               destination="(Pediatrician)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg15}
               name="Dr Vijay Kumar"
               degree="BDS, MDS"
               destination="(ORAL & MaxiloFacial)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg16}
               name="Dr Manish Mahajan"
               degree="MBBS, MD, DM"
               destination="(Nephrology)"
@@ -147,7 +155,7 @@ const DrInHospital = () => {
               destination="(Medical Oncology)"
             />
             <DoctorsCard
-              img={Demo}
+              img={DrImg17}
               name="Dr Sanjeev Kumar Dubey"
               degree="MBBS"
               destination="(Physician)"
