@@ -22,7 +22,7 @@ import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
 import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
 // docot images
-import DrImg1 from "../assets/DoctorsImg/DrImg01.jpg";
+// import DrImg1 from "../assets/DoctorsImg/DrImg01.jpg";
 import DrImg2 from "../assets/DoctorsImg/DrImg02.jpg";
 import DrImg3 from "../assets/DoctorsImg/DrImg03.jpeg";
 import DrImg4 from "../assets/DoctorsImg/DrImg04.jpg";
@@ -401,7 +401,7 @@ const Home = () => {
           <p>Meet Our Experts Doctors</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={DrImg1}
+              img={NoImg}
               name="Dr Pankaj Jain"
               degree="MBBS, DM, FCCP"
               destination="(General Physician)"
