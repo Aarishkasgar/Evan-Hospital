@@ -59,7 +59,7 @@ import images17 from "../assets/TPA/images-17.jpg";
 import images18 from "../assets/TPA/images-18.jpg";
 import images19 from "../assets/TPA/images-19.jpg";
 import WhyChooseUs from "../assets/whychooseus.webp";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import DrImg01 from "../assets/DoctorsImg/DrImg01.jpg";
 // management images
 import Mgt1 from "../assets/DepartmentsImg/MgtImg01.jpg";
 import Mgt2 from "../assets/DepartmentsImg/MgtImg02.jpg";
