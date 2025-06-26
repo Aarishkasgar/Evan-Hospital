@@ -1,7 +1,8 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+// import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 //nurse images
@@ -51,7 +52,7 @@ const Nurses = () => {
             <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
             <DoctorsCard img={Nurse2} name="Deepanshi" destination="(Head)" />
             {/* <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" /> */}
-            <DoctorsCard img={DrImg01} name="N/A" destination="(Nurse)" />
+            <DoctorsCard img={NoImg} name="N/A" destination="(Nurse)" />
             <DoctorsCard
               img={Nurse5}
               name="Sristi"

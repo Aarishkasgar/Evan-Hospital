@@ -3,7 +3,8 @@ import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
-import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
+// import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import Tech01 from "../assets/DepartmentsImg/tech01.jpeg";
 import Tech02 from "../assets/DepartmentsImg/tech02.jpg";
 import Tech03 from "../assets/DepartmentsImg/tech03.jpeg";
@@ -60,7 +61,7 @@ const Technician = () => {
                 // destination="(General Surgery & Lap Surgery)"
               />
               <DoctorsCard
-                img={Demo}
+                img={NoImg}
                 name="Jitender Kumar"
                 degree="Sample Collection"
                 // destination="(General Surgery & Lap Surgery)"

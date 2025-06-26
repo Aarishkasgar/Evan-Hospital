@@ -1,6 +1,7 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
-import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
+// import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 
 const SupportiveStaff = () => {
@@ -28,26 +29,26 @@ const SupportiveStaff = () => {
               create the foundation for our patient-centered approach.
             </p>
             <div className="our-doctors-container">
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
-              <DoctorsCard img={Demo} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
+              <DoctorsCard img={NoImg} name="N/A" degree="N/A" />
             </div>
           </div>
         </section>

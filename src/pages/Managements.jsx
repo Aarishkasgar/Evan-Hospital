@@ -1,7 +1,8 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+// import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import Mgt1 from "../assets/DepartmentsImg/MgtImg01.jpg";
 import Mgt2 from "../assets/DepartmentsImg/MgtImg02.jpg";
 import Mgt3 from "../assets/DepartmentsImg/MgtImg03.jpg";
@@ -128,11 +129,7 @@ const Managements = () => {
               destination="(Medical Store)"
             />
             <DoctorsCard img={Mgt20} name="Rekha" destination="(Canteen)" />
-            <DoctorsCard
-              img={DrImg01}
-              name="N/A"
-              destination="(Housekeeping)"
-            />
+            <DoctorsCard img={NoImg} name="N/A" destination="(Housekeeping)" />
           </div>
         </div>
       </section>

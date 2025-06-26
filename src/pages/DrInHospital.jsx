@@ -21,7 +21,8 @@ import DrImg15 from "../assets/DoctorsImg/DrImg15.png";
 import DrImg16 from "../assets/DoctorsImg/DrImg16.png";
 import DrImg17 from "../assets/DoctorsImg/DrImg17.png";
 
-import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
+// import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 // import DrImg11 from "../assets/DoctorsImg/DrImg11.jpg";
 
 const DrInHospital = () => {
@@ -143,13 +144,13 @@ const DrInHospital = () => {
               destination="(Nephrology)"
             />
             <DoctorsCard
-              img={Demo}
+              img={NoImg}
               name="Dr Virendra Kumar Tapparwal"
               degree="MBBS, MD (Pathologist)"
               destination="(Pathologist)"
             />
             <DoctorsCard
-              img={Demo}
+              img={NoImg}
               name="Dr G. Sharma"
               degree="MBBS, MD (Clinical Oncology)"
               destination="(Medical Oncology)"

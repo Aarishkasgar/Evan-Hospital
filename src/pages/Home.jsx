@@ -59,7 +59,7 @@ import images17 from "../assets/TPA/images-17.jpg";
 import images18 from "../assets/TPA/images-18.jpg";
 import images19 from "../assets/TPA/images-19.jpg";
 import WhyChooseUs from "../assets/whychooseus.webp";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 // management images
 import Mgt1 from "../assets/DepartmentsImg/MgtImg01.jpg";
 import Mgt2 from "../assets/DepartmentsImg/MgtImg02.jpg";
@@ -490,7 +490,7 @@ const Home = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={NoImg}
               name="N/A"
               destination="(Resident Medical Officer)"
             />
@@ -500,7 +500,7 @@ const Home = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={NoImg}
               name="Dr. Robin"
               destination="(Resident Medical Officer)"
             />

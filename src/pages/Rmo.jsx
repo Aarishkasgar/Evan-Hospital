@@ -1,7 +1,8 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+// import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
@@ -52,7 +53,7 @@ const Rmo = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={NoImg}
               name="N/A"
               destination="(Resident Medical Officer)"
             />
@@ -62,7 +63,7 @@ const Rmo = () => {
               destination="(Resident Medical Officer)"
             />
             <DoctorsCard
-              img={DrImg01}
+              img={NoImg}
               name="Dr. Robin"
               destination="(Resident Medical Officer)"
             />
