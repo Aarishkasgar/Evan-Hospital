@@ -1,10 +1,6 @@
 import React from "react";
-// import ComingSoon from "../assets/InternationalPage/comingsoon.jpg";
-// import "../components/InternationalPatients.css";
 import "../components/VideoGallery.css";
 import "../components/TitleBanner.css";
-// import banner from "../assets/AboutPage/banner.jpg";
-// import videoData from '../data/videoData';
 import videoData from "../videoData";
 
 const VideoGallery = () => {

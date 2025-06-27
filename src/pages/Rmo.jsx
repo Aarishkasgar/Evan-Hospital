@@ -1,14 +1,12 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-// import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
 import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
 import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
-// import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
 import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
 
 const Rmo = () => {

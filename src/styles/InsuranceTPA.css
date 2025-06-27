@@ -7,7 +7,6 @@
 }
 
 .tpa-header {
-  /* background-color: aquamarine; */
   width: 85%;
   padding: 20px 0;
   font-size: 1.7vw;
@@ -16,7 +15,6 @@
 
 .tpaInfo-container {
   width: 100%;
-  /* background-color: antiquewhite; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,12 +37,10 @@
 
 .tpaInfo-inner-container {
   width: 85%;
-  /* background-color: aquamarine; */
 }
 
 .tpa-list {
   margin-left: 20px;
-  /* margin-top: 40px; */
   padding: 40px 0;
 }
 

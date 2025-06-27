@@ -1,9 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-// import banner from "../assets/banner-n.jpg";
-// import HeroCard from "../components/HeroCard";
 import SpecialitiesBox from "../components/SpecialitiesBox";
-// import healthimg from "../assets/cardia.svg";
 import doctorConsultImg from "../assets/doctor-consult-illustration.svg";
 import Cardia from "../assets/cardia.svg";
 import Orthoimg from "../assets/Orthopaedics.svg";
@@ -28,16 +25,11 @@ import DrImg3 from "../assets/DoctorsImg/DrImg03.jpeg";
 import DrImg4 from "../assets/DoctorsImg/DrImg04.jpg";
 import DrImg5 from "../assets/DoctorsImg/DrImg05.png";
 import DrImg6 from "../assets/DoctorsImg/DrImg06.jpeg";
-// import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
-// import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
-// import DrImg7 from "../assets/DoctorsImg/DrImg7.jpeg";
-// import DrImg8 from "../assets/DoctorsImg/DrImg8.jpeg";
-// import DrImg9 from "../assets/DoctorsImg/DrImg9.jpg";
-// import DrImg4 from "../assets/DoctorsImg/DrImg4.jpg";
+
 import BookAppointment from "../components/BookAppointment";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import NearMeIcon from "@mui/icons-material/NearMe";
-// import Accreditation from "../assets/Accreditation.webp";
+
 import Testimonials from "../components/Testimonials";
 import images1 from "../assets/TPA/images-1.jpg";
 import images2 from "../assets/TPA/images-2.jpg";
@@ -68,20 +60,15 @@ import Mgt4 from "../assets/DepartmentsImg/MgtImg04.jpg";
 
 // counsellor image
 import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
-// import Nalini from "../assets/DepartmentsImg/nalini.jpg";
 // rmo
 import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
 import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
 import Rmo3 from "../assets/DepartmentsImg/rmo3.jpg";
-// import Rmo4 from "../assets/DepartmentsImg/rmo4.jpg";
 import Rmo5 from "../assets/DepartmentsImg/rmo5.jpg";
-// import Rmo6 from "../assets/DepartmentsImg/rmo6.jpg";
-// import Rmo7 from "../assets/DepartmentsImg/rmo7.jpg";
+
 // nurse images
 import Nurse1 from "../assets/NurseImg/nurse1.jpg";
 import Nurse2 from "../assets/NurseImg/nurse2.jpg";
-// import Nurse3 from "../assets/NurseImg/nurse3.jpg";
-// import Nurse4 from "../assets/NurseImg/nurse4.jpg";
 import Nurse5 from "../assets/NurseImg/nurse5.jpg";
 import Nurse6 from "../assets/NurseImg/nurse6.jpg";
 
@@ -211,9 +198,7 @@ const Home = () => {
               Muzaffarnagar and nearby regions.
             </p>
           </div>
-          <div className="H-about-right">
-            {/* <img src={Accreditation} /> */}
-          </div>
+          <div className="H-about-right"></div>
         </div>
       </div>
 
@@ -238,8 +223,6 @@ const Home = () => {
               <div onClick={pulmoHandler}>
                 <SpecialitiesBox img={Pulmonology} h1="Pulmonology" />
               </div>
-
-              {/* <SpecialitiesBox img={Cardia} h1="Surgery" /> */}
             </div>
             <div className="SpecialitiesBox2">
               <div onClick={surgeryHandler}>
@@ -257,18 +240,8 @@ const Home = () => {
                   h1="Internal Medicine"
                 />
               </div>
-
-              {/* <SpecialitiesBox img={Cardia} h1="Nephrology" /> */}
             </div>
           </div>
-          {/* <div className="HS-viewBtn">
-            <button
-              onClick={clickAllHandler1}
-              className="Home-Specialities-viewButton"
-            >
-              View All &gt;
-            </button>
-          </div> */}
         </div>
         <div className="home-specialities-right">
           <img src={doctorConsultImg} className="hsr-img" />
@@ -394,7 +367,6 @@ const Home = () => {
       {/* Our Management section end */}
 
       {/* Our doctors section start */}
-
       <section className="HD-container">
         <div className="HD-inner-container">
           <h1>Doctors</h1>
@@ -524,8 +496,6 @@ const Home = () => {
               name="Deepanshi"
               destination="(Junior Head)"
             />
-            {/* <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" /> */}
-            {/* <DoctorsCard img={Nurse4} name="Sidra" destination="(Nurse)" /> */}
             <DoctorsCard img={Nurse5} name="Sristi" destination="(Nurse)" />
             <DoctorsCard img={Nurse6} name="Rida" destination="(Nurse)" />
           </div>
@@ -540,7 +510,6 @@ const Home = () => {
       {/* Our Nurse section end */}
 
       {/* Tpa section start */}
-
       <section className="TPA-container">
         <div className="TPA-inner-container">
           <div className="TPA-title">

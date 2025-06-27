@@ -9,7 +9,6 @@
 }
 
 .aboutUs-inner-banner {
-  /* background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,14 +17,12 @@
   padding: 80px 0;
   color: white;
   font-family: "Lato", sans-serif;
-  /* text-shadow: 1px 1px 10px black; */
 }
 
 .about-container {
   display: flex;
   justify-content: center;
   width: 100%;
-  /* background-color: aquamarine; */
 }
 
 .about-inner-container {
@@ -55,20 +52,16 @@
   font-size: 2vw;
   text-align: center;
   color: #01597d;
-
   font-family: "Funnel Display", serif;
-  /* background-color: antiquewhite; */
 }
 
 /* Core values Section start */
-
 .corevalues-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* background-color: aquamarine; */
   margin: 30px 0;
   padding: 20px 0;
 }
@@ -87,7 +80,6 @@
 }
 
 .corevalues-content {
-  /* background-color: azure; */
   width: 85%;
   display: flex;
   align-items: center;
@@ -124,7 +116,6 @@
 /* medical services css start */
 .medicalservices-container {
   width: 100%;
-  /* background-color: antiquewhite; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +142,6 @@
 .medicalservices-left h3 {
   background-color: white;
   color: #01597d;
-  /* width: 30%; */
   text-align: center;
   padding: 5px 30px;
   border-radius: 20px;
@@ -185,15 +175,11 @@
   .about-right p {
     font-size: 5vw;
   }
-  .corevalues-container {
-    /* background-color: aquamarine; */
-  }
   .corevalues-title {
     font-size: 6vw;
     width: 60vw;
   }
   .corevalues-content {
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,7 +187,6 @@
   }
   .corevalues-left {
     width: 100%;
-    /* background-color: bisque; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,16 +196,11 @@
   }
   .corevalues-right {
     width: 100%;
-    /* background-color: cadetblue; */
     display: flex;
     flex-direction: column;
   }
-  .valueinner-right {
-    /* background-color: chocolate; */
-  }
   .medicalservices-left h3 {
     font-size: 5vw;
-    /* font-weight: 700; */
   }
   .medicalservices-left h1 {
     font-size: 6.5vw;

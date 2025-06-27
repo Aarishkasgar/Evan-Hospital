@@ -1,15 +1,12 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-// import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 //nurse images
 import Nurse1 from "../assets/NurseImg/nurse1.jpg";
 import Nurse2 from "../assets/NurseImg/nurse2.jpg";
-// import Nurse3 from "../assets/NurseImg/nurse3.jpg";
-// import Nurse4 from "../assets/NurseImg/nurse4.jpg";
 import Nurse5 from "../assets/NurseImg/nurse5.jpg";
 import Nurse6 from "../assets/NurseImg/nurse6.jpg";
 import Nurse7 from "../assets/NurseImg/nurse7.jpg";
@@ -51,7 +48,6 @@ const Nurses = () => {
           <div className="our-doctors-container">
             <DoctorsCard img={Nurse1} name="Sana" destination="(Head)" />
             <DoctorsCard img={Nurse2} name="Deepanshi" destination="(Head)" />
-            {/* <DoctorsCard img={Nurse3} name="Himanshu" destination="(Nurse)" /> */}
             <DoctorsCard img={NoImg} name="N/A" destination="(Nurse)" />
             <DoctorsCard
               img={Nurse5}

@@ -1,7 +1,6 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-// import DrImg01 from "../assets/DoctorsImg/DrImg01.jpeg";
 import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import Mgt1 from "../assets/DepartmentsImg/MgtImg01.jpg";
 import Mgt2 from "../assets/DepartmentsImg/MgtImg02.jpg";

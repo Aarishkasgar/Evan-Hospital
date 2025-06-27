@@ -1,7 +1,6 @@
 .BA-container {
   width: 100%;
   height: 100px;
-  /* background-color: chocolate; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +26,6 @@
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px;
-  /* color: white; */
   background-color: #01597d;
   font-weight: 600;
 }
@@ -39,16 +37,12 @@
 
 /* media query css start */
 @media (max-width: 600px) {
-  .BA-container {
-    /* height: 80px; */
-  }
   .BA-inner-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    /* background-color: aqua; */
     padding: 50px 0;
   }
   .BA-inner-container h2 {

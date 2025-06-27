@@ -1,8 +1,6 @@
 import React from "react";
 import "../components/TitleBanner.css";
-// import banner from "../assets/AboutPage/contactbanner.jpg";
 import ContactBanner from "../assets/ContactImg/contactbanner.webp";
-// import BookAppointment from "../components/BookAppointment";
 import "../styles/Contact.css";
 import MailIcon from "@mui/icons-material/Mail";
 import CallIcon from "@mui/icons-material/Call";
@@ -17,12 +15,6 @@ const Contact = () => {
           <h1>Contact</h1>
         </div>
       </div>
-      {/* <div className="titlebanner-container">
-        <img src={ContactBanner} className="titlebanner-img" />
-        <div className="titlebanner-content">
-          <h1 className="titlebanner-title">Contact Us</h1>
-        </div>
-      </div> */}
       {/* page banner end */}
       <div className="contact-container">
         <div className="contact-inner-container">

@@ -1,6 +1,5 @@
 import React from "react";
 import SpecialitiesBanner from "../components/SpecialitiesBanner";
-// import LungImg from "../assets/BannerImg/lungImg.png";
 import DentalImg from "../assets/BannerImg/dentalImg.png";
 import BookAppointment from "../components/BookAppointment";
 

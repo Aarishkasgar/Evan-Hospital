@@ -1,5 +1,4 @@
 .ambulanceService-container {
-  /* background-color: antiquewhite; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,7 +8,6 @@
 
 .ambulanceService-inner-container {
   width: 85%;
-  /* background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +52,6 @@
 
 .ambulanceService-inner-container {
   width: 85%;
-  /* background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,5 +79,3 @@
 .ambulanceService-right {
   width: 40%;
 }
-
-/*  */

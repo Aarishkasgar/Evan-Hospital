@@ -1,6 +1,5 @@
 .SB-container {
   width: 100%;
-  /* height: 60vh; */
   background-color: rgb(215, 240, 248);
   display: flex;
   align-items: center;
@@ -9,7 +8,6 @@
 
 .SB-inner-container {
   width: 85%;
-  /* background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +15,6 @@
 }
 
 .SB-left-side {
-  /* background-color: aqua; */
   width: 60%;
   font-size: 2vw;
   text-align: center;
@@ -34,7 +31,6 @@
 
 .SB-right-side {
   width: 40%;
-  /* background-color: cadetblue; */
 }
 
 .SB-right-side img {
@@ -43,19 +39,12 @@
 }
 
 /* media query start */
-
 @media (max-width: 600px) {
   .SB-container {
-    /* background-color: antiquewhite; */
     height: 40vw;
     margin-bottom: 20px;
   }
-  .SB-inner-container {
-    /* background-color: burlywood; */
-    /* height: 40vw; */
-  }
   .SB-left-side {
-    /* background-color: brown; */
     width: 100%;
   }
   .SB-title {

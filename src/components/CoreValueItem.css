@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 .corevalue-item {
-  /* background-color: rgb(73, 134, 247); */
   width: 100%;
 }
 
@@ -9,7 +8,6 @@
   margin: 10px 0 20px 0;
   font-size: 1.3vw;
   color: #f9a61a;
-  /* font-family: "Lato", sans-serif; */
 }
 
 .corevalue-item p {
@@ -20,9 +18,6 @@
 /* media query start */
 
 @media (max-width: 600px) {
-  .corevalue-item {
-    /* background-color:thistle; */
-  }
   .corevalue-item h3 {
     font-size: 6vw;
   }

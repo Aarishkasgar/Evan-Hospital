@@ -1,7 +1,6 @@
 import React from "react";
 import SpecialitiesBanner from "../components/SpecialitiesBanner";
 import BookAppointment from "../components/BookAppointment";
-// import LungImg from "../assets/BannerImg/lungImg.png";
 import OncoImg from "../assets/BannerImg/cancerImg.png";
 
 const Oncology = () => {

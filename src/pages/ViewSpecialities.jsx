@@ -91,10 +91,6 @@ const ViewSpecialities = () => {
       </div>
       <div className="home-specialities-container view-specialities-container">
         <div className="home-specialities-left">
-          {/* <div className="home-specialities-title">
-            <h1>Specialities & Procedures</h1>
-            <h2>Specialities</h2>
-          </div> */}
           <div className="SpecialitiesBoxes">
             {/* box 1 */}
             <div className="SpecialitiesBox1">

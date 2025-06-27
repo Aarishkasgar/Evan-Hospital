@@ -4,13 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import NavTop from "./components/NavTop";
 import About from "./pages/About";
-// import OurDoctors from "./pages/OurDoctors";
-// import DrVisiting from "./pages/DrVisiting";
 
 // Department-----------
 import Managements from "./pages/Managements";
 import DrInHospital from "./pages/DrInHospital";
-// import SupportiveDr from "./pages/SupportiveDr";
 import Counsellor from "./pages/Counsellor";
 import Rmo from "./pages/Rmo";
 import Nurses from "./pages/Nurses";
@@ -36,11 +33,9 @@ import Urology from "./pages/Urology";
 import Dermatology from "./pages/Dermatology";
 import Paediatric from "./pages/Paediatric";
 import CriticalCare from "./pages/CriticalCare";
-
 import Dialysis from "./pages/Dialysis";
 import Nephro from "./pages/Nephro";
 import Gastro from "./pages/Gastro";
-
 // Specialities-----------
 
 // Services----------
@@ -51,7 +46,6 @@ import InsuranceTPA from "./pages/InsuranceTPA";
 import EvanLab from "./pages/EvanLab";
 // Services------------
 
-// import Specialities from "./pages/Specialities";
 import VideoGallery from "./pages/VideoGallery";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
@@ -60,7 +54,7 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation/Navigation";
 import ViewSpecialities from "./pages/ViewSpecialities";
 import SupportiveStaff from "./pages/SupportiveStaff";
-// import CriticalCare from "./pages/CriticalCare";
+
 const App = () => {
   return (
     <>
@@ -73,7 +67,6 @@ const App = () => {
           {/* ----------Department--------- */}
           <Route path="/managements" element={<Managements />} />
           <Route path="/dr-in-hospital" element={<DrInHospital />} />
-          {/* <Route path="/supportive-dr" element={<SupportiveDr />} /> */}
           <Route path="/counsellor" element={<Counsellor />} />
           <Route path="/rmo" element={<Rmo />} />
           <Route path="/nurses" element={<Nurses />} />

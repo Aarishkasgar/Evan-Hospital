@@ -17,7 +17,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 15px; */
 }
 
 .project-facts-box img {
@@ -41,10 +40,6 @@
 
 /* media query start */
 @media (max-width: 600px) {
-  .project-facts-box {
-    /* background-color: var(--bg2); */
-    /* text-align: center; */
-  }
   .project-facts-box img {
     height: 40vw;
   }

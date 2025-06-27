@@ -25,7 +25,6 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
               );
             })}
           </NavRoutes>
-          {/* <LoginButton>Login</LoginButton> */}
         </RightNav>
       </SDrawer>
     </>
@@ -78,18 +77,3 @@ const NavRoute = styled(Link)`
   font-weight: 500;
   padding: 0.5rem;
 `;
-
-// const LoginButton = styled.button`
-//   padding: 0.7rem 3rem;
-//   background-color: white;
-//   border: 1px solid black;
-//   border-radius: 3rem;
-//   transition: 0.3s ease;
-//   align-self: flex-start;
-//   &:hover {
-//     transition: 0.3s ease;
-//     border: 1px solid transparent;
-//     background-color: yellow;
-//     box-shadow: 0px 0px 10px yellow;
-//   }
-// `;

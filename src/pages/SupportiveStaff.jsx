@@ -1,6 +1,5 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
-// import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
 import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 

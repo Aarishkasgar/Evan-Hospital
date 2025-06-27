@@ -1,20 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700");
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 .review-img {
   max-width: 100%;
   display: block;
 }
-
-/* body {
-  font-family: "Poppins", sans-serif;
-  background-color: #f6f6f6;
-} */
 
 /* Testimonial container */
 .testimonial-container {

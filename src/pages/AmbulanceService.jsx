@@ -1,8 +1,4 @@
 import React from "react";
-// import SpecialitiesBanner from "../components/SpecialitiesBanner";
-// import LungImg from "../assets/BannerImg/lungImg.png";
-// import BookAppointment from "../components/BookAppointment";
-// import CoreValueItem from "../components/CoreValueItem";
 import EditIcon from "@mui/icons-material/Edit";
 import AmbulanceCard from "../components/AmbulanceCard";
 import "../styles/AmbulanceService.css";

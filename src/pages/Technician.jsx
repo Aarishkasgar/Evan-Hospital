@@ -3,12 +3,10 @@ import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
-// import Demo from "../assets/DoctorsImg/DrImg01.jpeg";
 import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import Tech01 from "../assets/DepartmentsImg/tech01.jpeg";
 import Tech02 from "../assets/DepartmentsImg/tech02.jpg";
 import Tech03 from "../assets/DepartmentsImg/tech03.jpeg";
-// import Tech04 from "../assets/DepartmentsImg/tech04.jpeg";
 import Tech05 from "../assets/DepartmentsImg/tech05.jpg";
 import Tech06 from "../assets/DepartmentsImg/tech06.png";
 import Tech07 from "../assets/DepartmentsImg/tech07.png";
@@ -45,62 +43,48 @@ const Technician = () => {
                 img={Tech01}
                 name="Chintoo Saini"
                 degree="Lab Technician"
-                // destination="(General Surgery & Lap Surgery)"
               />
               <DoctorsCard
                 img={Tech02}
                 name="Tushar Kashyap"
                 degree="Lab Technician"
-                // destination="(General Surgery & Lap Surgery)"
               />
 
               <DoctorsCard
                 img={Tech03}
                 name="Mohd Sarhan"
                 degree="Lab Technician"
-                // destination="(General Surgery & Lap Surgery)"
               />
               <DoctorsCard
                 img={NoImg}
                 name="Jitender Kumar"
                 degree="Sample Collection"
-                // destination="(General Surgery & Lap Surgery)"
               />
               <DoctorsCard
                 img={Tech05}
                 name="Harshit Tyagi"
                 degree="Radiologist Technician"
-                // destination="(Anesthesia)"
               />
               <DoctorsCard
                 img={Tech06}
                 name="Kartik"
                 degree="Radiologist Technician"
-                // destination="(Anesthesia)"
               />
               <DoctorsCard
                 img={Tech07}
                 name="Arun Pal"
                 degree="OT Technician"
-                // destination="(ENT & HNS)"
               />
               <DoctorsCard
                 img={Tech08}
                 name="Sagar Kumar"
                 degree="OT Technician"
-                // destination="(Physiotheraphy)"
               />
-              <DoctorsCard
-                img={Tech09}
-                name="Mohit Kumar"
-                degree="Dialysis"
-                // destination="(Physiotheraphy)"
-              />
+              <DoctorsCard img={Tech09} name="Mohit Kumar" degree="Dialysis" />
               <DoctorsCard
                 img={Tech10}
                 name="Altamash"
                 degree="Cardiology Laboratory"
-                // destination="(Physiotheraphy)"
               />
             </div>
           </div>

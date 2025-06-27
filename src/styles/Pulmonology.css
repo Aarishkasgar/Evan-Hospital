@@ -2,7 +2,6 @@
 
 .pulmo-container {
   width: 100%;
-  /* background-color: aqua; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,10 +9,8 @@
 
 .pulmo-inner-container {
   width: 85%;
-  /* background-color: antiquewhite; */
   font-size: 1.5vw;
   padding: 50px 0;
-  /* font-family: "Funnel Display", serif; */
   font-family: "Lato", sans-serif;
   line-height: 1.4;
 }
@@ -65,22 +62,6 @@
 .ambl-underline {
   border: 1px solid #f9a61a;
 }
-
-/* .main-heading {
-  margin: 20px 0;
-  color: #f9a61a;
-}
-
-
-
-.inner-ul {
-  margin-left: 30px;
-}
-
-.inner-ul li {
-  color: #01597d;
-  margin-bottom: 10px;
-} */
 
 /* media query start */
 
