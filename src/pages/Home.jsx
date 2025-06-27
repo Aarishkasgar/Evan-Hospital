@@ -22,11 +22,11 @@ import CounterHeldPatientsIcon from "../assets/counter-held-patients-icon.png";
 import CounterDoctorIcon from "../assets/countr-doctor-icon.png";
 import DoctorsCard from "../components/DoctorsCard";
 // docot images
-// import DrImg1 from "../assets/DoctorsImg/DrImg01.jpg";
+import DrImg1 from "../assets/DoctorsImg/DrImg01.png";
 import DrImg2 from "../assets/DoctorsImg/DrImg02.jpg";
 import DrImg3 from "../assets/DoctorsImg/DrImg03.jpeg";
 import DrImg4 from "../assets/DoctorsImg/DrImg04.jpg";
-// import DrImg5 from "../assets/DoctorsImg/DrImg05.jpg";
+import DrImg5 from "../assets/DoctorsImg/DrImg05.png";
 import DrImg6 from "../assets/DoctorsImg/DrImg06.jpeg";
 // import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
 // import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
@@ -401,7 +401,7 @@ const Home = () => {
           <p>Meet Our Experts Doctors</p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={NoImg}
+              img={DrImg1}
               name="Dr Pankaj Jain"
               degree="MBBS, DM, FCCP"
               destination="(General Physician)"
@@ -425,7 +425,7 @@ const Home = () => {
               destination="(Pulmonologist)"
             />
             <DoctorsCard
-              img={NoImg}
+              img={DrImg5}
               name="Dr Rakesh Khurana"
               degree="MBBS, MS"
               destination="(General Surgery & Lap Surgery)"
