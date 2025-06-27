@@ -26,7 +26,7 @@ import DoctorsCard from "../components/DoctorsCard";
 import DrImg2 from "../assets/DoctorsImg/DrImg02.jpg";
 import DrImg3 from "../assets/DoctorsImg/DrImg03.jpeg";
 import DrImg4 from "../assets/DoctorsImg/DrImg04.jpg";
-import DrImg5 from "../assets/DoctorsImg/DrImg05.jpg";
+// import DrImg5 from "../assets/DoctorsImg/DrImg05.jpg";
 import DrImg6 from "../assets/DoctorsImg/DrImg06.jpeg";
 // import DrImg1 from "../assets/DoctorsImg/DrImg1.png";
 // import DrImg3 from "../assets/DoctorsImg/DrImg3.jpg";
@@ -425,7 +425,7 @@ const Home = () => {
               destination="(Pulmonologist)"
             />
             <DoctorsCard
-              img={DrImg5}
+              img={NoImg}
               name="Dr Rakesh Khurana"
               degree="MBBS, MS"
               destination="(General Surgery & Lap Surgery)"
