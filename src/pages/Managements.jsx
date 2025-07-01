@@ -7,7 +7,7 @@ import Mgt2 from "../assets/DepartmentsImg/MgtImg02.jpg";
 import Mgt3 from "../assets/DepartmentsImg/MgtImg03.jpg";
 import Mgt4 from "../assets/DepartmentsImg/MgtImg04.jpg";
 import Mgt5 from "../assets/DepartmentsImg/MgtImg05.jpg";
-import Mgt6 from "../assets/DepartmentsImg/MgtImg06.jpeg";
+// import Mgt6 from "../assets/DepartmentsImg/MgtImg06.jpeg";
 import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
 import Mgt8 from "../assets/DepartmentsImg/MgtImg08.jpg";
 import Mgt9 from "../assets/DepartmentsImg/MgtImg09.jpg";
@@ -77,7 +77,7 @@ const Managements = () => {
               destination="(Administrator)"
             />
 
-            <DoctorsCard img={Mgt6} name="Pradeep Gupta" destination="(HR)" />
+            {/* <DoctorsCard img={Mgt6} name="Pradeep Gupta" destination="(HR)" /> */}
             <DoctorsCard
               img={Mgt7}
               name="Varun Prakash"
