@@ -115,7 +115,7 @@ const Managements = () => {
               name="Pankaj"
               destination="(Head of Account)"
             />
-            <DoctorsCard img={Mgt16} name="Vikas" destination="(Maintance)" />
+            <DoctorsCard img={Mgt16} name="Gyanandar Giri" destination="(Maintance)" />
             <DoctorsCard
               img={Mgt17}
               name="Rahul"

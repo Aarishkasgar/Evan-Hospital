@@ -36,6 +36,14 @@ const Navbar = ({ toggleDrawer, routes }) => {
               Login
             </a>
           </LoginButton>
+          <LoginButton className="nav-login-btn nav-login-btn1">
+            <a
+              href="/appointment-booking"
+              className="NavLoginBtn"
+            >
+              Book Appointment
+            </a>
+          </LoginButton>
         </RightNav>
       </NavContainer>
     </SNavbar>
@@ -55,7 +63,7 @@ const DrawerButton = styled.button`
 
 const SNavbar = styled.nav`
   background-color: white; //navbar background color
-  position: sticky;
+  position: relative;
   top: 0px;
   box-shadow: 1px 0px 5px gray;
   padding: 7px 0px;

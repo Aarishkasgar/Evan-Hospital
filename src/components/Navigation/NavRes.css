@@ -4,6 +4,11 @@
   }
   .nav-login-btn {
     margin-right: 4vw;
+    display: none;
+  }
+  .nav-login-btn1 {
+    display: block !important;
+    /* margin-right: 4vw; */
   }
   .FaBars-line {
     margin-left: 4vw;

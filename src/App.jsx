@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import NavTop from "./components/NavTop";
 import About from "./pages/About";
 
+// Appointment Booking
+import AppointmentBooking from './components/AppointmentBooking';
+
 // Department-----------
 import Managements from "./pages/Managements";
 import DrInHospital from "./pages/DrInHospital";
@@ -97,7 +100,6 @@ const App = () => {
           <Route path="/dialysis" element={<Dialysis />} />
           <Route path="/nephro" element={<Nephro />} />
           <Route path="/gastro" element={<Gastro />} />
-
           {/* ------------Specialities------------- */}
 
           {/* ---------Services----------- */}
@@ -107,6 +109,8 @@ const App = () => {
           <Route path="/radiology" element={<Radiology />} />
           <Route path="/ayushman" element={<Ayushman />} />
           {/* ---------Services---------- */}
+
+          <Route path="/appointment-booking" element={<AppointmentBooking />} />
 
           {/* <Route path="/specialities" element={<Specialities />} /> */}
           <Route path="/video-gallery" element={<VideoGallery />} />
