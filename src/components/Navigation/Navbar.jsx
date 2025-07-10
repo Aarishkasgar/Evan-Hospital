@@ -62,7 +62,7 @@ const DrawerButton = styled.button`
 `;
 
 const SNavbar = styled.nav`
-  background-color: white; //navbar background color
+  background-color: white; //navbar background color white
   position: relative;
   top: 0px;
   box-shadow: 1px 0px 5px gray;
@@ -73,13 +73,15 @@ const SNavbar = styled.nav`
 const NavContainer = styled.div`
   padding: 1rem;
   height: 80px;
-  max-width: 1300px;
+  // max-width: 1300px;
+  width: 86vw;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #01597d; // text color
   font-weight: 700;
+  // background-color: white; //navbar background color white
 `;
 const SNavbarBrand = styled.h2`
   font-size: 3rem;
