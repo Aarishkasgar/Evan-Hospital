@@ -151,7 +151,7 @@ const Home = () => {
                 <NearMeIcon style={{ fontSize: 35 }} />
                 Get Directions
               </a>
-              | Call us +91 70880-02601
+              | Call us +91 70603-11156
             </p>
             <button className="hero-btn" onClick={moveDoctorHandler}>
               Find a Doctor
