@@ -38,7 +38,9 @@ const Navbar = ({ toggleDrawer, routes }) => {
           </LoginButton>
           <LoginButton className="nav-login-btn nav-login-btn1">
             <a
-              href="http://103.55.40.85:1098/"
+              href="https://appointment.evanhospital.in"
+              target="_blank"
+              rel="noopener noreferrer"
               className="NavLoginBtn"
             >
               Book Appointment
