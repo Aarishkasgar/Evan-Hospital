@@ -38,7 +38,7 @@ const Navbar = ({ toggleDrawer, routes }) => {
           </LoginButton>
           <LoginButton className="nav-login-btn nav-login-btn1">
             <a
-              href="http://103.55.40.85:1098/"
+              href="/appointment"
               target="_blank"
               rel="noopener noreferrer"
               className="NavLoginBtn"
