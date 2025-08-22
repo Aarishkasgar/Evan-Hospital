@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/appointment",
-      "destination": "http://103.55.40.85:1098/"
-    }
-  ]
-}

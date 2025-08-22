@@ -38,7 +38,7 @@ const Navbar = ({ toggleDrawer, routes }) => {
           </LoginButton>
           <LoginButton className="nav-login-btn nav-login-btn1">
             <a
-              href="/appointment"
+              href="http://appointment.evanhospital.in:3398/"
               target="_blank"
               rel="noopener noreferrer"
               className="NavLoginBtn"
