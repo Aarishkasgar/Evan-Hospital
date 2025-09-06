@@ -9,9 +9,9 @@ import DrImg3 from "../assets/DoctorsImg/DrImg03.jpeg";
 import DrImg4 from "../assets/DoctorsImg/DrImg04.jpg";
 import DrImg5 from "../assets/DoctorsImg/DrImg05.png";
 import DrImg6 from "../assets/DoctorsImg/DrImg06.jpeg";
-import DrImg7 from "../assets/DoctorsImg/DrImg07.jpg";
+// import DrImg7 from "../assets/DoctorsImg/DrImg07.jpg";
 import DrImg8 from "../assets/DoctorsImg/DrImg08.jpg";
-import DrImg9 from "../assets/DoctorsImg/DrImg09.png";
+// import DrImg9 from "../assets/DoctorsImg/DrImg09.png";
 import DrImg10 from "../assets/DoctorsImg/DrImg10.png";
 import DrImg11 from "../assets/DoctorsImg/DrImg11.png";
 import DrImg12 from "../assets/DoctorsImg/DrImg12.jpg";
@@ -81,10 +81,10 @@ const DrInHospital = () => {
               destination="(Gynecologist)"
             />
             <DoctorsCard
-              img={DrImg7}
-              name="Dr Faisal Shadab"
-              degree="MBBS, DNB"
-              destination="(Family Medicine)"
+              img={NoImg}
+              name="Dr Madan Mohan Jha"
+              degree="MD, MS, MBBS"
+              destination="(General Surgeon & Lap Surgeon)"
             />
             <DoctorsCard
               img={DrImg8}
@@ -93,8 +93,8 @@ const DrInHospital = () => {
               destination="(ENT & HNS)"
             />
             <DoctorsCard
-              img={DrImg9}
-              name="Dr Raman Jindal"
+              img={NoImg}
+              name="Dr Ahmed Abdul Ghaffar"
               degree="MBBS, MS"
               destination="(Orthopedic)"
             />

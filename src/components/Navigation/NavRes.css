@@ -1,9 +1,16 @@
 @media (max-width: 600px) {
   .NavLoginBtn {
     font-size: 4vw;
+    color: white;
+    &:hover {
+    transition: 0.5s ease;
+    color: #01597d;
+  }
   }
   .nav-login-btn {
-    margin-right: 4vw;
+    margin-right: 3vw;
+    height: 4vh;
+    background-color: #f9a61a;
     display: none;
   }
   .nav-login-btn1 {
@@ -12,13 +19,14 @@
   }
   .FaBars-line {
     margin-left: 4vw;
-    font-size: 7vw;
-  }
-  .logo-brand {
-    margin-left: 8vw;
+    font-size: 6vw;
   }
 
   .evan-logo {
-    width: 23vw;
+    width: 20vw;
+  }
+  .nav-container {
+    /* background-color: tomato; */
+    height: 8vh !important;
   }
 }

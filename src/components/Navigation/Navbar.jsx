@@ -31,6 +31,7 @@ const Navbar = ({ toggleDrawer, routes }) => {
           <LoginButton className="nav-login-btn">
             <a
               href="http://192.168.0.146:1082/viphahms/doctorwiseopdprocedurereport/index"
+              target="_blank"
               className="NavLoginBtn"
             >
               Login
@@ -38,7 +39,7 @@ const Navbar = ({ toggleDrawer, routes }) => {
           </LoginButton>
           <LoginButton className="nav-login-btn nav-login-btn1">
             <a
-              href="http://appointment.evanhospital.in:3398/"
+              href="https://appointment.evanhospital.in:3398/"
               target="_blank"
               rel="noopener noreferrer"
               className="NavLoginBtn"
@@ -83,7 +84,11 @@ const NavContainer = styled.div`
   align-items: center;
   color: #01597d; // text color
   font-weight: 700;
-  // background-color: white; //navbar background color white
+  //background-color: blue; //navbar background color white
+  @media (max-width: 768px) {
+    padding: 0rem;
+    width: 100%;
+  }
 `;
 const SNavbarBrand = styled.h2`
   font-size: 3rem;
@@ -120,11 +125,13 @@ const NavRoute = styled(Link)`
 
 const LoginButton = styled.button`
   padding: 0.7rem 3rem;
-  // background-color: ;
+  // background-color: #f9a61a; //login button background color
+  // color: white !important; //login button text color
   // border: 1px solid black;
   border: none;
   border-radius: 3rem;
   transition: 0.3s ease;
+ 
 
   // &:hover {
   //   transition: 0.3s ease;
