@@ -419,7 +419,7 @@ const Home = () => {
       </section>
 
       {/* Our Counsellor section start */}
-      <section className="HD-container">
+      {/* <section className="HD-container">
         <div className="HD-inner-container">
           <h1>Counsellor</h1>
           <p>Meet Our Evan Counsellor</p>
@@ -437,7 +437,7 @@ const Home = () => {
             View All
           </button>
         </div>
-      </section>
+      </section> */}
       {/* Our counsellor section end */}
 
       {/* Our RMO section start */}
