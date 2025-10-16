@@ -8,12 +8,12 @@ import Mgt3 from "../assets/DepartmentsImg/MgtImg03.jpg";
 import Mgt4 from "../assets/DepartmentsImg/MgtImg04.jpg";
 import Mgt5 from "../assets/DepartmentsImg/MgtImg05.jpg";
 // import Mgt6 from "../assets/DepartmentsImg/MgtImg06.jpeg";
-import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
-import Mgt8 from "../assets/DepartmentsImg/MgtImg08.jpg";
+// import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
+// import Mgt8 from "../assets/DepartmentsImg/MgtImg08.jpg";
 import Mgt9 from "../assets/DepartmentsImg/MgtImg09.jpg";
 import Mgt10 from "../assets/DepartmentsImg/MgtImg10.jpg";
 import Mgt11 from "../assets/DepartmentsImg/MgtImg11.jpg";
-import Mgt12 from "../assets/DepartmentsImg/MgtImg12.jpg";
+// import Mgt12 from "../assets/DepartmentsImg/MgtImg12.jpg";
 import Mgt13 from "../assets/DepartmentsImg/MgtImg13.jpg";
 import Mgt14 from "../assets/DepartmentsImg/MgtImg14.png";
 import Mgt15 from "../assets/DepartmentsImg/MgtImg15.jpg";
@@ -78,16 +78,16 @@ const Managements = () => {
             />
 
             {/* <DoctorsCard img={Mgt6} name="Pradeep Gupta" destination="(HR)" /> */}
-            <DoctorsCard
+            {/* <DoctorsCard
               img={Mgt7}
               name="Varun Prakash"
               destination="(Operation Manager)"
-            />
-            <DoctorsCard
+            /> */}
+            {/* <DoctorsCard
               img={Mgt8}
               name="Arvind Dhiman"
               destination="(Operation Manager)"
-            />
+            /> */}
             <DoctorsCard
               img={Mgt9}
               name="Dr Archit Singhal"
@@ -99,7 +99,7 @@ const Managements = () => {
               name="Priya Kakran"
               destination="(Reception Manager)"
             />
-            <DoctorsCard img={Mgt12} name="Rizwan" destination="(TPA Head)" />
+            {/* <DoctorsCard img={Mgt12} name="Rizwan" destination="(TPA Head)" /> */}
             <DoctorsCard
               img={Mgt13}
               name="Neha Tirkey"

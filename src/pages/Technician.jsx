@@ -12,7 +12,7 @@ import Tech06 from "../assets/DepartmentsImg/tech06.png";
 import Tech07 from "../assets/DepartmentsImg/tech07.png";
 import Tech08 from "../assets/DepartmentsImg/tech08.png";
 import Tech09 from "../assets/DepartmentsImg/tech09.jpg";
-import Tech10 from "../assets/DepartmentsImg/tech10.png";
+// import Tech10 from "../assets/DepartmentsImg/tech10.png";
 
 const Technician = () => {
   return (
@@ -81,11 +81,11 @@ const Technician = () => {
                 degree="OT Technician"
               />
               <DoctorsCard img={Tech09} name="Mohit Kumar" degree="Dialysis" />
-              <DoctorsCard
+              {/* <DoctorsCard
                 img={Tech10}
                 name="Altamash"
                 degree="Cardiology Laboratory"
-              />
+              /> */}
             </div>
           </div>
         </section>

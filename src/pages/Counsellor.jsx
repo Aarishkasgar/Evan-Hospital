@@ -1,7 +1,8 @@
 import React from "react";
 import DoctorsCard from "../components/DoctorsCard";
 import "../styles/Home.css";
-import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
+// import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
+import NoImg from "../assets/DoctorsImg/NoImg.jpeg";
 import "../components/TitleBanner.css";
 import banner from "../assets/AboutPage/doctorbanner.jpg";
 
@@ -31,8 +32,8 @@ const Counsellor = () => {
           </p>
           <div className="our-doctors-container">
             <DoctorsCard
-              img={Mgt7}
-              name="Varun Prakash"
+              img={NoImg}
+              name="N/A"
               destination="(Counsellor)"
             />
           </div>
