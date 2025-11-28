@@ -59,7 +59,7 @@ import Mgt3 from "../assets/DepartmentsImg/MgtImg03.jpg";
 import Mgt4 from "../assets/DepartmentsImg/MgtImg04.jpg";
 
 // counsellor image
-import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
+// import Mgt7 from "../assets/DepartmentsImg/MgtImg07.jpg";
 // rmo
 import Rmo1 from "../assets/DepartmentsImg/rmo1.jpg";
 import Rmo2 from "../assets/DepartmentsImg/rmo2.jpg";
@@ -151,7 +151,7 @@ const Home = () => {
                 <NearMeIcon style={{ fontSize: 35 }} />
                 Get Directions
               </a>
-              | Call us +91 70880-02601
+              | Call us +91 82796-66919
             </p>
             <button className="hero-btn" onClick={moveDoctorHandler}>
               Find a Doctor
