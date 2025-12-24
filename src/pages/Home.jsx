@@ -111,9 +111,6 @@ const Home = () => {
   function moveManagementHandler() {
     navigate("/managements");
   }
-  function moveCounsellorHandler() {
-    navigate("/counsellor");
-  }
   function moveRmoHandler() {
     navigate("/rmo");
   }
@@ -417,28 +414,6 @@ const Home = () => {
           </button>
         </div>
       </section>
-
-      {/* Our Counsellor section start */}
-      {/* <section className="HD-container">
-        <div className="HD-inner-container">
-          <h1>Counsellor</h1>
-          <p>Meet Our Evan Counsellor</p>
-          <div className="our-doctors-container">
-            <DoctorsCard
-              img={Mgt7}
-              name="Varun Prakash"
-              destination="(Counsellor)"
-            />
-          </div>
-          <button
-            className="hospital-welcome-button"
-            onClick={moveCounsellorHandler}
-          >
-            View All
-          </button>
-        </div>
-      </section> */}
-      {/* Our counsellor section end */}
 
       {/* Our RMO section start */}
       <section className="HD-container">
